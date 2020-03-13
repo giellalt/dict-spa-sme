@@ -18,6 +18,7 @@ write_file = open(out_file,"a+")
 
 with open(read_file) as f:
     lines = f.readlines()
+f.close()
 
 for i in range(1, len(lines)):
     line = lines[i].split('\t')
