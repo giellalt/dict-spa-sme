@@ -1,4 +1,11 @@
 # -*- coding:utf-8 -*-
+'''
+Script to convert csv into xml.
+Usage:
+    python3 csv2xml.py <PATH_CSV_FILE>
+An xml file named out.xml is generated in this folder.
+'''
+
 import sys
 import csv
 from lxml.etree import ElementTree as ET
