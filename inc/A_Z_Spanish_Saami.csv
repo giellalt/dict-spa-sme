@@ -1458,6 +1458,7 @@ campo (de cultivo)	M			N		2	Eanandoallu		gieddi		N		s: bealdu	s: dálonguovlu
 caña	F			N		1			rávra		N		v: rovra	s: goalšu	s: bohcci				caña de azúcar	sohkarrávra												
 caña	F			N		2			stággu		N		s: stávrá						caña de pescar	oaggunstággu												
 caña	F			N		3	Spania/España		vuol(l)agohppu		N		s: vuol(l)agohppa																			
+cañada	F	s: ruta, camino		N		1	Meahcis		geinnodat		N		s: johtolat																			
 cancha	F	s: campo		N		1			šillju		N		s: jalga	s: bána																		
 canción	F			N		1			lávlla		N																					
 canción	F			N		2	Árbevirolaš		luohti		N																					
@@ -2462,6 +2463,7 @@ oferta de empleo	F			N		3			bargofálaldat		N
 oficina de empleo	F			N		4			bargodoaimmahat		N		s: bargokántuvra	s: bargogaskkusteapmi																		
 ola	F			N		1			bárru		N																					
 oleaje	M			N		1			gearahat		N	Collc	s: siiggát																			
+orca	F			N		1		orcinus orca	fáhkan		N																					
 paciencia	F			N		1			gierdevašvuohta		N		s: gierddahallan	s: mášolašvuohta	s: gillilvuohta				Tengo mucha paciencia con mis hijos.	Mus lea stuorra gierdevašvuohta iežan mánáide.	Se me acaba la paciencia.	Mu gierdevašvuohta nohká.										
 paciente	M/F			N		1			buohcci		N								paciente ambulatorio	johtti buohcci	paciente ambulatorio	sirddašeaddji buohcci										
 pacto	M			N		1			šiehtadus		N		s: soahpamuš																			
@@ -2710,6 +2712,8 @@ querido	M			N		1			liigeirgi		N		s: seaŋgairgi
 queso	M			N		1			vuostá		N																					
 química	F			N		1			kjemi		N		s: kemiija																			
 quiosco	M	v: kiosco		N		1			kioska		N																					
+ración	F			N		1			borramuš tallearka vai juogadit borramuša olbmuid gaskkas		Pfs																					
+ración	F	s: porción		N		2	Oassi		attus		N		s: doarvi	s: poršuvdna																		
 raíz	F			N		1	Literála/Literal, Figuratiiva/Figurado		ruohtas		N		s: mátta	s: máddu					Su arte hunde sus raíces en el siglo XIX.	Su dáidaga ruohttasat leat ovccinuppelot čuohtejagis.	Nací en Madrid, pero tengo raíces también en Barcelona.	Riegádin Madridas, muhto mus leat máttut maid Barcelonas.										
 raíz	F			N		2	Matematihkka/Matemáticas		ruohtas		N								raíz cuadrada	njealjehasruohtas												
 rana	F			N		1		rana temporaria	cuoppu		N		s: rihcit																			
@@ -2829,6 +2833,7 @@ sal	F			N		1	Abstrakta/Abstracto		sálti		N
 sal	F			N		2	Konkreahtta/Concreto		sálttit		N	Saam: Pl							¿Me pasas la sal?	Attát go munnje sálttiid?												
 sal	F			N		5	Figuratiiva/Figurado		illu		N		s: ávvu						la sal de la vida	eallima illu	Que no os falte el pan y la sal.	[cealkka, mii daddjo daidda, geat easkka leat náitalan:] Sávan, ahte dudnos lea eallima illu.										
 sala	F			N		1			latnja		N																					
+salario	M	s: sueldo		N		1			bálká		N																					
 salita	F			N		1			lanjaš		N	Der/Dimin																				
 salmón	M			N		1		salmo salar	luossa		N																					
 salmón	M			N		2	Sullii kilosaš		diddi		N																					
@@ -2880,6 +2885,7 @@ sierra	F			N		2			sahá		N
 siglo	M			N		1			čuohtejahki		N																					
 sinsentido	M			N		1			jallodat		N		s: jallavuohta						Lo que dices es un sinsentido	Dat maid don dajat lea jallodat.												
 siquiatra	M/F	v: psiquiatra		N		1			psykiáhter		N		s: siellodoavttir																			
+sueldo	M	s: salario		N		1			bálká		N																					
 suvenir	M	s: recuerdo		N		1			mátkemuitu		N		s: mátke-attáldat	s: mátkeskeaŋka																		
 tacón	M			N		1			jocca		N																					
 talón	M			N		1	Juolgi		šušmi		N																					
@@ -2888,6 +2894,7 @@ telescopio	M			N		1			teleskohpa		N
 tolerancia	F			N		1			gierdevašvuohta		N		s: gierdavašvuohta	s: toleránsa																		
 tolerancia	F			N		2			gierdilvuohta		N								tolerancia a la penicilina	penisiliinna gierdilvuohta												
 tornillo	M			N		1	Teknologiija/Tecnología		skruva		N																					
+trocha	F	s: paso		N		1	Meahcis		bálggis		N		s: geinnodat																			
 tuerca	F			N		1	Teknologiija/Tecnología		njiŋŋelasskruva		N																					
 urraca	F	s: picaza		N		1		pica pica	skire		N																					
 útero	M	s: matriz		N		1	Olmmoš		goaŧŧu		N																					
@@ -3489,7 +3496,6 @@ la unión hace la fuerza				Sátnevájas/Refrán		8			čoahkkaneapmi fápmuda		P
 mala hierba nunca muere				Sátnevájas/Refrán		5			surohis olmmoš lea lihkoleabbot go morálalaš olmmoš		Pfs																					
 quien a hierro mata a hierro muere				Sátnevájas/Refrán		9			bahá máksá baháin		Pfs																					
 quien mal anda mal acaba				Sátnevájas/Refrán		9			Don oaččut dan maid ánssášat		Pfs																					
-(poner a) hervir			3i	VLc		4			vuoššat		V	TV	s: duolddahit	s: giksadit					¿puedes (poner a) hervir el agua?	Sáhtát go don vuoššat čázi?												
 abandonar			1a	V		1			hilgut		V	TV							Abandonó a su novia.	Son hilggui iežas moarsi.												
 abandonar			1a	V		2			guođđit		V	TV							Tuvo que abandonar la ciudad.	Son fertii guođđit gávpoga.												
 abandonarse			1a	V	abandonar	3			vuollánit		V	Prnl, ReflV	s: addit vuollái						Te has abandonado al alcohol durante demasiado tiempo.	Don leat vuollánan alkoholii menddo guhká.												
@@ -3703,7 +3709,6 @@ asesorarse			1a	V		3			oažžut ráđi		VLc	Prnl, IV	s: ráđđádallat						ase
 asociar			1b	V		1			ovttastahttit		V	TV	s: ovttastit	s: bidjat oktii	s: náitit				Nuestra compañía asocia a trabajadores de muchos países.	Min fitnodat ovttastahttá máŋgga riikka bargi.												
 asociar			1b	V		2			čatnat oktii		VLc	TV	s: goallostit						En mi tesis no he asociado esas dos ideas.	Nákkosgirjjistan in leat čatnan oktii dán guokte jurdaga.												
 asociarse			1b	V	asociar	3			searvat		V	Prnl, RecV	s: vuođđodit						Se han asociado para formar una empresa.	Sii leat searvan ásahit fitnodaga.												
-asociarse con			1b	VLc	asociar	4			searvat		V	Prnl, ReflV							No se asocia con delincuentes.	Son ii searvva vearredahkkiiguin.												
 atacar			1g	V		1			fallehit		V	TV	s: rohkkáhit						El virus de la gripe ataca en otoño.	Njoammonuorvvodávda falleha čakčat.												
 atacar			1g	V		2	Figuratiiva/Figurado		álggahit		V	TV							atacar una tarea	álggahit barggu												
 atardecer			2d	V		1			veiggodit		V	IV	s: sevnnjodit	s: gerpmodit					En invierno atardece más temprano que en verano.	Dálvet veiggoda árabut go geasset.												
@@ -3746,7 +3751,6 @@ bailar			1a	V		1			dánsut		V	IV, UseAlso: TV	s: dánset	s: šlivggáhallat					
 bajar			1a	V		1			njiedjat		V	IV, UseAlso: TV							bajar una cuesta	njiedjat luohkás												
 bajar			1a	V		2			luoitit		V	TV							Baja la olla y acércala al fuego.	Luoitte ruittu ja lagat dan dollii.												
 bajar			1a	V		3			vuolidit		V	TV							bajar la voz	vuolidit jiena												
-bajar (el precio)			1a	VLc		4	Haddi		hálbbidit		V	TV	s: luoitit hatti																			
 bajarse			1a	V	bajar	5			njiedjat		V	IV							Me bajo a la cocina.	Mun njiejan gievkkanii.												
 bañar			1a	V		1			lávgut		V	TV																				
 bañarse			1a	V	bañar	2			basadit		V	Prnl, ReflV	s: lávggodit						se baña los sábados	son basada lávvardagaid												
@@ -3838,11 +3842,9 @@ chocar			1g	V		3			hirpmahuhttit		V	WObjPron, UseTV							Su conducta me choca.	
 chocar			1g	V		4			suhttadit		V	WObjPron, UseTV	s: moaráskit	s: moaráskahttit					Me chocan tus palabras.	Du sánit suhttadit mu.												
 chocar			1g	V		6			dearpat		V	TV																				
 chocar			1g	V		7			dearppadit		V	TV, Freq							El niño choca su juguete contra la pared (una y otra vez).	Mánná dearppada iežas stohkosa seaidnái.												
-chocar (las manos)			1g	VLc		5			dearvvahit		V	TV																				
 chupar			1a	V		1			njammat		V	TV							chupar el cigarillo	njammat duhpáha	chupar el biberón	njammat duohtu	chupar un caramelo	njammat njálgá								
 chupar			1a	V		3	Amerihkká/América, Alcohola		juhkat		V	TV																				
 chupar			1a	V		4			absorberet		V	TV	s: (laktasa) njammat						Esa esponja chupa mucha agua.	Dát guoppar njammá ollu čázi.												
-chupar (rápidamente y de una vez)			1a	VLc		2			jugistit		V	TV, Mom	s: máistit	s: šlaggat																		
 chuparse			1a	V	chupar	5	Gorutlahttu		basadit		V	Prnl, ReflV	s: njolodit						El gato se chupa.	Bussá basada.	El gato se chupa la pata.	Bussá basada iežas juolggi.	El gato se chupa la pata.	Bussá njoloda juolggis.								
 circular			1a	V		1			vuodjit		V	IV	s: johtalit	s: jođašit	s: lihkadit				circular por la derecha	vuodjit olgešbeale												
 circular			1a	V		2	Diehtu		juohkit		V	TV	s: fievrridit						El secretario circuló la información a los trabajadores.	Čálli jugii bargiide dieđu.												
@@ -3856,7 +3858,6 @@ coger			2c	V		5	Vuojedettiin, jođedettiin, váccedettiin		vázzit		V	TV	s: vuod
 coger			2c	V		6	Argentina, Beaivválaš giella/Uso coloquial		anašit		V	IV																				
 cogerse			2c	V	coger	4			buohcat		V	TV, UseAlso: Prnl							(Me) he cogido una gripe	Mun lean buohcan nurvos.												
 cogerse			2c	V	coger	2			váldit		V	Prnl, ReflV	s: doaladit						Cógete una mano con la otra.	Doalada gieđain nuppi.												
-cogerse (de)			2c	VLc	coger	3			doallat		V	Prnl, RecV							Cogeos (de) la mano.	Dolle gihtii.												
 coincidir			3a	V		1			heivet oktii		VLc	IV	s: soahpat						Estas dos piezas no coinciden.	Dát guokte bihtá eai heive oktii.												
 coincidir			3a	V		2			deaivvadit		V	IV	s: gávnnadit	s: oaidnalit					Coincidieron en el ascensor.	Sii deaivvadedje heaissas.												
 coincidir			3a	V		3			leat ovttaoaivilis		VLc	IV							Coincidieron en que fue una sorpresa	Soai leigga ovttaoaivilis ahte dát lei vuorddekeahtes heahkastupmi.												
@@ -4049,7 +4050,6 @@ dar			1r	V		10	Filbma-, teahterčájálmas		čájehit		V	TV	s: neaktit						Hoy 
 dar			1r	V		18			sealgádit		V	IV	s: náhkádit	s: cábmit	s: cápmit				El perro mordió a Alfredo, y éste le dio.	Beana gáskkii Alfredo ja son dan cápmii.												
 dar			1r	V		21	Diibmu, diibma		čuodjagoahtit		V	IV							Acaban de dar las seis.	Diibma čuodjagoahtá guđa áigge.												
 dar			1r	V		24			leat (juoga) guvlui		VLc	IV, + a + báiki							Esa ventana da a la carretera.	Dát (g)lássa lea geainnu guvlui.												
-dar el agua			1r	VLc		19			golggahit čázi		VLc	TV																				
 darse			1r	V	dar	29			guoskkahit		V	Prnl, IV							Se dio con(tra) la puerta.	Son guoskkahii uksii.												
 darse			1r	V	dar	33			vuollánit		V	Prnl, UseTV, + a	s: addit vuollái	s: árbmát					darse a la bebida	vuollánit alkoholii												
 darse			1r	V	dar	34	Áŋgirit		bargat		V	Prnl, UseTV, + a	s: hommát	s: hárjehallat					Se ha dado al deporte.	Son bargá áŋgirit valáštallamis.												
@@ -4084,7 +4084,6 @@ dejar		s: permitir	1a	V		3			diktit		V	TV	s: suovvat						Te dejo venir.	Mun div
 dejarse			1a	V	dejar	6			vajáldahttit		V	Prnl, UseTV	v: vajálduhttit	s: eaippildit					Se dejó el dinero en la maleta.	Son vajáldahtii ruđa koaffarii.												
 dejarse			1a	V	dejar	7			diktit		V	Prnl, IV	s: suovvat						Ana se deja cuidar.	Ana diktá iežas gáhttet.												
 dejarse			1a	V	dejar	8			guoská dávvira kvalitehtii		Pfs	Prnl, Imp, 3per							Este vino se deja beber.	Dát viidna lea jugahahtti.	Este vino se deja beber.	Dán viinna sáhttá juhkat.										
-dejarse influir			1a	VLc		4			diktit (iežas) váikkuhit		VLc	Prnl, PassV							Esa mujer se deja influir por su marido.	Eamit diktá isida iežas váikkuhit.												
 delatar			1a	V		1			almmuhit		V	TV																				
 delatar			1a	V		2	Buletiija ovddas		beahttit		V	TV	s: njihtat	s: mánnat					El ladrón delató a sus compañeros.	Suola behtii iežas skihpáriid.												
 delatar			1a	V		3	Figuratiiva/Figurado, mearkan dahjege symptoman		iktit (soapmásii juoidá)		V	TV	s: čilget	s: almmustuhttit					El olor delata la presencia de gas.	Hádja iktá gássa.												
@@ -4343,7 +4342,6 @@ esquiar			1a	V		1			čuoigat		V	IV							esquiar montaña arriba	čuoigat várr�
 estar			1p	V		1	Geavaha go predikáhta meinnestuvvo subjeavtta dili ja eavttuid duohken		leat		V	IV							Estoy en Oslo.	Lean Oslos.	¿Dónde estás?	Gos leat?	¿Estás casada?	Leat go don náitalan?	Estoy de buen humor.	Mun lean movtta.						
 estar			1p	V		9			heivet		V	IV, WObjPron							Los pantalones te están bien.	Buvssat heivejit bures dutnje.												
 estar			1p	V		11			leat		V	AuxV, + Ger, Saam: + ActEss							Está sacando una foto.	Son lea govvideamen.	Está estudiando arquitectura.	Son lea studeremin arkitektuvrra.	Ahora está siendo operado.	Son lea dál čuohpaduvvomin.								
-estar interesado			1p	VLc		5			beroštit		V	UseTV, + por, en	s: atnit ávvira						Siempre estuvo interesado en la medicina.	Álo beroštii doavttirdiehtagis.												
 estarse			1p	V	estar	10			leat measta		VLc	Prnl, IV, + Ger							Se está muriendo.	Son lea measta jápmán.	Se está muriendo.	Son lea jápmimin.										
 estarse			1p	V	estar	12			bisánit		V	Prnl, ReflV							¡Estáte quieto!	Bisán!												
 estarse			1p	V	estar	13			ájahallat		V	Prnl, ReflV							No avanza porque se está revisando el texto.	Son ii ovdán teavsttas dasgo ájahallá dárkkisteamis.												
@@ -4503,7 +4501,6 @@ herir			3i	V		1			soardit		V	TV	s: vaháguhttit						La enfermedad hirió el cor
 herir			3i	V		2			báhčit		V	TV	s: bávkalit						El cazador hirió al oso en el corazón.	Bivdi bážii guovžža váibmui.												
 herir			3i	V		3			hávváduhttit		V	TV	s: sárjidit	s: nádjat					Tus palabras me hieren.	Du sánit hávváduhttet mu.												
 herir			3i	V		5	Figuratiiva/Figurado, čuovga, beaivi		báitit		V	TV	s: suontjarastit						El sol hiere el paisaje.	Beaivi báitá miehtá eanadaga.												
-herir (la luz los ojos)		s: deslumbrar	3i	VLc		4			čalmmehuhttit		V	TV	s: čuovggahuhttit						La luz intensa hirió sus ojos.	Šerres čuovga čalmmehuhtii su.												
 herirse			3i	V	herir	6			iežas nádjat		VLc	Prnl, ReflV	s: iežas hávváduhttit						Me herí con un cuchillo.	Iežan nádjen niibbiin.												
 hervir			3i	V		1			duoldat		V	IV	s: ábbut	s: govdat					El agua hierve.	Čáhci duoldá.												
 hervir			3i	V		2	Figuratiiva/Figurado		cahkat		V	IV							(Él) hervía de amor.	Su ráhkesvuohta cagai.	(Él) hervía de cólera.	Su suhttu cagai.										
@@ -4653,9 +4650,6 @@ llevar		s: soportar	1a	V		15			gillát		V	TV							Es duro llevar una vida así.
 llevar		s: conducir	1a	V		16			vuodjit		V	TV, Saam: + Com							Lleva un coche muy veloz.	Son vuodjá issoras johtilis biillain.												
 llevar			1a	V		19	Cealkaga áigi/En expresión temporal		leat		V	IV							Llevamos aquí dos meses.	Mii leat leamašan dáppe guokte mánu.	Esas casas llevan ahí desde antes de la guerra.	Diet visttit leat doppe ovdal soahte-áiggi.										
 llevar			1a	V		20				leat boarrásat go, leat guhkit go, Etc	VLc	IV, Comp, WObjPron							Pedro me lleva tres años.	Pedro lea golbma jagi boarrásat go mun.	Marina le lleva a Rosa al menos cinco centímetros.	Marina lea unnimustá vihtta seantta guhkit go Rosa.										
-llevar (consigo)			1a	VLc		2			guottašit		V	TV							He cogido el ordenador y lo llevo (conmigo).	Mun lean váldán dihtora ja dán guottašan.												
-llevar (puesto)			1a	VLc		10			gárvodit		V	TV, Saam: + Com							La niña llevaba (puesta) una chaqueta roja.	Nieida gárvodii rukses jáhkain.												
-llevar (puesto)			1a	VLc		11			coggat		V	TV, Saam: + Acc	s: leat... badjelis						La niña llevaba (puesta) una chaqueta roja.	Nieida cokkai rukses jáhka.	Lleva (puesto) el gorro.	Sus lea gahpir badjelis.										
 llevar(se)			1a	V	llevar	6			váldit		V	(Prnl), UseTV							Lléva(te) las llaves.	Váldde čoavdagiid.												
 llevarse			1a	V	llevar	5			guoddit		V	TV	s: guottašit						Al viaje me llevo dos maletas.	Mun guottán guokte koaffara mátkái.												
 llevarse		s: robar	1a	V	llevar	7			suoládit		V	Prnl, UseTV	s: váldit						Los ladrones se llevaron todo el dinero.	Rievvárat suoládedje visot ruđa.												
@@ -5046,7 +5040,6 @@ salvar			1a	V		1			gádjut		V	TV	s: beastit						Su abogado le salvó de ir a c�
 salvarse			1a	V	salvar	2			gáddjojuvvot		V	Prnl, IV	s: bestojuvvot						Gracias a su abogado se salvó de ir a la cárcel.	Giitu su láhkabealošteaddjái, go son bestojuvvui giddagasas.												
 sangrar			1a	V		1			vardit		V	IV	s: varddašit						Estás sangrando por la nariz.	Don leat vardimin njunis.	La herida aún sangra.	Ain vardá hávis.										
 sangrar			1a	V		2	Figuratiiva/Figurado		navildit		V	TV	s: gurret dađistaga	s: suoládit veahážiid mielde					Los grandes comerciantes sangran el estado todo lo que pueden.	Rikkes gávpe-albmát navildit stáhta nu olu go sáhttet.												
-se alquila			1a	VLc		4	Galba		láiguhuvvot		V	Imp, 3per																				
 secar			1g	V		1			goikadit		V	TV							El sol ha secado las plantas.	Beaivi lea goikadan šattuid.	secar los platos	goikadit lihtiid	secar la carne	goikadit bierggu	secar el pescado	goikadit guoli						
 secarse			1g	V	secar	2			goikat		V	Prnl, IV							Los lagos y ríos en Noruega no se secan nunca.	Norgga jávrrit ja jogat eai goasse ge goikka.												
 secuestrar			1a	V		1			rievidit		V	TV	s: suoládit	s: jávkadit																		
@@ -5131,7 +5124,6 @@ tener			2l	V		4			sisttisdoallat		V	TV							El caldo tiene vitaminas.	Biđus si
 tener			2l	V		5			luohttit		V	WObjPron, + por	s: oskkildit						Te tengo por un hombre inteligente.	Mun luohtán dutnje ahte don leat vitmes olmmoš.												
 tener			2l	V		8				Heivehuvvo sámegielat verbii	V	TV	+ N						tener vergüenza	heahpanit	tener frío	galbmot	tener calor	báhkkanit	tener miedo	ballat						
 tener			2l	V		9	Áigi, ahki		leat… boaris		VLc	IV	s: leat... jahkásaš						Las flores sólo tienen dos días.	Rásit leat dušše guokte beaivvi boarrásat.	Tengo 53 años.	Mun lean 53 jagi boaris.	Mun lean 53 jahkásaš.									
-tener calor			2l	VLc		2			báhkkanit		V	TV	s: liegganit																			
 tenerse			2l	V	tener	6			jáhkkit		V	Prnl, ReflV, + por	s: gáddit						Me tengo por celoso.	Mun jáhkán, ahte (mun) lean balahahkes.												
 tenerse			2l	V	tener	7				Hab		Prnl, ReflV, + en, + mucho, poco, gran...							Me tengo en poca estima.	Mus lea unnán iešluohttámuš.												
 tirar			1a	V		1			bálkestit		V	TV	s: bállahastit						Tiró la silla por la ventana.	Son bálkestii stuolu glása guvlui.												
@@ -5207,7 +5199,7 @@ visitar			1a	V		2			gallestaddat		V	TV, Saam: Mom, Freq	s: gallestallat	s: guoss
 vivir			3a	V		1			eallit		V	IV							Ese escritor todavía vive.	Girječálli ain eallá.												
 vivir			3a	V		2			orrut		V	IV	s: ássat						Vivo en Londres.	Mun orun Londonis.	Viven en una casa grande.	Sii ásset stuora viesus.										
 vivir			3a	V		3			vásihit		V	TV	s: muosáhit	s: feret					Hay que vivir la vida.	Ferte vásihit eallima.	Vivió experiencias increíbles.	Son muosáhii jurdilmeahttun fearániid.										
-perderse (el rastro)		s: perderse (la pista)	2g	VLc	perder	5			luottahuvvat		V	Imp, 3per							El (rastro del) ternero se perdió en la tundra.	Miessi luottahuvai meahcis.	La pista de los ladrones se perdió con la tormenta.	Suollagat luottahuvve borgan.										
+(poner a) hervir			3i	VLc		4			vuoššat		V	TV	s: duolddahit	s: giksadit					¿puedes (poner a) hervir el agua?	Sáhtát go don vuoššat čázi?												
 (ser) igual a			2w	VLc		8	Matematihkka/Matemáticas		gártat		V	IV	s: šaddat						Dos más tres (es) igual a cinco.	Guokte ja golbma gártá vihtta.												
 abrir fuego			3a	VLc		15	Militeara/Militar		báhčigoahtit		V	TV																				
 abrir la boca			3a	VLc		2			rahpat njálmmi		VLc	TV	s: cakkastit njálmmi																			
@@ -5230,6 +5222,8 @@ armar jaleo		s: armar bulla	1a	VLc		3			riidalit		V	IV	s: bávkit	s: ruodjat	s: 
 armarse de paciencia			1a	VLc	armar	6			gierddahallat		V	Prnl, ReflV																				
 armarse de valor			1a	VLc	armar	5			jálosmuvvat		V	Prnl, ReflV																				
 arreglárselas			1a	VLc	arreglar	6	Go ressurssat leat vátnát		birget		V	IV							Creo que me las arreglo con estos cinco euros.	Jáhkán, ahte (mun) birgen dieinna viđain euroin.												
+asociarse con			1b	VLc	asociar	4			searvat		V	Prnl, ReflV							No se asocia con delincuentes.	Son ii searvva vearredahkkiiguin.												
+bajar (el precio)			1a	VLc		4	Haddi		hálbbidit		V	TV	s: luoitit hatti																			
 bajar el precio			3a	VLc		3			hálbbidit (hatti)		VLc	TV	s: vuolidit																			
 bajar la guardia			1a	VLc		8			luohttit soapmásii eambbo go lea dárbbašlaš		Pfs	TV																				
 besar la mano			1a	VLc		2			cummát gieđa		VLc	TV																				
@@ -5242,7 +5236,10 @@ caer en la cuenta			2o	VLc		4	Fáhkka		fuomášit		V	TV, + de	s: fuobmát
 caer(se) de espaldas			2o	VLc		5			selggosii gahččat		VLc	IV																				
 cambiar de aires			1b	VLc		7			lonuhit áimmu		VLc	IV, UseNor: Pl	s: biggohit																			
 cerrar la boca			3a	VLc		3			giddet njálmmi		VLc	TV																				
+chocar (las manos)			1g	VLc		5			dearvvahit		V	TV																				
+chupar (rápidamente y de una vez)			1a	VLc		2			jugistit		V	TV, Mom	s: máistit	s: šlaggat																		
 coger frío			2c	VLc		6			oažžut nuorvvu		V	TV	s: šaddat nurvui	s: nurvui buohccát																		
+cogerse (de)			2c	VLc	coger	3			doallat		V	Prnl, RecV							Cogeos (de) la mano.	Dolle gihtii.												
 comenzar la casa por el tejado			1f, 1k	VLc		3	Negatiivvalaš mearkkašumiin/Con significado negativo		álgit boastugeažis		VLc	TV	s: álgit loahpageažis																			
 constar		s: tener	1a	VLc		6				Loc, Hab		IV, + de							El diccionario consta de cinco partes.	Sátnegirjjis leat vihtta oasi.												
 constar		s: tener	1a	VLc		7			gávdnot		V	IV, + de							La máquina consta de cinco piezas.	Mašiinnas gávdnojit vihtta oasi.												
@@ -5263,6 +5260,7 @@ dar de beber			2a	VLc		3			jugahit		V	TV
 dar de comer			1r	VLc		8			borahit		V	TV	s: biebmat																			
 dar de comer			1r	VLc		9	Mánáide		gaccahit		V	TV																				
 dar de sí			1r	VLc		26			leat doarvái		VLc	IV							El agua no da de sí para todos.	Čáhci ii leat doarvái buot olbmuide.	El agua no da de sí para todos.	Čáhci ii leat doarvái buohkaide.										
+dar el agua			1r	VLc		19			golggahit čázi		VLc	TV																				
 dar el alto			1r	VLc		2			bissehit		V	TV	s: orustahttit																			
 dar el pésame			1r	VLc		17			kondoleret		V	TV	s: oasi váldit morrašis	s: morraša oasi váldit																		
 dar el sol			1r	VLc		25			báitit		V	IV	s: čuovgat	s: suonjardit																		
@@ -5315,6 +5313,7 @@ dejar frío			1a	VLc		4	Figuratiiva/Figurado			Geahča ovdamearkkaid:		TV, WObjP
 dejar frito			1a	VLc		2	Figuratiiva/Figurado		goddit		V	TV							Le disparó y lo dejó frito.	Son bážii ja gottii su.												
 dejar helado			1a	VLc		8	Figuratiiva/Figurado		hirpmástuhttit		V	TV	s: heahkastuhttit	s: heammástuhttit					Tus palabras me dejaron helado.	Du sánit mu heahkastuhtte.												
 dejar huella(s)			1a	VLc		9			luottastallat		V	TV	s: šulšet	s: vuohttalit					Los animales dejaron huellas.	Eallit šulšejit.												
+dejarse influir			1a	VLc		4			diktit (iežas) váikkuhit		VLc	Prnl, PassV							Esa mujer se deja influir por su marido.	Eamit diktá isida iežas váikkuhit.												
 descargar la cólera			1h	VLc		2			suhttat		V	TV	s: eaddut	s: vašáskit	s: njunnádit				Descargó su cólera en su hijo.	Son suhtai iežas gándii.	Descargó su cólera en su hijo.	Son suhtai gándasis.										
 desempeñar un papel			1a	VLc		2	Teahtera		neaktit		V	TV	s: doaimmahit neaktima																			
 disparar al aire			1a	VLc		9			báhčit váruhanskuohta		VLc	TV	s: dieđihit																			
@@ -5377,6 +5376,7 @@ estar en forma			1p	VLc		12			doalahit iežas vuoimmis		VLc	IV
 estar entre la espada y la pared			1p	VLc		3			vuorrástuvvat		Pfs		s: leat garra biekkain	s: boahtit váttes dillái																		
 estar grave			1p	VLc		3			duođas buohccát		VLc	IV																				
 estar imposible			1p	VLc		2	Olmmoš		leat birgetmeahttun		VLc	IV	s: leat suohpáheapme	s: leat moarrái	s: leat neavrras																	
+estar interesado			1p	VLc		5			beroštit		V	UseTV, + por, en	s: atnit ávvira						Siempre estuvo interesado en la medicina.	Álo beroštii doavttirdiehtagis.												
 estar para chuparse los dedos				VLc		6			leat hui njálgga		VLc		s: -njaddit	s: njaddit					Esta comida está para chuparse los dedos.	Dát mális lea hui njálgga.	Esta comida está para chuparse los dedos.	dát málesnjaddá.	Esta comida está para chuparse los dedos.	dát mális njaddá.								
 estar paralizado			1p	VLc		2			ii sáhte lihkadit		Pfs	IV	s: orustit lihkadeames						Estoy paralizado de miedo.	Mus lea nu stuora ballu, ahte mu rumaš ii sáhte lihkadit.												
 estar por ver			1p	VLc		16			leat eahpesihkar		VLc	IV, UseAlw: 3per							Está por ver que consigas ese puesto.	Lea eahpesihkar ahte don oaččut dan virggi.												
@@ -5432,6 +5432,7 @@ hacerse notar			2s	VLc	hacer	26			fuomášuhttojuvvot		VLc	Prnl, IV							Los in
 hacerse tarde			2s	VLc	hacer	31			leat leamen maŋŋit		VLc	PassV, Sg3							Se ha hecho tarde para ir a pescar.	Lea leamen maŋŋit vuolgit oaggut.												
 hay que			2k	VLc		3			fertet		V	Imp, 3per	s: galgat						Habrá que ir mañana a Alta.	Ihttin ferte vuodjit Álahedjui.	Había que matar al animal, aunque no queríamos.	Galggai njuovvat šibiha, vaikko mii eat áigon.										
 helar la sangre			1k	VLc		7	Figuratiiva/Figurado		suorggahit		VLc	TV	s: baldit issorasat						Esa película hiela la sangre.	Dát ealligovva suorggaha.												
+herir (la luz los ojos)		s: deslumbrar	3i	VLc		4			čalmmehuhttit		V	TV	s: čuovggahuhttit						La luz intensa hirió sus ojos.	Šerres čuovga čalmmehuhtii su.												
 inclinarse a pensar		s: inclinarse a creer	1a	VLc	inclinar	11			orrut		V	Prnl, UseTV, Saam: + ActEss							Me inclino a pensar que es verdad.	Mun orun jáhkkimin ahte dát lea duohtavuohta.												
 intentar hacer fuego			1a	VLc		5			bivdit dola		VLc	TV																				
 invertir tiempo			3i	VLc		7			geavahit áiggi		VLc	TV	s: golahit áiggi						Invierto demasiado tiempo preparando las clases.	Mun geavahan menddo olu áiggi oahppadiimmaid ráhkadettiin.												
@@ -5475,6 +5476,9 @@ llamar la atención			1a	VLc		2			fuomášuhttit		V	IV							Le gusta llamar la 
 llegar a un compromiso			1h	VLc		2			šiehtadit		V	IV	s: dahkat šiehtadusa																			
 llegar con retraso		s: retrasarse	1h	VLc		4			maŋŋonit		V	IV	v: maŋŋánit						Aunque el avión salió puntual, llegó con retraso.	Vaikko girdi vulggii rivttes áiggi, de maŋŋonii liikká.												
 llegarle (a uno) la hora			1h	VLc		5			jápmit		V	IV																				
+llevar (consigo)			1a	VLc		2			guottašit		V	TV							He cogido el ordenador y lo llevo (conmigo).	Mun lean váldán dihtora ja dán guottašan.												
+llevar (puesto)			1a	VLc		10			gárvodit		V	TV, Saam: + Com							La niña llevaba (puesta) una chaqueta roja.	Nieida gárvodii rukses jáhkain.												
+llevar (puesto)			1a	VLc		11			coggat		V	TV, Saam: + Acc	s: leat... badjelis						La niña llevaba (puesta) una chaqueta roja.	Nieida cokkai rukses jáhka.	Lleva (puesto) el gorro.	Sus lea gahpir badjelis.										
 llevar a la pantalla			1a	VLc		3			filbmet		V	TV																				
 llevar en brazos			1a	VLc		2			guoddit gieđas		VLc	TV																				
 llevar la cuenta			1a	VLc		7			rehkenuššat		V	TV, + de	s: rehkenastit	s: rehketdoalu čállit																		
@@ -5526,6 +5530,7 @@ pedir prestado			1a	VLc		3			jearrat		V	TV							Me piden dinero prestado.	Sii j
 perder de vista			2g	VLc		15			massit čalmmis		VLc	TV	s: láhpehit	s: manahit					¡No pierdas de vista a esa perdiz!	Ale masse čalmmis dán rievssaha!												
 perder el conocimiento			2g	VLc		5			mannat galmmasin		VLc	TV	s: meanahuvvat	s: galmmastuvvat																		
 perder la cuenta			2g	VLc		8			muittohuvvat		V	TV, + de	s: vajálduvvat	s: massit muittu																		
+perderse (el rastro)		s: perderse (la pista)	2g	VLc	perder	5			luottahuvvat		V	Imp, 3per							El (rastro del) ternero se perdió en la tundra.	Miessi luottahuvai meahcis.	La pista de los ladrones se perdió con la tormenta.	Suollagat luottahuvve borgan.										
 pescar en aguas revueltas			1g	VLc		2	Literála		oaggut rávdnjás čázis		VLc	TV																				
 poner a helar		s: congelar	2r	VLc		6			galmmihit		VLc	TV	s: čoaskudit	s: jiekŋudit					He puesto a helar un filete en el congelador.	Lean biffa galmmihan galmmihanskábas.												
 poner a huevo			2r	VLc		10			álkkidahttit		V	TV	s: geahpedit						El profesor ha puesto el aprobado a huevo.	Oahpaheaddji lea álkkidahttán eksámenbarggu.												
@@ -5577,6 +5582,7 @@ salir de las faldas			3r	VLc		4			rávásmuvvat		V	IV							Ese niño tiene que 
 saltar a la vista			1a	VLc		16	Figuratiiva/Figurado		leat viehka čielggas		VLc	IV	s: leat hui čielggas						Salta a la vista que ya no me quieres.	Lea viehka čielggas, ahte don it ráhkis šat mu.												
 saltar por los aires			1a	VLc		10			bávkkehit		V	IV, UseNor: Pl							El coche saltó por los aires.	Biila bávkkehii.												
 saltarse un semáforo			1a	VLc	saltar	4			meaddánit johtolatčuovgga almmá bisánkeahttá		Pfs	Prnl, UseTV	s: vuodjit johtolatčuovgga meattá almmá bisánkeahttá						En algunas ciudades, acostumbran a saltarse los semáforos.	Muhtun gávpogiin sii lávejit vuodjit johtolatčuovggaid meattá.												
+se alquila			1a	VLc		4	Galba		láiguhuvvot		V	Imp, 3per																				
 se da el caso de que...			1r	VLc		4			ášši lea nu, ahte...		NLc		s: dilli lea nu, ahte…																			
 se espera			1a	VLc		5			vurdojuvvo		VLc	Imp, 3per	s: doivojuvvo						Se espera un verano muy seco.	Vurdojuvvo ahte boahtte geassi šaddá hui goikkis.												
 se supone que			2r	VLc		2			dat vurdo, ahte		VLc	UseTV, Imp, 3per, Sg	s: dat navdo, ahte						Se supone que todos están de acuerdo.	Dat vurdo ahte buohkat leat ovttaoaivilis.												
@@ -5603,6 +5609,7 @@ tener aspecto			2l	VLc		3			sulastahttit		V	IV, + de	s: orrut						Ese pájaro t
 tener bajo control		s: controlar	2l	VLc		4			dárkkistit		V	TV	s: kontrolleret	s: bearráigeahččat					Tengo la situación bajo control.	Mun bearráigeahčan dili.												
 tener bajo control		s: controlar	2l	VLc		5			leat hálddus		VLc	TV							Tengo la situación bajo control.	Dilli lea mu hálddus.												
 tener buen aspecto			2l	VLc		4			orrut leat dearvvas		VLc	IV	s: orrut leat virkui	s: orrut leat buriin álššain																		
+tener calor			2l	VLc		2			báhkkanit		V	TV	s: liegganit																			
 tener cancha			2l	VLc		2	Argentina		leat hárjánan dihto áššái		Pfs	IV																				
 tener conocimiento		s: conocer	2l	VLc		6				Hab		+ de							El juez no tiene conocimiento de los hechos.	Duopmáris ii leat daguid diehtu.												
 tener consecuencias		s: traer consecuencias	2l	VLc		2			dagahit bohtosiid		VLc	IV																				
@@ -5648,10 +5655,3 @@ venir bien			3s	VLc		7	Positiiva mearkkašumiin/Con significado positivo		leat d
 viajar a pie			1a	VLc		2			vázzit		V	IV	s: váccašit	s: vádjolit	s: dahkat vázzinmátkki																	
 volver hacia atrás			2h	VLc		6	Dynámalaš/Dinámico		jorggihit		V	IV	s: ruovttoládje vuolgit	s: máhce mannat																		
 volver la vista atrás			2h	VLc		17	Figuratiiva/Figurado		muittuhit ovddeš áššiid dahje fearániid		Pfs	TV	s: vilppastit ovddeš áššiide																			
-cañada	F	s: ruta, camino				1	Meahcis		geinnodat		N		s: johtolat																			
-orca	F					1		orcinus orca	fáhkan		N																					
-ración	F					1			borramuš tallearka vai juogadit borramuša olbmuid gaskkas		Pfs																					
-ración	F	s: porción				2	Oassi		attus		N		s: doarvi	s: poršuvdna																		
-salario	M	s: sueldo				1			bálká		N																					
-sueldo	M	s: salario				1			bálká		N																					
-trocha	F	s: paso				1	Meahcis		bálggis		N		s: geinnodat																			
