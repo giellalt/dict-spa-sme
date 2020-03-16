@@ -41,7 +41,7 @@ for i in range(1, len(lines)):
 
 # Create an xml file per pos by reading the dictionary (dict_pos)
 for key, value in pos_dict.items():
-    out_file = key.replace(" ", "_").replace("/", "#").upper() + "_spasme.xml"
+    out_file = "../src/" + key.replace(" ", "_").replace("/", "#").upper() + "_spasme.xml"
     write_file = open(out_file,"a+")
     out_tree = Element("r")
     added = []
