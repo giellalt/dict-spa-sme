@@ -56,7 +56,7 @@ for key, value in pos_dict.items():
             l_elem.text = val.lemma
             mg_elem = SubElement(e_elem, "mg")
             tg_elem = SubElement(mg_elem, "tg")
-            tg_elem.set("lang", "sme")
+            tg_elem.set('{http://www.w3.org/XML/1998/namespace}lang', "sme")
             re_elem = SubElement(tg_elem, "re")
             re_elem.text = val.lem_syn
             t_elem = SubElement(tg_elem, "t")
@@ -69,7 +69,7 @@ for key, value in pos_dict.items():
                 if l.text == val.lemma:
                     mg_elem = SubElement((l.getparent()).getparent(), "mg")
                     tg_elem = SubElement(mg_elem, "tg")
-                    tg_elem.set("lang", "sme")
+                    tg_elem.set('{http://www.w3.org/XML/1998/namespace}lang', "sme")
                     re_elem = SubElement(tg_elem, "re")
                     re_elem.text = val.lem_syn
                     t_elem = SubElement(tg_elem, "t")
