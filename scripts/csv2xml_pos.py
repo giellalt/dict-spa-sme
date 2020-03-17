@@ -14,7 +14,7 @@ from lxml.etree import Element, SubElement, XMLParser
 read_file = sys.argv[1]
 pos_dict = {}
 
-# Define an Entry class containing word, pos, gender, word synonym, translation, and translation pos
+# Define an Entry class containing all elements from csv file keeping (almost) same names
 class Entry:
     def __init__(self, word, gen, lem_syn, infl, word_cls_5, basic_form, trans_num, restr, sci_name, saami, saami_trans, word_cls_12, expl, trans_syn_1, trans_syn_2, trans_syn_3, trans_syn_4, trans_syn_5, trans_syn_6, spa_ex_1, saami_ex_1, spa_ex_2, saami_ex_2, spa_ex_3, saami_ex_3, spa_ex_4, saami_ex_4, spa_ex_5, saami_ex_5, spa_ex_6, saami_ex_6, spa_ex_7, saami_ex_7):
         self.word = word
