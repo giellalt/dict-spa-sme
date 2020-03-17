@@ -100,6 +100,8 @@ for key, value in pos_dict.items():
             check_and_insert(val.restr, tg_elem, "re")
             t_elem = SubElement(tg_elem, "t")
             t_elem.set("pos", val.word_cls_12)
+            t_elem.set("re", val.restr)
+            t_elem.set("sci", val.sci_name)
             t_elem.text = val.saami
             xg_elem = SubElement(tg_elem, "xg")
             check_and_insert(val.spa_ex_1, xg_elem, "x", [val.saami_ex_1, xg_elem, "xt"])
@@ -127,6 +129,8 @@ for key, value in pos_dict.items():
                     check_and_insert(val.restr, tg_elem, "re")
                     t_elem = SubElement(tg_elem, "t")
                     t_elem.set("pos", val.word_cls_12)
+                    t_elem.set("re", val.restr)
+                    t_elem.set("sci", val.sci_name)
                     t_elem.text = val.saami
                     xg_elem = SubElement(tg_elem, "xg")
                     check_and_insert(val.spa_ex_1, xg_elem, "x", [val.saami_ex_1, xg_elem, "xt"])
