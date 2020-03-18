@@ -79,6 +79,8 @@ for i in range(1, len(lines)):
 
 # Create an xml file per pos by reading the dictionary (dict_pos)
 for key, value in pos_dict.items():
+    # sort according translation number 
+    value.sort(key=lambda x: x.trans_num)
     out_file = "../src/" + key.replace(" ", "_").replace("/", "#").upper() + "_spasme.xml"
     write_file = open(out_file,"a+")
     out_tree = Element("r")
