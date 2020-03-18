@@ -32,16 +32,6 @@ WORD	GENDER	LEMMA SYNONYM	INFLECTION	WORD CLASS	BASIC FORM	TRANSLATION NUMBER	RE
 ¿dígame?		s: ¿diga?		Interr		4	Telefuvdna		hallo?		Interr																					
 ¿no es así?				Lc		3			amma nu?		Lc																					
 ¿qué hora es?		s: ¿tiene(s) hora?		Lc		3			ollugo diibma lea?		Lc		s: man ollu diibma lea?																			
-(de) dos lados	M/F	s: (con) dos lados, (de) dos caras, (con) dos caras		ALc		4			guovttebealat		A								Antes los discos tenían dos lados.	Ovddeš áiggiid discot ledje guovttebealagat.	Antes los discos eran de dos caras.	Ovddeš áiggiid discot ledje guovttebealagat.										
-(dirección de) correo electrónico	F	s: email		NLc		5			šleađgaboasta		N																					
-(hacia) allí		s: (hacía) allá		AdvLc		3	Dynámalaš/Dinámico		dohko		Adv								Voy (hacia) allí.	Vuolggán dohko.												
-(hacia) detrás				AdvLc		8	Dynámalaš/Dinámico,  go olmmoš dahjege ealli lea referánsa		maŋábeallái		Po								El perro corrió hacia detrás del reno.	Beana ruohtai bohcco maŋábeallái.												
-(mal) genio	M			NLc		4	Negatiivvalaš mearkkašumiin/Con significado negativo		bahámiella		NLc		s: bahá gopma																			
-(niño) huérfano	M,F			NLc		1			oarbbes mánná		NLc		s: váhnemahtes mánná																			
-(poner a) hervir			3i	VLc		4			vuoššat		V	TV	s: duolddahit	s: giksadit					¿puedes (poner a) hervir el agua?	Sáhtát go don vuoššat čázi?												
-(por) delante de				AdvLc		3			ovddabeallái		Po								El ciclista va (por) delante del pelotón.	Sihkkelasti manná joavkku ovddabeallái.												
-(por) detrás de				AdvLc		6	Dynámalaš/Dinámico		duohkái		Po		s: duogábeallái						Escribió su nombre (por) detrás del cuadro.	Son čálii iežas nama gova duohkái.												
-(ser) igual a			2w	VLc		8	Matematihkka/Matemáticas		gártat		V	IV	s: šaddat						Dos más tres (es) igual a cinco.	Guokte ja golbma gártá vihtta.												
 a				Pr		1	Báiki/Lugar		lusa		Po								Mañana iré a tu casa.	Ihttin boađán du lusa.												
 a				Pr		2	Báiki/Lugar		beallái		Po								Aunque viajemos a Suecia seguiremos estando en Sápmi.	Vaikko mii joatkit Ruoŧa beallái, de mii bissot Sámis.												
 a				Pr		3			guvlui		Po								Ahora giraré a la izquierda.	Dál mun vuoján gurutguvlui.												
@@ -62,7 +52,7 @@ a causa de				AdvLc		3			geažil		Po								La carretera se cerró a causa de la
 a causa de				AdvLc		4				Loc									La enfermedad se produjo a causa de un tumor.	Dávda vulggii šattalmasas.												
 a causa de				AdvLc		5			dan sivas go		CC								La carretera se cerró a causa de la nieve.	Geaidnu boatkanii dan sivas go muohttái.												
 a causa de				CCLc		28			dan geažil go		CC		s: dasgo	s: dan dihte go																		
-a cómo				Interr		3			maid máksá		Interr	+ ser, estar	s: olu máksá						¿A cómo son las manzanas?	Ollu mákset eppelat?												
+a cómo				InterrLc		3			maid máksá		Interr	+ ser, estar	s: olu máksá						¿A cómo son las manzanas?	Ollu mákset eppelat?												
 a cual más	M/F			ALc		3			hui		Pfs								Nos enseñó las joyas, a cual más hermosa.	Son čájehii midjiide čiŋaid, nubbi čábbaseabbot go nubbi.												
 a dentro		v: adentro		AdvLc		2	Dynámalaš/Dinámico		siskkabeallái		Adv, Po		s: sisa						Tengo frío, voy a dentro.	Mun goalun, dalle vuolggán sisa.												
 a dentro de		v: adentro de		PrLc		4	Dynámalaš/Dinámico			Ill									No voy a ir adentro de ese bosque.	Mun in vuolgge dán vuovdái.												
@@ -386,6 +376,7 @@ aliviarse			1b	V	aliviar	2			geahpedit		V	Prnl, ReflV							Se alivia el dolor c
 alivio	M			N		1			geahpádus		N		s: geahpedeapmi																			
 allí		s: allá		Adv		1			dos		Adv								allí dentro	dos	allí mismo	aiddo dos										
 allí				Adv		2	Stáhtalaš/Estático		doppe		Adv								La casa está allí.	Viessu lea doppe.												
+allí		s: (hacía) allá		AdvLc		3	Dynámalaš/Dinámico		dohko		Adv								Voy (hacia) allí.	Vuolggán dohko.												
 alma	F			N		1			siellu		N	Span: Sg, UseAlw: Article M							El alma de mi padre es noble.	Mu áhči siellu lea buhtis.	Las almas de los hombres son invisibles.	Olbmuid sielut leat oaidnemeahttumat.										
 almacén	M			N		1			gálvodállu		N																					
 almeja	F			N		1		musculus lamellibranchia	guiski		N		v: skuiski																			
@@ -1585,6 +1576,7 @@ correo	M			N		1			poasta		N		v: boasta
 correo aéreo	M			NLc		2			girdiboasta		N																					
 correo electrónico	M			NLc		2			šleađgaboasta		N		s: e-maila																			
 correo electrónico	M			NLc		3			šleađgaboasta		N		s: emaila																			
+correo electrónico	F	s: email		NLc		5			šleađgaboasta		N																					
 correr			2a	V		1			viehkat		V	IV							Todos los días corro tres kilómetros.	Juohke beaivvi mun viegan golbma kilomehtera.												
 correr			2a	V		2	Johtilit		viehkalit		V	IV							Corrió rápidamente a la casa de su abuela.	Son viehkalii áhku vissui.												
 correr			2a	V		3	Čáhci, varra		golgat		V	IV							El agua corre.	Čáhci golgá.												
@@ -1670,14 +1662,15 @@ cruzarse			1f	V	cruzar	7			deaivvadit		V	Prnl, IV, + con							Cuando volví a c
 cuadro	M			N		1			kvadráhta		N		s: njealjehas																			
 cuadro	M			N		2	Teavsttas		tabealla		N																					
 cuadro	M			N		3			málengovva		N		s: govva						Su cuadro favorito es Las Meninas.	su jiellagovva lea Las Meninas.												
-cual, cuales	M/F			Pron, Rel		1			mii		Pron, Rel	UseNor: el cual, la cual, los cuales, las cuales							Hay varias preguntas, las cuales carecen de respuesta.	Gávdnojit máŋga jearaldaga, main váilot vástádusat.												
-cual, cuales	M/F			Pron, Rel		2			gii		Pron, Rel	UseNor: el cual, la cual, los cuales, las cuales	s: guhte						Vieron a un hombre, el cual había matado al perro	Sii oidne olbmo, gii lei goddán beatnaga.												
-cuál, cuáles	M/F			Pron, Interr		1			makkár		Interr		s: guhte	s: guhtemuš					¿Cuáles son los libros que has comprado?	Makkár girjjiid leat oastán?	¿Cuál de esas niñas es tu hija?	Guđe mánná lea du nieida?	¿Cuál de las películas es la mejor?	Guđemuš ealligovva lea áđamus?								
+cual	M/F			Pron, Rel		1			mii		Pron, Rel	UseNor: el cual, la cual, los cuales, las cuales							Hay varias preguntas, las cuales carecen de respuesta.	Gávdnojit máŋga jearaldaga, main váilot vástádusat.												
+cual	M/F			Pron, Rel		2			gii		Pron, Rel	UseNor: el cual, la cual, los cuales, las cuales	s: guhte						Vieron a un hombre, el cual había matado al perro	Sii oidne olbmo, gii lei goddán beatnaga.												
+cuál	M/F			Pron, Interr		1			makkár		Interr		s: guhte	s: guhtemuš					¿Cuáles son los libros que has comprado?	Makkár girjjiid leat oastán?	¿Cuál de esas niñas es tu hija?	Guđe mánná lea du nieida?	¿Cuál de las películas es la mejor?	Guđemuš ealligovva lea áđamus?								
 cualidad	F			N		1			dovdomearka		N		s: iešvuođaláhki	s: iešvuođa sárggus					La paciencia es una cualidad del investigador.	Gierdevašvuohta lea guorahalli dovdomearka.												
 cualidades	F			N		2			gálga		N	Span: Pl	s: máhttu	s: návccat	s: dáiddut	s: čehppodat			Pedro tiene buenas cualidades para el fútbol.	Pedros lea buorre spábbačakčanmáhttu.												
 cualquier	M/F			A		1			vaikko gii		ALc	Span: UseAlw: + N	s: vaikko guhte	s: vaikko makkár					Come cualquier cosa.	Son borrá vaikko makkár biepmu.	Te compro cualquier coche.	Mun oasttán dus vaikko makkár biilla.	Cualquier trabajador vale para ese puesto.	Vaikko guhte bargi lea dan sajádaga árvosažžan.	Cualquier persona es bienvenida a mi casa.	Vaikko makkár olmmoš lea buresboahtin mu ruktui.						
 cualquier	M/F			Indef		1			vaikko gii		ALc	Span: UseAlw: + N	s: vaikko guhte	s: vaikko makkár					Come cualquier cosa.	Son borrá vaikko makkár biepmu.	Te compro cualquier coche.	Mun oasttán dus vaikko makkár biilla.	Cualquier trabajador vale para ese puesto.	Vaikko guhte bargi lea dan sajádaga árvosažžan.	Cualquier persona es bienvenida a mi casa.	Vaikko makkár olmmoš lea buresboahtin mu ruktui.						
-cualquiera, cualesquiera	M/F			Pron, Indef		1			vaikko gii		PronLc		s: vaikko makkár	s: vaikko guhte					Para ese puesto vale cualquiera.	Dán virgái heive vaikko gii.	De entre esos coches, te compro cualquiera.	Dáid biillaid gaskkas oasttán dutnje vaikko guđe.	Cualquiera que sea el precio, lo compro.	Vaikko makkár haddi leažžá leat, de mun dan oasttán.	Cualesquiera que sean los precios, me llevo esos productos.	Vaikko makkár hattit ležžet leat, de mun oasttán daid dávviriid.						
+cualquiera	M/F			Pron, Indef		1			vaikko gii		PronLc		s: vaikko makkár	s: vaikko guhte					Para ese puesto vale cualquiera.	Dán virgái heive vaikko gii.	De entre esos coches, te compro cualquiera.	Dáid biillaid gaskkas oasttán dutnje vaikko guđe.	Cualquiera que sea el precio, lo compro.	Vaikko makkár haddi leažžá leat, de mun dan oasttán.	Cualesquiera que sean los precios, me llevo esos productos.	Vaikko makkár hattit ležžet leat, de mun oasttán daid dávviriid.						
+cualesquiera	M/F			Pron, Indef		1			vaikko gii		PronLc		s: vaikko makkár	s: vaikko guhte					Para ese puesto vale cualquiera.	Dán virgái heive vaikko gii.	De entre esos coches, te compro cualquiera.	Dáid biillaid gaskkas oasttán dutnje vaikko guđe.	Cualquiera que sea el precio, lo compro.	Vaikko makkár haddi leažžá leat, de mun dan oasttán.	Cualesquiera que sean los precios, me llevo esos productos.	Vaikko makkár hattit ležžet leat, de mun oasttán daid dávviriid.						
 cuando				CC		1	Áigi/Tiempo		go		CC								Te lo diré cuando tenga la oportunidad.	Mun dan dajan dutnje, go mus lea liiba.	Cuando tú llegas también llega papá.	Go don boađát, dalle boahtá áhčči ge.										
 cuando		s: si		CC		2			(das)go		CC								Cuando tú lo piensas, será con razón.	Go don dan jurddašat, de ferte leat rievttalaš.												
 cuando				Pron, Rel		1			goas		Pron, Rel								Ocurrió aquel año, cuando la guerra empezó.	Dat dáhpáhuvai dan jagi, goas soahti álggahuvvui.												
@@ -1766,8 +1759,10 @@ dar			1r	V		10	Filbma-, teahterčájálmas		čájehit		V	TV	s: neaktit						Hoy 
 dar			1r	V		18			sealgádit		V	IV	s: náhkádit	s: cábmit	s: cápmit				El perro mordió a Alfredo, y éste le dio.	Beana gáskkii Alfredo ja son dan cápmii.												
 dar			1r	V		21	Diibmu, diibma		čuodjagoahtit		V	IV							Acaban de dar las seis.	Diibma čuodjagoahtá guđa áigge.												
 dar			1r	V		24			leat (juoga) guvlui		VLc	IV, + a + báiki							Esa ventana da a la carretera.	Dát (g)lássa lea geainnu guvlui.												
-dar (a uno) la impresión		s: tener la impresión	1r	VLc		5			doaivut		V	UseTV, UseNor: WObjPron	s: mielas orrut	s: navdit					(Me) da la impresión de que Antonio es una buena persona.	Mun doaivvun, ahte Antonio lea buorre olmmoš.	(Me) da la impresión de que Antonio es una buena persona.	Mu mielas orru Antonio leat buorre olmmoš.										
-dar (la) impresión		s: dar (una) impresión, parecer	1r	VLc		6			orrut		V	TV, + de							Antonio da (una) impresión de (ser) buena persona.	Antonio orru leamen buorre olmmoš.												
+dar a uno la impresión		s: tener la impresión	1r	VLc		5			doaivut		V	UseTV, UseNor: WObjPron	s: mielas orrut	s: navdit					(Me) da la impresión de que Antonio es una buena persona.	Mun doaivvun, ahte Antonio lea buorre olmmoš.	(Me) da la impresión de que Antonio es una buena persona.	Mu mielas orru Antonio leat buorre olmmoš.										
+dar la impresión		s: dar (una) impresión, parecer	1r	VLc		6			orrut		V	TV, + de							Antonio da (una) impresión de (ser) buena persona.	Antonio orru leamen buorre olmmoš.												
+dar la impresión		s: tener la impresión	1r	VLc		5			doaivut		V	UseTV, UseNor: WObjPron	s: mielas orrut	s: navdit					(Me) da la impresión de que Antonio es una buena persona.	Mun doaivvun, ahte Antonio lea buorre olmmoš.	(Me) da la impresión de que Antonio es una buena persona.	Mu mielas orru Antonio leat buorre olmmoš.										
+dar impresión		s: dar (una) impresión, parecer	1r	VLc		6			orrut		V	TV, + de							Antonio da (una) impresión de (ser) buena persona.	Antonio orru leamen buorre olmmoš.												
 dar a entender			1r	VLc		2			geažidit		V	TV	s: árvidahttit	s: dovddahit																		
 dar clase			1r	VLc		12	Oahpahat/Escuela		oahpahit		V	TV	s: máhttáhit																			
 dar clase			1r	VLc		13	Oahpahat/Escuela		oažžut oahpahaga bargobihtá		VLc	IV	s: oažžut leavssu						Mañana damos clase de inglés.	Ihttin mii oažžut eaŋgalasgiela bargobihtá.												
@@ -1836,8 +1831,10 @@ de		s: desde		Pr		11	Báiki, áigi			Loc									El tren va de París a Berlín.
 de				Pr		12				Cond		+ Inf							De haberlo sabido, habría venido.	Jus mun dán livččen diehtán, de livččen boahtán.												
 de				Pr		15				Ess									De niño me gustaba ir con la manada.	Mánnán mun liikojin vuolgit ealu lusa.	El actor se vistió de mujer.	Neavttár gárvodii nissonolmmožin.										
 de				Pr		18				Comp									Es más alto de lo que pensaba.	Son lea guhkit go mun jáhkken.												
-de (buen) grado				AdvLc		6			mielalaččat		Adv																					
-de (un) golpe				AdvLc		19			oktanaga		Adv		s: seammás																			
+de buen grado				AdvLc		6			mielalaččat		Adv																					
+de un golpe				AdvLc		19			oktanaga		Adv		s: seammás																			
+de  grado				AdvLc		6			mielalaččat		Adv																					
+de golpe				AdvLc		19			oktanaga		Adv		s: seammás																			
 de acción	M/F			ALc		3			doaibmi		A		s: doaimmalaš						hombre de acción	doaibmi almmái												
 de acción	M/F			ALc		4			dráma-		Attr								novela de acción	drámanovealla												
 de acuerdo				AdvLc		19			ovtta-oaivilis		Adv																					
@@ -1858,6 +1855,7 @@ de distinta forma		s: de distinto modo		AdvLc		3			iešguđet láhkai		Adv		s: s
 de distinta forma		s: de distinto modo		AdvLc		4			máŋggaláhkai		Adv								Se puede alcanzar el objetivo de distintos modos.	Lea vejolaš ollet ulbmilii máŋggaláhkai.												
 de donde				AdvLc		2			gos		Adv	Rel							La casa de donde viene es muy pobre.	Ruoktu, gos son riegádii, lea hui geafi.	El país de donde viene es muy pobre.	Riika, gos son boahtá, lea hui geafi.										
 de dónde				Interr		2			gos		Interr								¿De dónde vienes?	Gos don boađát?												
+de dos lados	M/F	s: (con) dos lados, (de) dos caras, (con) dos caras		ALc		4			guovttebealat		A								Antes los discos tenían dos lados.	Ovddeš áiggiid discot ledje guovttebealagat.	Antes los discos eran de dos caras.	Ovddeš áiggiid discot ledje guovttebealagat.										
 de edad	M/F			ALc		4			jahkásaš		A		s: boaris						Tiene diez años de edad.	Son lea logi jahkásaš.	Tiene diez años de edad.	Son lea logi jagi boaris.										
 de ello				PronLc		29			dás		Pron								de ello se deduce que...	dás boahtá ahte...												
 de espaldas a				AdvLc		7			almmá beroškeahttá		Pfs								En esa ciudad viven de espaldas al mar.	Dat gávpi ásahuvvon almmá beroškeahttá mearas.	En esa ciudad viven de espaldas al mar.	Dat gávpi ii beroš oppanassiige mearas.										
@@ -1939,6 +1937,7 @@ dejarse			1a	V	dejar	8			guoská dávvira kvalitehtii		Pfs	Prnl, Imp, 3per						
 dejarse influir			1a	VLc		4			diktit (iežas) váikkuhit		VLc	Prnl, PassV							Esa mujer se deja influir por su marido.	Eamit diktá isida iežas váikkuhit.												
 delante				Adv		1			ovddabealde		Adv, Po								El niño está sentado delante.	Mánná lea čohkkán ovddabealde.												
 delante				Adv		2			njunnožis		Adv								El líder es el que está delante.	Hoavda lea olmmoš gii lea njunnožis.												
+delante de				AdvLc		3			ovddabeallái		Po								El ciclista va (por) delante del pelotón.	Sihkkelasti manná joavkku ovddabeallái.												
 delante de				AdvLc		4			ovddas		Po								Trabaja todo el día delante de la pantalla.	Son bargá olles beaivvi šearpma ovddas.												
 delantera	F			N		1			ovdabealli		N		s: ovddimus oassi						La delantera del coche quedó destrozada.	Biilla ovdabealli rekčui.												
 delantera	F			N		2	Valáštallan/Deporte		njunušolbmot		N	Span: Cllc, Saam: Pl							la delantera del Manchester	Manchestera njunušolbmot												
@@ -2095,7 +2094,9 @@ determinar			1a	V		1			mearredit		V	TV	s: defineret	s: meroštallat	s: ásahit		
 determinar			1a	V		2	Haddi		mearrat		V	TV							El precio de la leche ya ha sido determinado.	Mielkehaddi lea juo mearran.												
 determinarse		s: decidirse	1a	V	determinar	3			mearredit		V	Prnl, ReflV, + a							Juan se ha determinado a ocupar el puesto.	Juan lea mearredan vuostáváldit virggi.												
 detrás				Adv		1	Stáhtalaš/Estático		duogábealde		Adv		s: maŋábealde	s: maŋábeale	v: duogábeale				Mi coche es el que va detrás.	Mu biilla lea dat, mii boahtá dan duogábeale.												
+detrás				AdvLc		8	Dynámalaš/Dinámico,  go olmmoš dahjege ealli lea referánsa		maŋábeallái		Po								El perro corrió hacia detrás del reno.	Beana ruohtai bohcco maŋábeallái.												
 detrás de				AdvLc		2	Stáhtalaš/Estático		duohkin		Po		s: duogábealde						Detrás de esa pared hay una casa.	Dán seainni duohkin lea visti.												
+detrás de				AdvLc		6	Dynámalaš/Dinámico		duohkái		Po		s: duogábeallái						Escribió su nombre (por) detrás del cuadro.	Son čálii iežas nama gova duohkái.												
 detrás de				AdvLc		7	Stáhtalaš/Estático, go olmmoš dahjege ealli lea referánsa		duogábealde		Po		s: duogábealde						Oí una voz detrás de mí.	mun gullen jiena iežan maŋábealde.												
 detrás de		s: después de		AdvLc		9	Status		ektui		Po		s: maŋŋá						Detrás del fútbol, lo que más me gusta es la natación.	Spábbačiekčama maŋŋá mun vuoruhan vuodjama.												
 detritus	M			N		1			vistebázahusat		N	Span: Sg ja Pl	s: luonit	s: ribat	s: doappar																	
@@ -2138,6 +2139,7 @@ dirección	F			N		1			čujuhus		N		s: báikečujuhus	s: orrunčujuhus	s: adreass
 dirección	F			N		8	Biila		stivren		N																					
 dirección	F			N		9	Fitnodat, searvi		stivra		N																					
 dirección	F			N		10			ráva		N		s: neavva	s: bagadus					Esa tesis tuvo una mala dirección.	Dán nákkosgirjjis lei heajos bagadus.												
+dirección de correo electrónico	F	s: email		NLc		5			šleađgaboasta		N																					
 dirección postal	F			NLc		4			boastačujuhus		N		s: boasta-adreassa																			
 dirección única	F			NLc		6			ovttaguvllot vuodjin		NLc																					
 directamente				Adv		1			njuolgga		Adv								El equipaje va directamente a su destino.	Mátkedávvirat mannet njuolgga du mearrebáikái.												
@@ -2233,6 +2235,7 @@ dormirse			3k	V	dormir	3			nohkkat		V	Prnl, IV	s: oađđát						Se duerme enseg
 dormirse			3k	V	dormir	4	Figuratiiva/Figurado		jápmásit		V	Imp, 3per, WObjPron							Se me ha dormido la pierna.	Mu juolgi lea jápmásan.												
 dos				Num		1			guokte		Num																					
 dos				Num		2			nubbi		Num	Saam: Ord							dos de mayo	miessemánu nuppi beaivi												
+dos lados	M/F	s: (con) dos lados, (de) dos caras, (con) dos caras		ALc		4			guovttebealat		A								Antes los discos tenían dos lados.	Ovddeš áiggiid discot ledje guovttebealagat.	Antes los discos eran de dos caras.	Ovddeš áiggiid discot ledje guovttebealagat.										
 droga	F			N		1	Doavttiroahppu/Medicina		dálkkasávnnas		N																					
 droga	F			N		2			gárrenávnnas		N		s: narkotihkka																			
 drogadicto	M,F			N		1			narko geavaheaddji		NLc		s: narkomána																			
@@ -2984,11 +2987,11 @@ freno	M			N		1			goazan		N		s: vávlu
 freno	M			N		4	Figuratiiva/Figurado		goazan		N								El paro es un freno para la economía.	Bargguhisvuohta lea ekonomiija goazanin.												
 freno de mano	M			NLc		3			giehtagoazan		N																					
 freno de urgencia	M			NLc		2			veahkkegoazan		N																					
-frente				AdvLc		1	Stáhtalaš/Estático		ovddabealde		Adv	+ a							Frente a mi casa hay un restaurante.	Mu viesu ovddabealde gávdno restauranta.												
-frente				AdvLc		2	Dynámalaš/Dinámico		ovddabeallái		Adv	+ a							Ven frente a mi casa.	Boađe mu viesu ovddabeallái.												
-frente				AdvLc		3			guvlui		Adv	+ a							Su casa está situada frente al mar.	Su dállu lea meara guvlui.												
-frente				AdvLc		4	Stáhtalaš/Estático		ovddas		Adv	+ a							Él está sentado frente al ordenador.	Son čohkohallá dihtora ovddas.												
-frente				AdvLc		5	Dynámalaš/Dinámico		ovdii		Adv	+ a							Él se ha sentado frente al ordenador.	Son lea čohkkedan dihtora ovdii.												
+frente				Adv		1	Stáhtalaš/Estático		ovddabealde		Adv	+ a							Frente a mi casa hay un restaurante.	Mu viesu ovddabealde gávdno restauranta.												
+frente				Adv		2	Dynámalaš/Dinámico		ovddabeallái		Adv	+ a							Ven frente a mi casa.	Boađe mu viesu ovddabeallái.												
+frente				Adv		3			guvlui		Adv	+ a							Su casa está situada frente al mar.	Su dállu lea meara guvlui.												
+frente				Adv		4	Stáhtalaš/Estático		ovddas		Adv	+ a							Él está sentado frente al ordenador.	Son čohkohallá dihtora ovddas.												
+frente				Adv		5	Dynámalaš/Dinámico		ovdii		Adv	+ a							Él se ha sentado frente al ordenador.	Son lea čohkkedan dihtora ovdii.												
 frente	F			N		1	Oaivvis		gállu		N																					
 frente	M			N		1	Viessu		ovdabealli		N		s: julggabealli																			
 frente	M			N		2	Militeara/Militar		rattuš		N		s: njuolgadas																			
@@ -3126,6 +3129,7 @@ genio	M			N		1	Neutrála mearkkašumiin/Con significado neutral		gopma		N		s: mi
 genio	M			N		2	Neutrála mearkkašumiin/Con significado neutral		temperameanta		N		s: karaktera	s: luondu	s: láhttenvuohki																	
 genio	M			N		5			jerggolaš olmmoš		NLc		s: geniija																			
 genio	M			N		6			vitmes olmmoš		NLc		s: fihtolaš olmmoš																			
+genio	M			NLc		4	Negatiivvalaš mearkkašumiin/Con significado negativo		bahámiella		NLc		s: bahá gopma																			
 gente	F			N		1			olbmot		N	Collc	s: olmmoš veahka																			
 gente	F			N		2	máŋga		veahkadat		N	Collc	v: veagadat																			
 gente	F			N		3			álbmot		N	Collc																				
@@ -3346,7 +3350,9 @@ hacerse tarde			2s	VLc	hacer	31			leat leamen maŋŋit		VLc	PassV, Sg3							Se 
 hacia				Pr		1			guvlui		Po								Caminamos hacia Máze.	Mii vázzit Máze guvlui.												
 hacia				Pr		2			lahka		Po								La aldea está hacia Alta.	Gilli lea Álaheaju lahka.												
 hacia				Pr		3	Cealkaga áigi/En expresión temporal		sullii		Adv								Comeremos hacia las dos.	Mii boradit (sullii) guovtti áiggi.												
+hacia allí		s: (hacía) allá		AdvLc		3	Dynámalaš/Dinámico		dohko		Adv								Voy (hacia) allí.	Vuolggán dohko.												
 hacia arriba				AdvLc		6			áibmui		Adv		s: bajás	s: bajásguvlui					El pájaro vuela hacia arriba.	Loddi girdá áibmui.												
+hacia detrás				AdvLc		8	Dynámalaš/Dinámico,  go olmmoš dahjege ealli lea referánsa		maŋábeallái		Po								El perro corrió hacia detrás del reno.	Beana ruohtai bohcco maŋábeallái.												
 hacia el interior		s: hacia la parte interior		AdvLc		5	Dynámalaš/Dinámico		-vuđđui		Cmpnd								Fuimos hacia el interior del bosque.	Mii vulggiimet vuovdevuđđui.	Fuimos hacia el interior de la casa.	Mii vulggiimet vistevuđđui.										
 hacia el interior		s: hacia la parte interior		AdvLc		6	Dynámalaš/Dinámico		siskkobeallái		Adv, Po								Fuimos hacia el interior del bosque.	Mii vulggiimet vuovddi siskkobeallái.	Fuimos hacia el interior de la casa.	Mii vulggiimet vistti siskkobeallái.										
 hacia lo alto		s: hacia arriba		AdvLc		3	Dynámalaš/Dinámico		bajás		Adv, Po		s: bajásguvlui						El pájaro vuela hacia lo alto.	Loddi girdá bajásguvlui.												
@@ -3419,6 +3425,7 @@ heroína	F			N		2			heroiidna		N
 hervir			3i	V		1			duoldat		V	IV	s: ábbut	s: govdat					El agua hierve.	Čáhci duoldá.												
 hervir			3i	V		2	Figuratiiva/Figurado		cahkat		V	IV							(Él) hervía de amor.	Su ráhkesvuohta cagai.	(Él) hervía de cólera.	Su suhttu cagai.										
 hervir			3i	V		3	Figuratiiva/Figurado		leat valjis		VLc	IV	s: valljut	s: laskat	s: lassánit				El río hierve de peces.	Jogas leat valjis guolit.	El río hierve de salmón entre la primavera y el verano.	Jogas lassánit luosat giđas-gease.										
+hervir			3i	VLc		4			vuoššat		V	TV	s: duolddahit	s: giksadit					¿puedes (poner a) hervir el agua?	Sáhtát go don vuoššat čázi?												
 hielo	M			N		1			jiekŋa		N																					
 hielo flotante	M			Pfs		2			suossa		N		s: golgi jiekŋa																			
 hierba	F			N		1			rássi		N		s: sitnu	s: urta																		
@@ -3540,6 +3547,7 @@ huella	F			N		6	Njoammil		rádnu		N
 huella	F			N		8			bázahus		N		v: bázahas						En el edificio se ven las huellas del Imperio Romano.	Visttis oidnojuvvojit Romálaš Riikka bázahusat.												
 huella dactilar	F			NLc		7			suorbmasadji		N		s: giehtasadji																			
 huérfano	M,F			A		1			oarbbis		A		s: váhnemahtes																			
+huérfano	M,F			NLc		1			oarbbes mánná		NLc		s: váhnemahtes mánná																			
 huerta	F			N		1			šaddogárddáš		Pfs																					
 huerto	M			N		1			šaddogárdi		N		s: šattohat																			
 hueso	M			N		1			dákti		N		s: čiekka																			
@@ -3599,6 +3607,7 @@ igual	M/F			Adv		5			seamma		Adv								Ese trabajo siempre ha sido igual.	Dat b
 igual	M/F			Adv		11	Láhtti		duolbbas		A								El suelo ha quedado igual.	Láhtti lea gártan duolbbasin.												
 igual	M/F			N		1			seammadássásaš olmmoš		NLc								En el reno hay que trabajar con los iguales.	Boazodoalus ferte bargat seammadássásaš olbmuiguin.												
 igual	M			N		1	Matematihkka/Matemáticas		ovttalágimearka		N		s: ovttamađodatmearka																			
+igual a			2w	VLc		8	Matematihkka/Matemáticas		gártat		V	IV	s: šaddat						Dos más tres (es) igual a cinco.	Guokte ja golbma gártá vihtta.												
 igual de... que	M/F			ALc		7			seamma...go		A	Comp	s: liikká...go						El coche viejo es igual de rápido que el nuevo.	Boares biila lea seamma johtil go ođđa.												
 igual que	M/F			ALc		2			seamma go		A	Comp	v: seammá go						Mi casa es igual que la tuya.	Mu viessu lea seamma go du.												
 igualdad	F			N		1			dásseárvu		N		s: ovttadássásašvuohta						Las mujeres han luchado por la igualdad.	Nissonat leat rahčan dásseárvvuin.												
@@ -4065,6 +4074,7 @@ los cinco sentidos	M			NLc		4	Gullu, oaidnu, haksin, máistu, dovdu-áicu		vihtt
 luchar			1a	V		1			soahtat		V	IV	s: doarrut	s: dáistalit	s: vuostálastit				Luchó contra los enemigos.	Son soađai vašálaččaid vuostá.	Luchó contra los enemigos.	Son vuostálasttii fámolaččat vašálaččaid.										
 lugar del crimen	M			NLc		3			rihkkunsadji		N																					
 madrugar			1h	V		1			lihkkat árrat		VLc	IV	s: čuožžilit árrat	s: čuoččastit árrat																		
+mal genio	M			NLc		4	Negatiivvalaš mearkkašumiin/Con significado negativo		bahámiella		NLc		s: bahá gopma																			
 mal gusto	M			NLc		4			heajos smáhkka		NLc								Su mujer tiene mal gusto.	Su eamidis lea heajos smáhkka.												
 mala fe	F			NLc		5			eahperehalašvuohta		N		s: álbaniektuvuohta																			
 mala hierba	F			NLc		4			árvvohisrássi		N		s: hilsku																			
@@ -4204,6 +4214,7 @@ nidificar			1g	V		1			besset		V	IV	s: ráhkadit beasi	s: dahkat beasi					Las á
 niña	F			N		1			nieida		N																					
 niño	M			N		1			bárdni		N		s: gánda	s: lunta	s: algi																	
 niño	M,F			N		1			mánná		N																					
+niño huérfano	M,F			NLc		1			oarbbes mánná		NLc		s: váhnemahtes mánná																			
 niños	M,F			N		1			mánát		N	Span, Saam: Pl																				
 no				Adv		1			in		V	Saam: AuxV, ConNeg: Sg1							Yo no voy.	Mun in boađe.												
 no				Adv		2			it		V	Saam: AuxV, ConNeg: Sg2							Tú no vas.	Don it boađe.												
@@ -4620,6 +4631,7 @@ poner			2r	V		1			bidjat		V	TV							Pon el sofá junto a la pared.	Bija soffá 
 poner			2r	V		2	TV, radio		coahkkalit		V	TV							poner la tele	coahkkalit TV												
 poner			2r	V		3			addit		V	TV							Póngame un café.	Atte munnje gáfe.												
 poner a helar		s: congelar	2r	VLc		6			galmmihit		VLc	TV	s: čoaskudit	s: jiekŋudit					He puesto a helar un filete en el congelador.	Lean biffa galmmihan galmmihanskábas.												
+poner a hervir			3i	VLc		4			vuoššat		V	TV	s: duolddahit	s: giksadit					¿puedes (poner a) hervir el agua?	Sáhtát go don vuoššat čázi?												
 poner a huevo			2r	VLc		10			álkkidahttit		V	TV	s: geahpedit						El profesor ha puesto el aprobado a huevo.	Oahpaheaddji lea álkkidahttán eksámenbarggu.												
 poner al desnudo			2r	VLc		3			roggat		V	TV	s: boltut	s: goaivut	s: gohpat																	
 poner al día		s: actualizar	2r	VLc		4			heivehit otná beaivái		VLc	TV							El tesorero puso al día las cuentas.	Rehketdoalli heivehii rehkegiid otná beaivái.												
@@ -4656,10 +4668,12 @@ por ahí				AdvLc		3			dasa		Adv		s: dohko						El autobús pasa por ahí.	Busse
 por arriba de		s: por encima de		AdvLc		7			bajil		Adv		s: bajábeale						El pájaro voló por arriba del zorro.	Loddi girddii riebana bajil.												
 por atrás				AdvLc		5	Dynámalaš/Dinámico		maŋábealde		Adv, Po								Ata el lazo por atrás del zapato.	Čavge bárggeža skuova maŋábealde.												
 por cien(to)				Num		2			proseanta		Num								Estoy seguro al cien por cien.	Mun lean čuohte proseantta sihkkar.	Hay que pagar un dos por ciento.	Ferte máksit guokte proseantta.										
+por delante de				AdvLc		3			ovddabeallái		Po								El ciclista va (por) delante del pelotón.	Sihkkelasti manná joavkku ovddabeallái.												
 por demás				AdvLc		5			duššái		A, Adv		s: joavdelassii						Esas normas están por demás.	Dát njuolggadusat leat duššái.												
 por dentro				Adv		6			siskkil		Po								Con ese aparato se ve el cuerpo por dentro.	Dáinna rusttegiin oaidná rupmaša siskkil.												
 por detrás				AdvLc		4			duohkin		Adv		s: duogábealde						Mi coche es el que va por detrás.	Mu biilla lea dat mii boahtá duogábealde.												
 por detrás de				AdvLc		5	Stáhtalaš/Estático		duohkin		Po		s: duogábealde						Por detrás del cuadro hay una inscripción.	Gova duohkin gávdno čálus.												
+por detrás de				AdvLc		6	Dynámalaš/Dinámico		duohkái		Po		s: duogábeallái						Escribió su nombre (por) detrás del cuadro.	Son čálii iežas nama gova duohkái.												
 por donde				AdvLc		5			gokko		Adv	Rel							La carretera por donde vamos va a la montaña.	Geaidnu gokko mii vuodjit vuolgá várrái.												
 por dónde				Interr		5			gokko		Interr								¿Por dónde vamos?	Gokko (mii) vuodjit?												
 por ejemplo				AdvLc		2			ovdamearkka dihtii		AdvLc		v: ovdamearkka dihte																			
@@ -5347,6 +5361,7 @@ ser de esperar			2w	VLc		3			leat vurdon		VLc	IV							Era de esperar que no vin
 ser de la familia			2w	VLc		4			leat fuolki		VLc	IV																				
 ser el brazo derecho (de alguien)			2w	VLc		3			leat muhtuma olgešgiehta		VLc	IV	s: leat muhtuma giehtageahčči																			
 ser humano	M			NLc		3			olmmoš		N																					
+ser igual a			2w	VLc		8	Matematihkka/Matemáticas		gártat		V	IV	s: šaddat						Dos más tres (es) igual a cinco.	Guokte ja golbma gártá vihtta.												
 ser un cualquiera			2w	VLc		2			leat árvvohis olmmoš		Pfs		s: leat gutnehis olmmoš																			
 serie	F			N		1			ráidu		N		s: gurgadas																			
 serio	M,F			A		1			duođalaš		A																					
