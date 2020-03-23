@@ -36,26 +36,26 @@ a				Pr		1	Báiki/Lugar		lusa		Po								Mañana iré a tu casa.	Ihttin boađán
 a				Pr		2	Báiki/Lugar		beallái		Po								Aunque viajemos a Suecia seguiremos estando en Sápmi.	Vaikko mii joatkit Ruoŧa beallái, de mii bissot Sámis.												
 a				Pr		3			guvlui		Po								Ahora giraré a la izquierda.	Dál mun vuoján gurutguvlui.												
 a				Pr		4	Áigemearri		rádjái		Po								La oficina está abierta de tres a cinco.	Kántuvra lea rabas golmma rájes viđa rádjái.												
-a				Pr		5	Báiki/Lugar			Ill									ir a Perú	vuolgit Perui	El autobús va de Guovdageaidnu a Kárášjohka.	Busse vuodjá Guovdageainnus Kárášjohkii.										
-a				Pr		6				Acc									Ayer vi a Carmen.	Mun deiven Carmena ikte.												
-a				Pr		7				Loc									Preguntaremos a Márjá sobre el asunto.	Mii jearrat Márjjás ášši.												
-a				Pr		8	Áigi/Tiempo			Loc		Freq							Riego la planta tres veces a la semana.	Mun čáhccen šattuid golmma geardde vahkus.												
+a				Pr		5	Báiki/Lugar		Ill	Ill									ir a Perú	vuolgit Perui	El autobús va de Guovdageaidnu a Kárášjohka.	Busse vuodjá Guovdageainnus Kárášjohkii.										
+a				Pr		6			Acc	Acc									Ayer vi a Carmen.	Mun deiven Carmena ikte.												
+a				Pr		7			Loc	Loc									Preguntaremos a Márjá sobre el asunto.	Mii jearrat Márjjás ášši.												
+a				Pr		8	Áigi/Tiempo		Loc	Loc		Freq							Riego la planta tres veces a la semana.	Mun čáhccen šattuid golmma geardde vahkus.												
 a				Pr		9	Stáhtalaš/Estático		-bealde		Adv								La cocina está a la izquierda.	Gievkkan lea gurutbealde.												
 a				Pr		10	Dynámalaš/Dinámico		gurrii		Po		s: báldii						Se han sentado a la mesa.	Sii leat čohkkedan beavddi gurrii.												
 a				Pr		11	Áigi/Tiempo		maŋŋá		Po								a los tres años	golbma jagi maŋŋá												
 a				Pr		12	Ahki		-jahkásaččat		Adv								A los quince años, viajé por primera vez a América.	Vihttanuppelot-jahkásažžan mátkkoštin vuosttaš geardde Amerihkkái.												
-a				Pr		13				Inf		+ V							Mi hijo está aprendiendo a hablar.	Mu mánná lea oahppamin hállat.	Ya se han sentado a comer.	Sii leat juo čohkkedan borrat.										
+a				Pr		13			Inf	Inf		+ V							Mi hijo está aprendiendo a hablar.	Mu mánná lea oahppamin hállat.	Ya se han sentado a comer.	Sii leat juo čohkkedan borrat.										
 a bordo				AdvLc		2	Fanas, girdi, biila, toga...		fatnasis		N	Saam: UseAlw: Loc	s: girddis	s: biillas	s: togas																	
 a bote pronto				AdvLc		4			fáhkkestaga		Adv																					
 a casa				AdvLc		3			ruoktot		Adv		s: báikái	s: siidii																		
 a causa de				AdvLc		3			geažil		Po								La carretera se cerró a causa de la nieve.	Geaidnu boatkanii muohttaga geažil.												
-a causa de				AdvLc		4				Loc									La enfermedad se produjo a causa de un tumor.	Dávda vulggii šattalmasas.												
+a causa de				AdvLc		4			Loc	Loc									La enfermedad se produjo a causa de un tumor.	Dávda vulggii šattalmasas.												
 a causa de				AdvLc		5			dan sivas go		CC								La carretera se cerró a causa de la nieve.	Geaidnu boatkanii dan sivas go muohttái.												
 a causa de				CCLc		28			dan geažil go		CC		s: dasgo	s: dan dihte go																		
 a cómo				InterrLc		3			maid máksá		Interr	+ ser, estar	s: olu máksá						¿A cómo son las manzanas?	Ollu mákset eppelat?												
 a cual más	M/F			ALc		3			hui		Pfs								Nos enseñó las joyas, a cual más hermosa.	Son čájehii midjiide čiŋaid, nubbi čábbaseabbot go nubbi.												
 a dentro		v: adentro		AdvLc		2	Dynámalaš/Dinámico		siskkabeallái		Adv, Po		s: sisa						Tengo frío, voy a dentro.	Mun goalun, dalle vuolggán sisa.												
-a dentro de		v: adentro de		PrLc		4	Dynámalaš/Dinámico			Ill									No voy a ir adentro de ese bosque.	Mun in vuolgge dán vuovdái.												
+a dentro de		v: adentro de		PrLc		4	Dynámalaš/Dinámico		Ill	Ill									No voy a ir adentro de ese bosque.	Mun in vuolgge dán vuovdái.												
 a diario		s: todos los días		AdvLc		2			beaivválaččat		Adv		s: juohke beaivvi																			
 a diferencia de				AdvLc		2			erohus lea ahte		VLc								A diferencia de las moscas, los mosquitos pican.	Čuoikka ja čurroha erohus lea ahte čuoikkat gásket ja čurrohat eai daga dan.												
 a escala				AdvLc		4			mihttolávas		Adv								El plano de la casa está dibujado a escala.	Viessoplána lea sárgon mihttolávas.												
@@ -82,16 +82,16 @@ a mala idea				AdvLc		9			bahádáhtolaš áigumušain		AdvLc								Se lo dijo 
 a medio camino				AdvLc		4			beallemátkkis		Adv																					
 a medio camino		s: a mitad de camino		AdvLc		5	Figuratiiva/Figurado		belohahkii ja belohahkii		AdvLc								El murciélago está a medio camino entre el ratón y las aves.	Náhkkesoadji lea belohahkii sáhpán ja belohahkii girdi.												
 a medio camino		s: a mitad de camino		AdvLc		6	Figuratiiva/Figurado		belohahkii		Adv								En desarrollo, ese país se ha quedado a medio camino.	Ovdaneami ektui riika lea bázahallan belohahkii.												
-a partir de				AdvLc		4				Loc									A partir de Máze hacia Alta, la carretera está llena de curvas.	Mázes Álahedjui lea hui moalkás geaidnu.												
+a partir de				AdvLc		4			Loc	Loc									A partir de Máze hacia Alta, la carretera está llena de curvas.	Mázes Álahedjui lea hui moalkás geaidnu.												
 a partir de				AdvLc		5			rájes		Po								A partir de las dos, tengo que trabajar.	Ferten bargat guovtti rájes.												
 a pesar				AdvLc		3			vuostá		Adv								Lo haré a pesar tuyo.	Mun dan dagan du vuostá.												
 a pesar de				CC		4			vaikko		CC								Saldremos a pesar de la lluvia.	Mii vuolgit vaikko arvin.												
 a pie				AdvLc		2			vácci		Adv								Voy a pie.	Boađán vácci.												
 a por		a coger, a buscar		PrLc		14			viežžat		V								Ha ido a por leña.	Son lea mannan muoraid viežžat.												
-a por		a coger, a buscar		PrLc		15				Loc		Saam: Boares geavaheapmi/Arcaísmo							Ha ido a por leña.	Son lea mannan muorain.	Ha ido a por agua.	Son lea mannan čázis.										
+a por		a coger, a buscar		PrLc		15			Loc	Loc		Saam: Boares geavaheapmi/Arcaísmo							Ha ido a por leña.	Son lea mannan muorain.	Ha ido a por agua.	Son lea mannan čázis.										
 a primera hora				AdvLc		12			árra		Adv		v: árrat						a primera hora de la tarde	árra eahket												
 a principios				AdvLc		3			álgu		Adv								a principios del año pasado	ovddit jagi álgu												
-a punto				AdvLc		2	Áigi/Tiempo			(measta) + Ger	Vlc								La pared estuvo a punto de caer.	Seaidni lei (measta) gahččamin.												
+a punto				AdvLc		2	Áigi/Tiempo		(measta) + Ger	(measta) + Ger	Vlc								La pared estuvo a punto de caer.	Seaidni lei (measta) gahččamin.												
 A quien madruga, Dios le ayuda.				Sátnevájas/Refrán		2			Iđit lea buoremus bargo-áigi.		Pfs																					
 a simple vista		s: a primera vista		AdvLc		13			álgočalmmis		Adv		s: vuosttaš oaidnimis						Las erratas se ven a simple vista.	Meattáhusat oidnojit álgočalmmis.	Sus intenciones se ven a primera vista.	Su áigumušat vuhttojuvvojit vuosttaš oaidnimis.										
 a todas horas				AdvLc		15			čađat		Adv		s: áloládje	s: álo																		
@@ -159,8 +159,8 @@ aceite	M			N		1			olju		N								aceite de oliva	olivenolju
 aceite de hígado de bacalao	M			NLc		2	Dorskevuojas ráhkaduvvo		guolevuodja		N																					
 aceituna	F			N		1			oliven		N																					
 acera	F			N		1			váccáhat		N		s: vázzingeainnus	s: vázzinravda																		
-acerca				Pr		1				Gen		+ de							Ha escrito un libro acerca del rey.	Lea čállán gonagasa girjji.												
-acerca				Pr		2				Loc		+ de							Ha escrito un libro acerca del rey.	Lea čállán girjji gonagasas.												
+acerca				Pr		1			Gen	Gen		+ de							Ha escrito un libro acerca del rey.	Lea čállán gonagasa girjji.												
+acerca				Pr		2			Loc	Loc		+ de							Ha escrito un libro acerca del rey.	Lea čállán girjji gonagasas.												
 acerca				Pr		3			birra		Po	+ de	s: ektui	s: hárrai					Ha escrito un libro acerca del rey.	Lea čállán girjji gonagasa birra.	No sé nada (acerca) de ti.	In dieđe maidege du ektui.										
 acercar			1g	V		1			lagadit		V	TV							Acércame el azúcar, por favor.	Sáhtášit go leat nu buorre ahte lagadat sohkkara?												
 acercarse			1g	V	acercar	2			lahkanit		V	Prnl, IV	s: lahkonit	s: boahtit	s: boahtit lagabui				Nos acercamos a la montaña.	Moai lahkanetne várrái.	Acércate.	Boađe lagabui.	Acércate.	Boađe deike.								
@@ -204,11 +204,11 @@ actuar			1e	V		2			láhttet		V	IV							El hombre actuó de una manera inconveni
 acuerdo	M			N		1			šiehtadus		N		s: lihttu																			
 acusar recibo			1a	VLc		2			dieđihit, ahte lea vuostáiváldán sága		Pfs	TV																				
 además				Adv		1			dasa lassin		AdvLc		s: maiddái	s: maiddá	s: lassin				Es un gran compositor y además un excelente pianista.	Son lea máinnalmas komponista ja dasa lassin válljugas pianista.	Además hay que tener en cuenta el precio del petróleo.	Ferte váldit vuhtii maiddái eana(n)oljju hatti.										
-adentro				Adv		1	Stáhtalaš/Estático			Loc									Mar adentro no hay tanto oleaje.	Ábis ii leat gearahat.	La bala está metida adentro.	Luođđa lea bisson gorudis.										
+adentro				Adv		1	Stáhtalaš/Estático		Loc	Loc									Mar adentro no hay tanto oleaje.	Ábis ii leat gearahat.	La bala está metida adentro.	Luođđa lea bisson gorudis.										
 adentro				Adv		2	Stáhtalaš/Estático		siste		Po		s: siskkabealde	s: siskkobealde					La bala está metida adentro.	Luođđa lea bisson goruda siste.												
 adentro				Adv		3	Dynámalaš/Dinámico		guvlui		Po								Conduciendo hacia adentro de la isla, llegas a un lago.	Go vuoját sullo guvlui, de ollet jávregáddái.												
 adentro				Adv		4	Dynámalaš/Dinámico		sisa		Po								Fue adentro de la casa	Son manai viesu sisa.												
-adentro				Adv		5	Dynámalaš/Dinámico			Ill									Fue adentro de la casa	Son manai vissui.												
+adentro				Adv		5	Dynámalaš/Dinámico		Ill	Ill									Fue adentro de la casa	Son manai vissui.												
 adhesión	F			N		1			searvan		N								España firma el protocolo de adhesión a la OTAN.	Spánija vuolláičállá NATO-searvama protokolla.												
 adinerado	M,F			A		1			rikkis		A		s: jábálaš	s: ruhttii	s: buresbirgejeaddji				La gente adinerada vive en grandes casas.	Rikkes álbmot eallá stuorra visttiin.												
 adivinación	F			N		1			árvádus		N																					
@@ -302,10 +302,10 @@ aislarse			1a	V	aislar	2			sierranit		V	Prnl, ReflV
 ajedrez	M			N		1			šáhkka		N																					
 ajo	M			N		1			vilgeslávki		N																					
 al				CC		19			go		CC	+ Inf							Comete errores al hablar.	Son dahká boastot, go hállá.	Al no tener dinero, ha vuelto a casa de su padre.	Go sus ii leat ruhta, de lea jorggihan iežas áhči ruktui.	Al pensar en ello, me entristezco.	Go mun smiehtan dás, de mun ahkádušan.	Leeré el libro al volver.	Logan girjji, go mun boađán.						
-al				CC		20				Ger									Comete errores al hablar.	Son dahká boastot háladettiin.	Leeré el libro al volver.	Logan girjji jorggihettiinan.										
-al	M,F			CtArt		16				Acc									Abrió la puerta al director.	Son rabai direktovrra uvssa.												
-al	M,F			CtArt		17				Loc									Quitamos las cerillas al niño.	Mii válddiimet riššaid gánddas.												
-al	M,F			CtArt		18	Báiki/Lugar			Ill									Subió al tren.	Manai togii.												
+al				CC		20			Ger	Ger									Comete errores al hablar.	Son dahká boastot háladettiin.	Leeré el libro al volver.	Logan girjji jorggihettiinan.										
+al	M,F			CtArt		16			Acc	Acc									Abrió la puerta al director.	Son rabai direktovrra uvssa.												
+al	M,F			CtArt		17			Loc	Loc									Quitamos las cerillas al niño.	Mii válddiimet riššaid gánddas.												
+al	M,F			CtArt		18	Báiki/Lugar		Ill	Ill									Subió al tren.	Manai togii.												
 al aire libre				AdvLc		6			olgun		AdvLc		s: olggu ovddas	s: áimmu ovddas	s: buhtes áimmu	s: ilmmi ovddas																
 al atardecer				AdvLc		2			veaigin		Adv																					
 al cabo de				AdvLc		2	Áigi/Tiempo		maŋŋá		Adv, Po								al cabo de unos meses	moadde mánu maŋŋá	al cabo de poco tiempo	bottu maŋŋá										
@@ -317,7 +317,7 @@ al igual que				CC		3			seamma go		A								Mis intenciones, al igual que las tu
 al lado				AdvLc		13	Dynámalaš/Dinámico		-beallái		Adv								Viajaremos mañana al lado finlandés.	Mii mátkkoštat ihttin suomabeallái.												
 al lado de				AdvLc		8	Stáhtalaš/Estático		guoras		Po		s: bálddas						Al lado de la iglesia está la oficina de correos.	Girku guoras lea boastakántuvra.	El chico está al lado de la chica.	Gánda lea nieidda bálddas.										
 al lado de				AdvLc		9	Dynámalaš/Dinámico		báldii		Po		s: gurrii						He aparcado al lado de la iglesia.	Lean bisánan girku gurrii.	El chico se ha sentado al lado de la chica.	Gánda lea čohkkedan nieidda báldii.										
-al lado de				AdvLc		10				Loc									Me caliento al lado del fuego.	Mun liegganan dollagáttis.												
+al lado de				AdvLc		10			Loc	Loc									Me caliento al lado del fuego.	Mun liegganan dollagáttis.												
 al lado de				AdvLc		11			fárrolagaid		Adv		s: fárrolaga						Caminan uno al lado del otro.	Soai vázziba fárrolagaid.												
 al poco				AdvLc		2			veaháš maŋŋá		AdvLc								Se entristeció profundamente y al poco murió.	Son šlunddui sakka ja veaháš maŋŋá jámii.												
 alargado	M,F			A		1			guhkedáleš		A								Anna tiene la cara alargada.	Ánnes lea guhkedáleš ámadadju.												
@@ -368,9 +368,9 @@ algún	M,F			Indef		1			muhtun		A, Pron		s: muhtin	s: soamis					Aquí hay algú
 algún	M,F			Indef		2	Báiki/Lugar		juosat		Pron	Ill							Mus livččii miella vuolgit juosat.	Me gustaría viajar a algún lugar.												
 alguno	M,F			A, Pron, Indef		1			muhtun		A, Pron		s: muhtin	s: soamis					Algunas perdices vuelan alto.	Muhtun rievssahat girdet áimmus.	— ¿Has visto perdices por aquí? — He visto algunas.	— Leat go (don) oaidnán rievssahiid dáppe birrasiin? — Lean oaidnán soapmása	Algunos hombres son buenos.	Muhtun olbmot leat buorit.	— ¿Todos ellos son buenos? — No, sólo algunos.	— Leat go (sii) buohkat buorit? — Eai, dušše muhtumat.						
 alimentar			1a	V		1			biebmat		V	TV	s: biepmadit	s: gaccahit																		
-alimentar		s: tener	1a	V		2	Figuratiiva/Figurado			Hab		Saam: Habitiiva Cealkkagis/En expresión habitiva							No alimento ninguna esperanza.	Mus ii leat mihkkege doaivva.												
+alimentar		s: tener	1a	V		2	Figuratiiva/Figurado		Hab	Hab									No alimento ninguna esperanza.	Mus ii leat mihkkege doaivva.												
 alimentarse			1a	V	alimentar	3			borrat		V	Prnl, ReflV, + de, + con							El ratón se alimenta de queso.	Sáhpán borrá vuosttá.												
-alimentarse			1a	V	alimentar	4			biebmat		V	Prnl, RecV	s: biepmadit	s: njamahit					Cuando hay escasez, algunos animales se alimentan los unos a los otros.	Go biebmovátni lea, de muhtun eallit njamahit nuppiid.												
+alimentarse			1a	V	alimentar	4			biebmat		V	Prnl, RecV	Prnl, RecV	s: njamahit					Cuando hay escasez, algunos animales se alimentan los unos a los otros.	Go biebmovátni lea, de muhtun eallit njamahit nuppiid.												
 aliviar			1b	V		1			geahpedit		V	TV							El medicamento alivia el dolor.	Dálkkas geahpeda bákčasa.	Eso le aliviará la carga.	Dát geahpedivčče su noađi.	Le voy a dar algo para aliviar los síntomas.	Áiggun addit juoidá, vai geahpeda dávdda-álggu.								
 aliviarse			1b	V	aliviar	2			geahpedit		V	Prnl, ReflV							Se alivia el dolor cantando.	Son geahpeda morraša lávllodettiin.												
 alivio	M			N		1			geahpádus		N		s: geahpedeapmi																			
@@ -452,9 +452,9 @@ anchura	F			N		2	Biktasat, gárvvut		galljodat		N
 andar			1q	V		1			vázzit		V	IV	s: váccašit																			
 andar			1q	V		2			johtalit		V	IV							Los planetas andan por sus órbitas.	Almmigáhppálagat johtalit geidnosa.												
 andar			1q	V		3	Mášiinnat		doaibmat		VLc	IV	s: vázzit						El reloj anda bien.	Diibma doaibmá bures.	El reloj anda bien.	Diibmu vázzá bures.	El coche no anda.	Biila ii doaimma.								
-andar			1q	V		4	Dovdu, peršovnnalaš dilli, dearvvašvuohta			Jorgaluvvo heivvolaš Sámegiel verbii	V	IV							Pedro anda alegre esta semana.	Dán vahku Pedro movttáska.	Pedro anda triste esta semana.	Dán vahku Pedro šlundá.										
+andar			1q	V		4	Dovdu, peršovnnalaš dilli, dearvvašvuohta		Jorgaluvvo heivvolaš Sámegiel verbii	Jorgaluvvo heivvolaš Sámegiel verbii	V	IV							Pedro anda alegre esta semana.	Dán vahku Pedro movttáska.	Pedro anda triste esta semana.	Dán vahku Pedro šlundá.										
 andar			1q	V		5	Dearvvašvuohta		dovdat		V	IV							No ando bien (de salud).	Mun dovddan iežan unohassan.												
-andar			1q	V		6	Dearvvašvuohta			Jorgaluvvo heivvolaš Sámegiel verbii	V	IV							No ando bien del corazón.	Mus unohastá váibmu.	No ando bien del corazón.	Mus neavru vaibmu.										
+andar			1q	V		6	Dearvvašvuohta		Jorgaluvvo heivvolaš Sámegiel verbii	Jorgaluvvo heivvolaš Sámegiel verbii	V	IV							No ando bien del corazón.	Mus unohastá váibmu.	No ando bien del corazón.	Mus neavru vaibmu.										
 andar			1q	V		7	Áigi		gollat		V	IV	s: vássit																			
 andar			1q	V		8	Láhttenvuohki		láhttet		V	IV	s: comportarse						Andar sin recelo.	Láhttet almmá balu.												
 andar			1q	V		11			leat		V	AuxV, + Ger							Sonia anda pensando en comprar una casa.	Sonia lea jurddašeamen oastit vistti.	Pablo anda trabajando por aquí y por allá	Pablo lea bargamin duoppil dáppil.										
@@ -1334,7 +1334,7 @@ comenzar		s: empezar	1f, 1k	V		1			álgit		V	IV							La revolución comenzó el
 comenzar			1f, 1k	V		2			álgit		V	TV, + por							comenzar por la página tres	álgit goalmmát siiddus												
 comenzar			1f, 1k	V		4			álgit		V	TV, + con							Comenzamos la cena con una sopa.	Mii álggiimet gaskabeaivvi mállásiin.												
 comenzar			1f, 1k	V		5			álggahit		V	TV							He comenzado el trabajo.	Lean álggahan barggu.												
-comenzar			1f, 1k	V		6				Der/Goahtit	V	IV, TV, + a + Inf							Ayer comencé a coser un jersey para mi madre.	Ikte gođđigohten báiddi eadnásan.	comenzar a trabajar	bargagoahtit	comenzar a llover	arvigoahtit								
+comenzar			1f, 1k	V		6			Der/Goahtit	Der/Goahtit	V	IV, TV, + a + Inf							Ayer comencé a coser un jersey para mi madre.	Ikte gođđigohten báiddi eadnásan.	comenzar a trabajar	bargagoahtit	comenzar a llover	arvigoahtit								
 comenzar la casa por el tejado			1f, 1k	VLc		3	Negatiivvalaš mearkkašumiin/Con significado negativo		álgit boastugeažis		VLc	TV	s: álgit loahpageažis																			
 comer			2a	V		1			boradit		V	IV							En España solemos comer tarde.	Spanias mii lávet boradit maŋŋit.	comer al aire libre	boradit olgun										
 comer			2a	V		2			borrat		V	TV							comer dulces	borrat njálgáid												
@@ -1356,7 +1356,7 @@ comida	F			N		2			beaivemális, mii gaccastuvvo iđitborramuša dahje gaskabeaib
 como				Adv		1			dego		Adv		s: nugo	s: nu mo					Hazlo como te lo digo.	Daga dan nu mo (mun) dajan dutnje.	Se comportan como (si fueran) bestias.	Sii láhttejit dego livčče leat spiret.										
 como				Adv		3			birrasii		Adv								Lleva viviendo en París como tres años.	Son lea orrumin Parisas birrasii golbma jagi.												
 como				Adv		4			aistton		Adv		s: nugo	s: nu mo					Como puede entenderse, hay que subir los impuestos.	Vai lea áddehahttin, de berre loktet vearuid.	Como dice el presidente, la asamblea durará una hora.	Nu mo presideanta dadjá: čoahkkaneapmi bistá diimmu.										
-como				Adv		5				Ess									Te hablo como padre.	Mun human dutnje áhččin.	Trabajó dos años como maestro.	Son barggai guokte jagi oahpaheaddjin.										
+como				Adv		5			Ess	Ess									Te hablo como padre.	Mun human dutnje áhččin.	Trabajó dos años como maestro.	Son barggai guokte jagi oahpaheaddjin.										
 como				CC		6			go		CC	Konditionála cealkagiin boahtá boađusin (konsekveansan)	s: jus						Como no aprendas a leer, tendrás muchos problemas.	Go (don) it oahpa lohkat, de dus gártet ollu váttisvuođat.												
 como				CC		7			go		CC								Como no me escuchas, no me puedes entender.	Go don it guldal mu, de it sáhte mu áddet.												
 cómo				Interr		1			mo		Interr		s: movt						¿Cómo lo haces?	mo dan dagat?	¿Cómo estás?	mo dutnje manná?	No sé cómo decírselo.	In dieđe, mo mun dan sutnje muitalan.								
@@ -1400,14 +1400,14 @@ comunicar			1g	V		1			čilget		V	TV	s: dieđihit	s: cealkit
 comunicar			1g	V		4	Telefovdna		leat várrejuvvon		VLc	IV							El teléfono está comunicando.	Telefovdna lea várrejuvvon.												
 comunicarse			1g	V	comunicar	2			áddehallat		V	Prnl, IV	s: gulahallat						Pueden comunicarse en un país hispanohablante.	Sii sáhttet gulahallat spánskkagielat riikkas.												
 comunicarse			1g	V	comunicar	3			gulahallat		V	Prnl, RecV							Antonio y Maite se comunican a diario.	Antonio ja Maite gullahallaba beaivválaččat.												
-con				Pr		1				Com									Andrés viene con un perro.	Andrés boahtá beatnagiin.	¿Puedo hablar con el jefe?	Sáhtán go hállat jođiheddjiin?	comer con los dedos	borrat gieđaiguin								
+con				Pr		1			Com	Com									Andrés viene con un perro.	Andrés boahtá beatnagiin.	¿Puedo hablar con el jefe?	Sáhtán go hállat jođiheddjiin?	comer con los dedos	borrat gieđaiguin								
 con				Pr		2			luhtte		Po								Está con el dentista.	Son lea bátnedoaktára luhtte.												
 con				Pr		3			mielde		Po		s: fárus						El niño vino con su padre.	Mánná bođii áhčis mielde.	Viajaré con el ordenador	Mun áiggun mátkkoštit ja dihtor mielde.										
 con				Pr		4	Eaktu		go		CC		s: jus						Con decirlo es suficiente.	Go don dan dajat, de lea doarvái.												
-con				Pr		6	Dilli, eaktu			Com									Con la corrupción viene la pobreza.	Korrupšuvnnain čuovvu geafivuohta.												
-con				Pr		7	Dilli, eaktu			Loc									Con las prisas, te has dejado el bolso.	Hoahpuin don leat vajálduhttán veaskku.												
-con				Pr		8				Hab									Está con gripe.	Sus lea nuorvvu.												
-con				Pr		9				Adv									Le golpeó con fuerza.	Son čorbmadii garrasit.												
+con				Pr		6	Dilli, eaktu		Com	Com									Con la corrupción viene la pobreza.	Korrupšuvnnain čuovvu geafivuohta.												
+con				Pr		7	Dilli, eaktu		Loc	Loc									Con las prisas, te has dejado el bolso.	Hoahpuin don leat vajálduhttán veaskku.												
+con				Pr		8			Hab	Hab									Está con gripe.	Sus lea nuorvvu.												
+con				Pr		9			Adv	Adv									Le golpeó con fuerza.	Son čorbmadii garrasit.												
 con				Pr		10			vaikko		CC								Con ser tan mayor y aún tiene proyectos.	Vaikko lea nu boaris, de sus leat prošeavttat.												
 con				Pr		16	Resiprohka		nubbi nuppiin		RecPron, Com	Saam: Imp							hablar el uno con el otro	humadit nubbi nuppiin	hablar los unos con los otros	humadit nuppit nuppiiguin										
 con				Pr		17	Resiprohka		goabbát guimmiineame, guhtet guimmiineame, guhtet guimmiideametguin		RecPron, Com	Saam: PerV							Habláis el uno con el otro.	Doai humadeahppi goabbát guimmiineatte.	Habláis los unos con los otros	Dii humadehpet guhtet guimmiideattetguin.										
@@ -1489,7 +1489,7 @@ constantemente				Adv		1			ovtto		AdvLc		s: álo	s: bissovaččat	s: duojážass
 constar			1a	V		1			leat		V	IV	s: gávdnot						En la lista consta tu nombre.	Listtus lea du namma.												
 constar			1a	V		2	Beavdegirjjis		vurkejuvvot		V	IV	s: čállojuvvot						Pido al alcalde que sus palabras consten en el acta.	Bivddán sátnejođiheaddji, ahte su sánit vurkejuvvojit beavdegirjái.												
 constar			1a	V		3			leat sihkkar		VLc	UseAlw: WObjPron	s: leat vissis						Me consta que ha dicho la verdad.	Lean sihkkar, ahte son lean muitalan duohtavuođa.												
-constar		s: tener	1a	VLc		6				Loc, Hab		IV, + de							El diccionario consta de cinco partes.	Sátnegirjjis leat vihtta oasi.												
+constar		s: tener	1a	VLc		6			Loc, Hab	Loc, Hab		IV, + de							El diccionario consta de cinco partes.	Sátnegirjjis leat vihtta oasi.												
 constar		s: tener	1a	VLc		7			gávdnot		V	IV, + de							La máquina consta de cinco piezas.	Mašiinnas gávdnojit vihtta oasi.												
 constar		s: tener	1a	VLc		8			sisttisdoallat		V	IV, + de							La máquina consta de cinco piezas.	Mašiidna sisttisdoallá vihta oasi.												
 construcción	F			N		1			huksehus		N		s: ráhkadus						En la tesis falta la construcción de una teoría.	Nákkosgirjjis váilu teoriija ráhkadus.												
@@ -1584,7 +1584,7 @@ correr			2a	V		4	Figuratiiva/Figurado		vássit		V	IV	s: gollat						El tiempo co
 correrse			2a	V	correr	6			čáhkket		V	Prnl, IV							¿Te puedes correr a la derecha para que me siente?	Sáhtát go don čáhkket saji olgešguvlui, vai mun beasan čohkkedastit?												
 correrse			2a	V	correr	7	Figuratiiva/Figurado		orgásmma oažžut		VLc	Prnl, IV																				
 corresponder			2a	V		1			máhcahit		VLc	IV							Pedro le hizo un regalo y María le correspondió con un beso.	Pedro attii Mariai attáldaga ja María máhcahii cummáin.												
-corresponder			2a	V		2				V + ruovttoluotta	VLc	IV							Pedro le hizo un regalo y María le correspondió con un beso.	Pedro attii Mariai attáldaga ja María cummestii ruovttoluotta.												
+corresponder			2a	V		2			V + ruovttoluotta	V + ruovttoluotta	VLc	IV							Pedro le hizo un regalo y María le correspondió con un beso.	Pedro attii Mariai attáldaga ja María cummestii ruovttoluotta.												
 corresponder			2a	V		3			soahpat		V	IV							Esta mesa corresponde al comedor.	Dát beavdi soahpá boradanlatnjii.												
 corresponder			2a	V		4			heivet		V	IV, Imp, 3per							Corresponde agradecer el favor.	Dat heive giitit bálvalusa.												
 corresponderse			2a	V	corresponder	5			dovddahit dovddu nuppi olbmui		Pfs	Prnl, RecV							Pedro y María se corresponden.	Pedro ja María ráhkisteaba goabbát guoimmiska.												
@@ -1817,20 +1817,20 @@ darse un aire a			1r	VLc	dar	8	Sulastahttit olbmuid, gárvvuid		sulastahttit		V	
 darse un beso		s: besarse	1r	VLc	dar	28			cummástallat		V	Prnl, RecV																				
 dato	M			N		1			dieđáhus		N		s: diehtu	s: faktum																		
 datos personales	M			NLc		2			heaggadieđut		N	Pl	s: iešdieđut																			
-de				Pr		1				Gen									el coche de Kjell	Kjelle biila												
-de				Pr		2	Boahtimuš: báiki, áigi			Loc									El autobús viene de Oslo.	Busse boahtá Oslos.	Esa música es de otra época.	Dát musihkka lea eará áiggis.										
-de				Pr		3	Riegádanbáiki, gullevašvuohta			Loc, + eret									Soy de Madrid.	Mun lean Madridas eret.	Esa mujer es de Tromsø.	Dát nisson lea Romssas eret.										
-de				Pr		4	Ávnnas			Loc									La casa es de madera.	Visti lea muoras.												
-de				Pr		5	Ávnnas			Cmpnd									una casa de madera	muorravisti												
-de				Pr		6	Sisdoallu			Gen									una copa de vino	viinna gohppu	un libro de literatura	girjjálašvuođa girji										
-de				Pr		7	Sisdoallu			Loc									Hablan de sus asuntos.	Sii hállet iežaset áššiin.	Hablan de sus asuntos.	Sii hupmet áššiineaset.										
-de				Pr		8	Sivva			Loc									Ha enfermado de sarampión.	Son lea buohcan bárkodávddas.												
-de				Pr		9	Dovdomearka, gálga			A, Gen									un hombre de recursos	návccalaš olmmoš	un hombre de recursos	ressurssa olmmoš										
-de				Pr		10	Dovdomearka, gálga			Cmpnd									un caballo de juguete	stoahkanheabuš	ropa de trabajo	bargobivttas	programa de televisión	TV-prográmma	juego de ordenador	dihtorstoagus						
-de		s: desde		Pr		11	Báiki, áigi			Loc									El tren va de París a Berlín.	Toga vuodjá Parisas Berlinii.	La oficina está abierta de cinco a ocho	Kántuvra lea rabas viđas gávcci rádjái.										
-de				Pr		12				Cond		+ Inf							De haberlo sabido, habría venido.	Jus mun dán livččen diehtán, de livččen boahtán.												
-de				Pr		15				Ess									De niño me gustaba ir con la manada.	Mánnán mun liikojin vuolgit ealu lusa.	El actor se vistió de mujer.	Neavttár gárvodii nissonolmmožin.										
-de				Pr		18				Comp									Es más alto de lo que pensaba.	Son lea guhkit go mun jáhkken.												
+de				Pr		1			Gen	Gen									el coche de Kjell	Kjelle biila												
+de				Pr		2	Boahtimuš: báiki, áigi		Loc	Loc									El autobús viene de Oslo.	Busse boahtá Oslos.	Esa música es de otra época.	Dát musihkka lea eará áiggis.										
+de				Pr		3	Riegádanbáiki, gullevašvuohta		Loc, + eret	Loc, + eret									Soy de Madrid.	Mun lean Madridas eret.	Esa mujer es de Tromsø.	Dát nisson lea Romssas eret.										
+de				Pr		4	Ávnnas		Loc	Loc									La casa es de madera.	Visti lea muoras.												
+de				Pr		5	Ávnnas		Cmpnd	Cmpnd									una casa de madera	muorravisti												
+de				Pr		6	Sisdoallu		Gen	Gen									una copa de vino	viinna gohppu	un libro de literatura	girjjálašvuođa girji										
+de				Pr		7	Sisdoallu		Loc	Loc									Hablan de sus asuntos.	Sii hállet iežaset áššiin.	Hablan de sus asuntos.	Sii hupmet áššiineaset.										
+de				Pr		8	Sivva		Loc	Loc									Ha enfermado de sarampión.	Son lea buohcan bárkodávddas.												
+de				Pr		9	Dovdomearka, gálga		A, Gen	A, Gen									un hombre de recursos	návccalaš olmmoš	un hombre de recursos	ressurssa olmmoš										
+de				Pr		10	Dovdomearka, gálga		Cmpnd	Cmpnd									un caballo de juguete	stoahkanheabuš	ropa de trabajo	bargobivttas	programa de televisión	TV-prográmma	juego de ordenador	dihtorstoagus						
+de		s: desde		Pr		11	Báiki, áigi		Loc	Loc									El tren va de París a Berlín.	Toga vuodjá Parisas Berlinii.	La oficina está abierta de cinco a ocho	Kántuvra lea rabas viđas gávcci rádjái.										
+de				Pr		12			Cond	Cond		+ Inf							De haberlo sabido, habría venido.	Jus mun dán livččen diehtán, de livččen boahtán.												
+de				Pr		15			Ess	Ess									De niño me gustaba ir con la manada.	Mánnán mun liikojin vuolgit ealu lusa.	El actor se vistió de mujer.	Neavttár gárvodii nissonolmmožin.										
+de				Pr		18			Comp	Comp									Es más alto de lo que pensaba.	Son lea guhkit go mun jáhkken.												
 de buen grado				AdvLc		6			mielalaččat		Adv																					
 de un golpe				AdvLc		19			oktanaga		Adv		s: seammás																			
 de  grado				AdvLc		6			mielalaččat		Adv																					
@@ -1906,7 +1906,7 @@ declarar la guerra			1a	VLc		2			dieđihit almmolaččat soađi		VLc	TV	s: almmu
 declararse			1a	V	declarar	3			dovddastit		V	Prnl, ReflV	s: mieđihit						Ninguno de ellos se declara culpable.	Ii okta ge sis dieđihan sivalažžan.												
 declararse			1a	V	declarar	4			dovddastit ráhkisvuođa		V	Prnl, IV							Me declaré a mi novia hace cuatro meses.	Mun dovddastin ráhkisvuođa iežan moarsái njeallja mánu áigge.												
 declararse			1a	V	declarar	5			álgit		V	Prnl, Imp, 3per	s: bohciidit						Se declaró un incendio en el bosque.	Meahccebuollin álggii.												
-declararse			1a	V	declarar	6				Der/Goahtit	V	Prnl, Imp, 3per							Se declaró un incendio en el bosque.	Meahccebuollin šloavvagođii.	Se declaró un incendio en el bosque.	Buolligođii meahcis.										
+declararse			1a	V	declarar	6			Der/Goahtit	Der/Goahtit	V	Prnl, Imp, 3per							Se declaró un incendio en el bosque.	Meahccebuollin šloavvagođii.	Se declaró un incendio en el bosque.	Buolligođii meahcis.										
 decorar			1a	V		1			čiŋahit		V	TV	s: čabadahttit	s: hábmet	s: čappadahttit				decorar una habitación	čiŋahit ásodaga	decorar las calles	čiŋahit gáhtaid										
 dedicar			1g	V		1			vuoruhit		V	TV	s: ovddidit						El compositor dedica la obra a su esposa.	Komponista vuoruha iežas eamidii barggu.												
 dedicar			1g	V		2			čállit iežas nama girjái		Pfs								En la feria varios escritores dedicarán sus libros.	Riemuin čálle máŋga girječálli namaset girjjiide.												
@@ -1927,7 +1927,7 @@ dejar de			1a	VLc		4			biehttalit		V	+ Inf, Saam: + ActLoc							Dejó de hacer 
 dejar de			1a	VLc		5			heaitit		V	+ Inf, Saam: + ActLoc	s: luohpat						Ha dejado de fumar.	Son lea heaitán borgguheames.												
 dejar de			1a	VLc		14			heaitit		V	+ Inf, Saam: + ActLoc							Ha dejado de fumar	Son lea heaitán borgguheames.												
 dejar en paz			1a	VLc		2			guođđit muosis		VLc	IV	s: diktit ráfis leat																			
-dejar frío			1a	VLc		4	Figuratiiva/Figurado			Geahča ovdamearkkaid:		TV, WObjPron							Eso me deja frío.	Mun in beroš dás.	Eso me deja frío.	Dát ii oppa váikkut munnje.										
+dejar frío			1a	VLc		4	Figuratiiva/Figurado		Geahča ovdamearkkaid	Geahča ovdamearkkaid:		TV, WObjPron							Eso me deja frío.	Mun in beroš dás.	Eso me deja frío.	Dát ii oppa váikkut munnje.										
 dejar frito			1a	VLc		2	Figuratiiva/Figurado		goddit		V	TV							Le disparó y lo dejó frito.	Son bážii ja gottii su.												
 dejar helado			1a	VLc		8	Figuratiiva/Figurado		hirpmástuhttit		V	TV	s: heahkastuhttit	s: heammástuhttit					Tus palabras me dejaron helado.	Du sánit mu heahkastuhtte.												
 dejar huella(s)			1a	VLc		9			luottastallat		V	TV	s: šulšet	s: vuohttalit					Los animales dejaron huellas.	Eallit šulšejit.												
@@ -1967,7 +1967,7 @@ demostrarse			1m	V	demostrar	5			čájehit alccesis		VLc	Prnl, ReflV							No ba
 dentífrico	M	s: pasta de dientes		N		1			bátnegeallu		N		s: bátnegealas																			
 dentro				Adv		1	Stáhtalaš/Estático		siskkabealde		Adv, Po								El garaje está fuera, la cafetería dentro.	Biilasuodji lea olgon, káffadat fas siskkabealde.												
 dentro de				Adv		7	Áigi/Tiempo		geahčen		Po								Dentro de tres años me jubilo.	Golmma jagi geahčen (mun) beasan ealáhahkii.												
-dentro de				PrLc		3	Stáhtalaš/Estático		siste	Loc	Po								Dentro de la casa hace calor.	Dálus lea liekkas.												
+dentro de				PrLc		3	Stáhtalaš/Estático		siste, Loc		Po								Dentro de la casa hace calor.	Dálus lea liekkas.												
 denunciar			1b	V		1			dieđihit		V	TV	s: almmuhit	s: albmadit																		
 denunciar			1b	V		2	Juridihkka/Jurídico		váidit		V	TV	s: sivahallat						denunciar a alguien como autor de un delito	váidit muhtuma bahádahkkin												
 depender			2a	V		1			sorját		V	IV, + de	s: čatnasit						Todo depende de ti.	Buot sorjá dus.	Mi decisión depende de la tuya.	Mu mearrádus sorjá dus.	Nuestra felicidad depende de nuestro comportamiento.	Min lihkku čatnasa min láhttemii.								
@@ -2017,8 +2017,8 @@ descubrirse			3a	V	descubrir	5			nuoladit		V	Prnl, ReflV
 descubrirse			3a	V	descubrir	6			rádjat gokčasa		Pfs	Prnl, ReflV																				
 descubrirse			3a	V	descubrir	7			nuollat iežas gahpira		Pfs	Prnl, ReflV	s: váldit iežas gahpira eret																			
 descuento	M			N		1			rabahtta		N		s: geasus																			
-desde		s: de		Pr		1	Báiki/Lugar			Loc									Desde Madrid hasta Segovia hay unos cien kilómetros.	Madridas Segoviai leat sullii čuohte kilomehtera.												
-desde		s: de		Pr		5	Áigi/Tiempo			Loc									Tengo clase desde las diez hasta la una y media.	Mus lea oahpahus logis beal guovtti rádjái.												
+desde		s: de		Pr		1	Báiki/Lugar		Loc	Loc									Desde Madrid hasta Segovia hay unos cien kilómetros.	Madridas Segoviai leat sullii čuohte kilomehtera.												
+desde		s: de		Pr		5	Áigi/Tiempo		Loc	Loc									Tengo clase desde las diez hasta la una y media.	Mus lea oahpahus logis beal guovtti rádjái.												
 desde allí				AdvLc		3			duos		Adv		s: dos						Desde allí han venido muchas enfermedades.	Duos leat njommon ollu dávddat.												
 desde aquí				AdvLc		2			dás		Adv								Desde aquí se ve bien el río.	Dás oidno johka bures.												
 desde arriba				AdvLc		5			badjin		Adv								La nieve cae desde arriba.	Muohttá badjin.												
@@ -2250,9 +2250,9 @@ dulce	M/F			A		3	Figuratiiva/Figurado		čuoddjil		A								un canto muy dulce	č
 dulce	M			N		1			njálggis		N		s: njálggus						En el cumpleaños sirvieron dulces.	Riegádanbeaivvi guossohedje njálgosiid.												
 duque	M			N		1			herttot		N																					
 duquesa	F			N		1			herttoga eamit		NLc																					
-durante				Pr		1				Loc									Terminaré el informe durante la próxima semana.	Mun gearggan raporttain boahtte vahkus.	Durante mucho tiempo no supimos nada de él.	Guhkes áiggis mii eat diehtán sus.										
-durante				Pr		2				Gen									Trabajó durante horas.	Son barggai diimma.												
-durante				Pr		3				Adv									Duerme durante el día.	Son oađđá beaivet.												
+durante				Pr		1			Loc	Loc									Terminaré el informe durante la próxima semana.	Mun gearggan raporttain boahtte vahkus.	Durante mucho tiempo no supimos nada de él.	Guhkes áiggis mii eat diehtán sus.										
+durante				Pr		2			Gen	Gen									Trabajó durante horas.	Son barggai diimma.												
+durante				Pr		3			Adv	Adv									Duerme durante el día.	Son oađđá beaivet.												
 durar			1a	V		1			bistit		V	IV	s: ádjánit	s: bindit	s: juoksut				El concierto duró tres horas.	Konsearta bisttii golbma diimma.												
 durar			1a	V		2			riibat		V	IV							La carne dura poco fuera del congelador.	Biergu riibá unnánaš áiggi galmmihanskáhpa olggobealde.												
 durar			1a	V		3			bissut ceaggut		VLc	IV							Durante la guerra, el edifició duró mucho tiempo en pie.	Soađi áigge visti bisui ceaggut.												
@@ -2319,7 +2319,7 @@ ejercicio	M			N		4			bargu		Pfs		s: doaimmahus						Dedicó su vida al ejercicio
 ejército	M			N		1			stuorebuš soahteveahka		NLc		s: armea																			
 ejército	M			N		2	Figuratiiva/Figurado		searvvi stuorra joavku		Pfs		s: miellačájeheaddjiid joavku						Un ejército de manifestantes invadió las calles.	Miellačájeheaddjiid joavku devddii gáhtaid.												
 ejército del aire	M			NLc		5			áibmosuodjalus		N		s: áibmofámut	s: áibmovárjalus																		
-el	M			Art Det		1				Jorgalkeahtes morfema		Sg							El coche	biila												
+el	M			Art Det		1			Jorgalkeahtes morfema	Jorgalkeahtes morfema		Sg							El coche	biila												
 él	M			Pron, Sg3		1			son		Pron, Nom, Sg3																					
 el caso es que...			2w	VLc		2			ášši lea nu ahte...		VLc	IV																				
 el día antes		s: el día anterior		AdvLc		8	Cealkaga áigi/En expresión temporal		beaivvi ovdal		AdvLc								No murió el 31 de marzo, sino el día antes.	Son ii jápmán njukčamánu 31., muhto beaivvi ovdal.												
@@ -2363,13 +2363,13 @@ empeorarse			1a	V	empeorar	3			hedjonit		V	Prnl, IV	s: vearránit	s: vearáskit	
 emperador	M,F			N		1			keaissár		N		v: keaissir																			
 empezar		s: comenzar	1f, 1k	V		1			álgit		V	IV	s: vuolggahuvvot	s: álggahuvvot					La revolución empezó el tres de marzo.	Váldegomiheapmi álggii njukčamánu goalmmát beaivvi.	Las noticias empiezan a las cinco.	Ođđasat álget viđa áigge.										
 empezar			1f, 1k	V		2			álgit		V	TV, + por							empezar por la página tres	álgit goalmmát siidduin												
-empezar			1f, 1k	V		3				Der/Goahtit	V	TV, + por							empezar (a leer) por la página tres	lohkagoahtit goalmmát siiddus												
+empezar			1f, 1k	V		3			Der/Goahtit	Der/Goahtit	V	TV, + por							empezar (a leer) por la página tres	lohkagoahtit goalmmát siiddus												
 empezar			1f, 1k	V		5			álgit		V	TV, + con	s: álggahit						Empezamos la cena con una sopa.	Mii álggaheimmet gaskabeaivvi máliin.												
 empezar			1f, 1k	V		6			álggahit		V	TV							He empezado el trabajo.	Lean álggahan barggu.												
-empezar			1f, 1k	V		7				Der/Goahtit	V	TV							Ayer empecé (a tejer) un jersey para mi madre.	Ikte gođđigohten báiddi eadnásan.	He empezado el trabajo.	Lean bargagoahtán.										
-empezar			1f, 1k	V		8				Der/Goahtit	V	IV, TV, + a + Inf							empezar a trabajar	bargagoahtit	empezar a llover	arvigoahtit										
-empezar			1f, 1k	V		9				V		+ a + Inf							empezar a llover	arvát	empezar a arder	buollát	empezar a caer aguanieve	šlahttát								
-empezar a		s: comenzar a	1f	VLc		21				Der/Goahtit	V	+ Inf							Hoy empiezo a trabajar en la escuela.	Odne bargagoađán oahpahagas.												
+empezar			1f, 1k	V		7			Der/Goahtit	Der/Goahtit	V	TV							Ayer empecé (a tejer) un jersey para mi madre.	Ikte gođđigohten báiddi eadnásan.	He empezado el trabajo.	Lean bargagoahtán.										
+empezar			1f, 1k	V		8			Der/Goahtit	Der/Goahtit	V	IV, TV, + a + Inf							empezar a trabajar	bargagoahtit	empezar a llover	arvigoahtit										
+empezar			1f, 1k	V		9			V	V		+ a + Inf							empezar a llover	arvát	empezar a arder	buollát	empezar a caer aguanieve	šlahttát								
+empezar a		s: comenzar a	1f	VLc		21			Der/Goahtit	Der/Goahtit	V	+ Inf							Hoy empiezo a trabajar en la escuela.	Odne bargagoađán oahpahagas.												
 empezar la casa por el tejado			1f, 1k	VLc		4	Negatiivvalaš mearkkašumiin/Con significado negativo		álgit boastugeažis		VLc	TV	s: álgit loahpageažis																			
 empleado	M,F			N		1			bargi		N		s: bargo-olmmoš																			
 empleado	M,F			N		2			funkšuneara		N		s: doaibmi olmmoš	s: virge-olmmoš																		
@@ -2383,18 +2383,18 @@ empleo	M			N		1			geavaheapmi		N		s: atnu						modo de empleo	geavahanneavvu	mod
 empleo	M			N		2			bargu		N		s: virgi																			
 empresa	F			N		1			fitnodat		N		s: ovttastupmi	s: lágádus	s: firbmá				Trabaja en la empresa de su padre.	Son bargá iežas áhči fitnodagas.												
 empresa	F			N		2			ulbmil		N		s: áigumuš	s: juksanmearri					La empresa de Colón nunca estuvo muy clara.	Columbusa mátke-ulbmil ii goassege lean čielggas.												
-en				Adv		13				Loc	Adv	+ N							en orden	ortnegis	en orden	čavddis	en broma	leaikkas	en busca de	ozus	en forma	vuoimmis	en forma	fámus		
-en				Pr		1	Báiki/Lugar			Loc									Estoy en Barcelona.	Mun lean Barcelonas.	El pájaro está en la jaula.	Loddi lea lodderittas.										
+en				Adv		13			Loc	Loc	Adv	+ N							en orden	ortnegis	en orden	čavddis	en broma	leaikkas	en busca de	ozus	en forma	vuoimmis	en forma	fámus		
+en				Pr		1	Báiki/Lugar		Loc	Loc									Estoy en Barcelona.	Mun lean Barcelonas.	El pájaro está en la jaula.	Loddi lea lodderittas.										
 en				Pr		2			siste		Po								El libro está en la caja.	Girji lea kása siste.												
-en				Pr		5	Áigi/Tiempo			Adv									En verano siempre vamos a la costa.	Moai bohte álo mearragáddái geasset.												
-en				Pr		6	Áigi/Tiempo			Gen									En Navidad suele nevar.	Juovllaid áigge láve muohttit.	En Navidad suele nevar.	Juovllaid láve muohttit.										
-en		s: durante		Pr		7	Áigi/Tiempo			Loc									En el día, hacemos tres comidas.	Mii boradat golmma geardde beaivvis.												
+en				Pr		5	Áigi/Tiempo		Adv	Adv									En verano siempre vamos a la costa.	Moai bohte álo mearragáddái geasset.												
+en				Pr		6	Áigi/Tiempo		Gen	Gen									En Navidad suele nevar.	Juovllaid áigge láve muohttit.	En Navidad suele nevar.	Juovllaid láve muohttit.										
+en		s: durante		Pr		7	Áigi/Tiempo		Loc	Loc									En el día, hacemos tres comidas.	Mii boradat golmma geardde beaivvis.												
 en				Pr		10			mearkkaša proseassa		Pfs								El puente está en proyecto.	Šaldi lea hábmendásis.	El pago está en curso.	Máksámuš lea máksojuvvomin.										
-en				Pr		11				Lihkadanvearbbat čujuhit proseassa lohppii	Pfs	Saam: + Ill							caer en el río	gahččat johkii	entrar en el coche	boahtit biilii										
-en				Pr		12	Virgi, fága			Gen, Loc									Mario es doctor en sociología.	Mario lea servodatdiehtaga doavttir.	Kaisa investiga en biología.	Kaisa dutká biologiijas.										
-en				Pr		14				Com									Voy a Deatnu en coche.	Vuolggán Detnui biillain.												
-en				Pr		15				Ill									en honor a	gudnái	en honor a	árvui										
-en				Pr		16				Adv									en general	oppalaččat	en público	almmolaččat	en forma (administrativamente)	formálalaččat	La solicitud se ha entregado en tiempo y forma.	Ohcan lea geigejuvvon áiggebále ja formálalaččat.						
+en				Pr		11			Lihkadanvearbbat čujuhit proseassa lohppii	Lihkadanvearbbat čujuhit proseassa lohppii	Pfs	Saam: + Ill							caer en el río	gahččat johkii	entrar en el coche	boahtit biilii										
+en				Pr		12	Virgi, fága		Gen, Loc	Gen, Loc									Mario es doctor en sociología.	Mario lea servodatdiehtaga doavttir.	Kaisa investiga en biología.	Kaisa dutká biologiijas.										
+en				Pr		14			Com	Com									Voy a Deatnu en coche.	Vuolggán Detnui biillain.												
+en				Pr		15			Ill	Ill									en honor a	gudnái	en honor a	árvui										
+en				Pr		16			Adv	Adv									en general	oppalaččat	en público	almmolaččat	en forma (administrativamente)	formálalaččat	La solicitud se ha entregado en tiempo y forma.	Ohcan lea geigejuvvon áiggebále ja formálalaččat.						
 en (debida) forma				AdvLc		7			rievttalaččat		Adv	UseNor: Juridihkka/Jurídico							Hay que presentar el acta en (debida) forma.	Áššegirji ferte ovdanbuktojuvvot rievttalaččat.												
 en (vías de) construcción				AdvLc		3			leat huksejuvvomin		VLc		s: leat ráhkaduvvomin						La estación de tren está en (vías de) construcción.	Togastašuvdna lea huksejuvvomin.												
 en avión				AdvLc		2			girdiin		Adv	Saam: UseAlw: Com																				
@@ -2414,7 +2414,7 @@ en estado avanzado				AdvLc		3			loahpageahčen		Adv								La enfermedad está 
 en estado inicial				AdvLc		2			álggogeahčen		Adv								La enfermedad está en estado inicial.	Buozalmas lea álggogeahčen.												
 en flor	M/F			ALc		9	Šaddu		lieđđun		A, N								una planta en flor	lieđđonšaddu												
 en flor	M/F			ALc		10	Figuratiiva/Figurado, Olbmot		láddan		A, N								una muchcha en flor	láddan nieida												
-en forma de				AdvLc		4				Ess									El gas se condensó en forma de nube.	Gássa suogui balvan.												
+en forma de				AdvLc		4			Ess	Ess									El gas se condensó en forma de nube.	Gássa suogui balvan.												
 en frente de		v: enfrente de		Adv		4			ovddabealde		Po								Enfrente de la cafetería hay un cajero automático.	Kantiinna ovddabealde gávdno ruhta-automáhta.												
 en honor a la verdad				Lc		5			duohtavuođa namas		Lc																					
 en lo alto de				AdvLc		2	Stáhtalaš/Estático		gierragis		Adv								En lo alto del árbol hay un nido.	Muorragierragis lea lottebeassi.												
@@ -2529,19 +2529,19 @@ entrar			1a	V		6			mannat ráigeráigge		VLc	IV, + por, a través de							El to
 entrar		s: caber	1a	V		7			čáhkat		V	IV	s: šiehttat	s: heivet					Todos los libros entran en una caja.	Buot girjjit čáhket ovtta kássii.												
 entrar			1a	V		8	Biktasa sturrodat		heivet		V	IV, UseNor: WObjPron	s: soahpat						Esos guantes no me entran.	Dát suorpmahat eai heive munnje.												
 entrar			1a	V		9			searvagoahtit		V	IV	s: oassálastigoahtit						Antonio va entrando en la corporación.	Antonio lea searvagoahtimin fitnodahkii.												
-entrar			1a	V		10	Jagi jahkodat			Der /goahtit	V	IV, Imp, 3per							El invierno entra el 21 de diciembre.	Dálvagoahtá juovlamánu 21. beaivve.												
+entrar			1a	V		10	Jagi jahkodat		Der /goahtit	Der /goahtit	V	IV, Imp, 3per							El invierno entra el 21 de diciembre.	Dálvagoahtá juovlamánu 21. beaivve.												
 entrar			1a	V		15	Eallingearddi áigodat		šaddat		V	IV, + en	s: deavdit jagi						Juan ha entrado en los sesenta.	Juan lea šaddan guhttalot jahkásažžan.	Juan ha entrado en los sesenta.	Juan lea deavdán guhttalot jagi.	Maite ha entrado en la vejez.	Maite lea šaddan boares-olmmožin.								
 entrar			1a	V		16	Dovddut		dovdagoahtit		V	IV, WObjPron							Le entró la pereza.	Son dovdagođii láikodaga.												
-entrar			1a	V		17				Der/Goahtit	V	IV, + en + N							entrar en calor	liegganišgoahtit	entrar en calor	báhkkanišgoahtit	entrar en celos	balahišgoahtit								
+entrar			1a	V		17			Der/Goahtit	Der/Goahtit	V	IV, + en + N							entrar en calor	liegganišgoahtit	entrar en calor	báhkkanišgoahtit	entrar en celos	balahišgoahtit								
 entrar			1a	V		18	Máhttu		áddegoahtit		V	TV, + le	s: ipmirdišgoahtit	s: máhttigoahtit					No hay forma de entrarle a las matemáticas.	Lea veadjemeahttun áddegoahtit matematihka.												
-entrar			1a	V		19				Der/Goahtit	V	IV, + a + Inf							entrar a gobernar	jođihišgoahtit												
+entrar			1a	V		19			Der/Goahtit	Der/Goahtit	V	IV, + a + Inf							entrar a gobernar	jođihišgoahtit												
 entrar el invierno			1a	VLc		14			dálvat		V	IV, Imp, 3per	s: dálvvadit	s: dálvvádahttit																		
 entrar el otoño			1a	VLc		11			čakčaluvvat		V	IV, Imp, 3per	s: čavččaiduvvat																			
 entrar el verano			1a	VLc		12			geassut		V	IV, Imp, 3per																				
 entrar la primavera			1a	VLc		13			giđđaluvvat		V	IV, Imp, 3per	s: giđaiduvvat																			
 entre				Pr		1			gaskkas		Po		s: gaskal						entre el invierno y el verano	dálvvi ja geasi gaskkas	entre tú y yo	du ja mu gaskkas	entre Alta y Kautokeino	Álaheaju ja Guovdageainnu gaskkas	entre agua y hielo	čázi ja jieŋa gaskkas	entre nosotros	min gaskkas				
 entre				Pr		2	Gullevašvuohta		gullat jovkui		Pfs								Biret está entre mis alumnas.	Biret gullá mu ohppiid jovkui.												
-entre				Pr		3	Ovttasbargu			Geahča ovdamearkkaide:									Entre Biehtár y Antonio se comieron todo el guiso.	Biehtár-guovttos Antonioin gaccaiga visot mállása	Llevaron la leña entre los cuatro.	Dát njealjis fievrridedje muoraid.										
+entre				Pr		3	Ovttasbargu		Geahča ovdamearkkaide	Geahča ovdamearkkaide:									Entre Biehtár y Antonio se comieron todo el guiso.	Biehtár-guovttos Antonioin gaccaiga visot mállása	Llevaron la leña entre los cuatro.	Dát njealjis fievrridedje muoraid.										
 entregar			1h	V		1			geiget		V	TV	s: buktit						entregar una solicitud	geiget ohcama	Le entregué la carta que me diste.	Bukten reivve maid don addet munnje.										
 entregarse			1h	V	entregar	2			dieđihit iežas		VLc	Prnl, ReflV, + a							Se ha entregado a la policía.	Son lea dieđihan iežas bolesii.												
 entregarse			1h	V	entregar	3	Áŋgirit		rahčat		V	Prnl, ReflV, + a	s: bargat losses barggu						Se ha entregado a la filosofía.	Son rahčá filosofias.												
@@ -3042,7 +3042,7 @@ fuera		s: hacia fuera, afuera, hacia afuera		Adv		2	Dynámalaš/Dinámico		olggo
 fuera		s: hacia fuera, afuera, hacia afuera		Adv		3	Dynámalaš/Dinámico		olggos		Adv, Po								Ha ido fuera a por leña.	Son lea mannan olggos muoraid viežžat.												
 fuera de				AdvLc		4	Stáhtalaš/Estático		olggobealde		Po								Fuera de la casa hace frío.	Dálu olggobealde galbmá.												
 fuera de		s: hacia afuera de, hacia fuera de		AdvLc		5	Dynámalaš/Dinámico		olggobeallái		Po								Saca al perro fuera de la casa.	Doalvvo beatnaga viesu olggobeallái.												
-fuera de		s: hacia afuera de, hacia fuera de		AdvLc		6	Dynámalaš/Dinámico			Loc									Hacia afuera del fiordo verás tres islas.	Go don borjjasat vuonas, de don áiccat golbma sullo.	Si vas hacia afuera del bosque verás una casa.	Go don manat meahcis , de don oainnat viesu.	Si vas hacia afuera de la región, encontrarás más fresas árticas.	Go don manat guovlus, de don gávnnat eambbo luopmániid.								
+fuera de		s: hacia afuera de, hacia fuera de		AdvLc		6	Dynámalaš/Dinámico		Loc	Loc									Hacia afuera del fiordo verás tres islas.	Go don borjjasat vuonas, de don áiccat golbma sullo.	Si vas hacia afuera del bosque verás una casa.	Go don manat meahcis , de don oainnat viesu.	Si vas hacia afuera de la región, encontrarás más fresas árticas.	Go don manat guovlus, de don gávnnat eambbo luopmániid.								
 fuera de				AdvLc		8			earret eará		AdvLc								Fuera de eso, no tengo más preguntas.	Earret eará dán gažaldaga, mus eai leat eambbo.												
 fuerte	M/F			A		1	Oppalaš/General		gievra		A								una persona fuerte	gievrras olmmoš	una energía fuerte	gievrras fápmu										
 fuerte	M/F			A		2	Rumaš/Cuerpo		lášmat		A		s: vuoibmái						una mujer fuerte	lášmes nisu												
@@ -3196,7 +3196,7 @@ gracia	F			N		3	Oskkoldat/Religión, Juridihkka/Jurídico		árpmiheapmi		N		s: �
 gracia	F			N		4	Olmmoš		šođbu		N		s: šođbesvuohta	s: sulolašvuohta	s: šárbma																	
 gracias				Interj		6			giitu		Interj	Pl																				
 gracias a				AdvLc		10			geažil		Po		s: vuođul						Gracias a ti conseguimos esa casa.	Du geažil fidniimet dán viesu.												
-gracias a				AdvLc		11				giitu + Ill									¡Gracias a Dios!	Giitu Ipmilii!												
+gracias a				AdvLc		11			giitu + Ill	giitu + Ill									¡Gracias a Dios!	Giitu Ipmilii!												
 grado	M			N		1			gráda		N		v: ráđđa																			
 grado	M			N		2			ceahkki		N		s: muddu																			
 grado	M			N		3			árvodássi		N																					
@@ -3294,17 +3294,17 @@ hacendero	M,F			N		2			stuorra eana(n)eaiggát		Pfs
 hacer			2s	V		1			dahkat		V	TV	s: ráhkadit																			
 hacer			2s	V		2			bargat		V	TV							¿Qué haces?	Maid (don) barggat?												
 hacer			2s	V		3			duddjot		V	TV																				
-hacer			2s	V		6				Heivehuvvo sámegielat verbii:		TV, + N							hacer una casa	hukset vistti	hacer un poema	čállit divtta										
+hacer			2s	V		6			Heivehuvvo sámegielat verbii:	Heivehuvvo sámegielat verbii:		TV, + N							hacer una casa	hukset vistti	hacer un poema	čállit divtta										
 hacer			2s	V		13			oažžut		V	TV							hacer dinero	oažžut ruđa												
 hacer			2s	V		14			láhttet		V	IV, + Adv	s: fereguššat						Hizo mal al decirlo.	Son láhttii heivemeahttumin, go (son) dan muitalii.												
 hacer			2s	V		15			rahčat		V	IV, + por + Inf							Haré por estudiar esa asignatura.	Mun ražan lohkamis dán fágasuorggi.												
-hacer			2s	V		16				Heivehuvvo sámegielat verbii:		TV, Caus, + Inf							hacer reír	boagustahttit	hacer reír	reaškkihit	hacer creer	jáhkihit								
-hacer			2s	V		17				Heivehuvvo sámegielat verbii:		TV, Caus, + que + V							Haces que corran.	Don viegahit sin.	Haces que se vayan.	Don vuojehit sin.										
+hacer			2s	V		16			Heivehuvvo sámegielat verbii	Heivehuvvo sámegielat verbii:		TV, Caus, + Inf							hacer reír	boagustahttit	hacer reír	reaškkihit	hacer creer	jáhkihit								
+hacer			2s	V		17			Heivehuvvo sámegielat verbii	Heivehuvvo sámegielat verbii:		TV, Caus, + que + V							Haces que corran.	Don viegahit sin.	Haces que se vayan.	Don vuojehit sin.										
 hacer			2s	V		18	Rumaš/Cuerpo		gievrudahttit		V	TV	s: lášmmodahttit						hacer brazos	gievrudahttit gieđaid												
 hacer			2s	V		19	Teahter/Teatro		neaktit		V	UseTV,  + Art, + de	s: neavttašit						hacer el rey	neaktit gonagasa	hacer de rey	neaktit gonagasa										
 hacer			2s	V		21	Bargu, virgi...		leat		V	IV, + de	s: bargat						hacer de guía	bargat oahpisteaddjin												
 hacer			2s	V		27	Dálki		leat		V	Imp, 3per							Hace calor.	Lea liekkas.	Hace frío.	Lea galmmas.	Hace sol.	Lea beaivvadat.	Hace viento.	Lea biegga.						
-hacer			2s	V		28	Dálki			Heivehuvvo sámegielat verbii:		Imp, 3per							Hace viento.	Bossu.												
+hacer			2s	V		28	Dálki		Heivehuvvo sámegielat verbii	Heivehuvvo sámegielat verbii:		Imp, 3per							Hace viento.	Bossu.												
 hacer			2s	V		29	Cealkaga áigi/En expresión temporal		áigge		Po	Imp, 3per	s: dassá						hace quinientos años	vihtta čuođi jagi áigge	hace más de treinta años	eanet go golbmalot jagi dassá										
 hacer caso			2s	VLc		6			doahttalit		V	TV	s: jeagadit	s: guldalit					No haces caso de mis consejos.	Don it doahttal mu bagadusaid.	Hay que hacer caso al maestro.	Dat ferte jeagadit oahpaheaddji.										
 hacer cola			2s	VLc		35			čuožžut maŋŋálagaid		V	IV	s: čuožžut ráidun																			
@@ -3338,7 +3338,7 @@ hacer una rebaja			2s	VLc		3			vuolidit hatti		VLc		s: njeaidit hatti	s: doadjit
 hacerse			2s	V	hacer	4			ráhkadit		V	Prnl, ReflV, UseTV							Voy a hacerme la comida.	Galggan ráhkadit borramuša.												
 hacerse			2s	V	hacer	5			duddjot		V	Prnl, ReflV, UseTV							Me hago un vestido.	Mun ieš duddjon biktasa.												
 hacerse			2s	V	hacer	20			dájuhit (dego livččii)		Pfs	Prnl, IV	s: jáhkihit (dego livččii)						hacerse el bueno	dájuhit dego livččii buorre olmmožin												
-hacerse			2s	V	hacer	22				Heivehuvvo sámegielat verbii:		Prnl, IV, + A, + N							Te has hecho rico.	Don leat riggon.	El hielo se hizo agua.	Jiekŋa suttai čáhcin.										
+hacerse			2s	V	hacer	22			Heivehuvvo sámegielat verbii	Heivehuvvo sámegielat verbii:		Prnl, IV, + A, + N							Te has hecho rico.	Don leat riggon.	El hielo se hizo agua.	Jiekŋa suttai čáhcin.										
 hacerse			2s	V	hacer	23			ráđđet		V	Prnl, UseTV, + con + N	s: stivret																			
 hacerse			2s	V	hacer	24			oažžut		V	Prnl, UseTV, + con + N																				
 hacerse (a) la idea			2s	VLc	hacer	11			jurddašišgoahtit		V	Prnl, IV							Tienes que hacerte (a) la idea de que tus hijos se marcharán.	Don fertet jurddašišgoahtit ahte du bártnit vulget.												
@@ -3356,7 +3356,7 @@ hacia detrás				AdvLc		8	Dynámalaš/Dinámico,  go olmmoš dahjege ealli lea r
 hacia el interior		s: hacia la parte interior		AdvLc		5	Dynámalaš/Dinámico		-vuđđui		Cmpnd								Fuimos hacia el interior del bosque.	Mii vulggiimet vuovdevuđđui.	Fuimos hacia el interior de la casa.	Mii vulggiimet vistevuđđui.										
 hacia el interior		s: hacia la parte interior		AdvLc		6	Dynámalaš/Dinámico		siskkobeallái		Adv, Po								Fuimos hacia el interior del bosque.	Mii vulggiimet vuovddi siskkobeallái.	Fuimos hacia el interior de la casa.	Mii vulggiimet vistti siskkobeallái.										
 hacia lo alto		s: hacia arriba		AdvLc		3	Dynámalaš/Dinámico		bajás		Adv, Po		s: bajásguvlui						El pájaro vuela hacia lo alto.	Loddi girdá bajásguvlui.												
-hacia lo alto		s: hacia arriba		AdvLc		4	Dynámalaš/Dinámico			Jorgaluvvo heivvolaš Sámegiel verbii									El humo sube hacia lo alto.	Suovva borggista.	El humo sube hacia lo alto.	Suovva badjána.										
+hacia lo alto		s: hacia arriba		AdvLc		4	Dynámalaš/Dinámico		Jorgaluvvo heivvolaš Sámegiel verbii	Jorgaluvvo heivvolaš Sámegiel verbii									El humo sube hacia lo alto.	Suovva borggista.	El humo sube hacia lo alto.	Suovva badjána.										
 hallar			1a	V		1			gávdnat		V	TV	s: fuobmát						hallar un remedio contra un mal	gávdnat dálkasa dávdda vuostá												
 hallarse		s: encontrarse	1a	V	hallar	2			leat		V	IV							El ladrón se hallaba en el banco cuando llegó la policía.	Suola lei báŋkkus, go bođii boles.												
 hambre	F			N		1			nealgi		N																					
@@ -3364,7 +3364,7 @@ hambre	F			N		6			nealgeheahti		N		s: nealgi	s: váinnut					Todavía recuerdan 
 hambre	F			N		7	Figuratiiva/Figurado		hállu		N		s: lustu						El equipo tiene hambre de gol.	Valáštallanjoavkkus lea moala hállu.												
 harina	F			N		1			jáffu		N																					
 hasta				Pr		1			rádjai		Po								Hemos leído hasta el capítulo tres.	Mii leat lohkan goalmmát kapihttala rádjai.	Llegaremos hasta Barcelona.	Mii ollet Barcelona rádjai.	Dormiremos hasta las nueve.	Mii oađđit ovcci rádjai.	La grúa aguanta hasta cinco toneladas.	Krána gierdá gitta vihtta tonna rádjai.						
-hasta				Pr		2				Ill									Llegaremos hasta Barcelona.	Mii ollet Barcelonai.												
+hasta				Pr		2			Ill	Ill									Llegaremos hasta Barcelona.	Mii ollet Barcelonai.												
 hasta ayer				AdvLc		6			ievttážii		Adv	Saam: UseAlw: Ill																				
 hasta entonces				AdvLc		3	Áigi/Tiempo		dassái		Adv								Hasta entonces no tuvimos coche.	Dassái mis ii lean biila.												
 hasta hoy				AdvLc		9			otnáža rádjái		AdvLc		s: otnážii						Hasta hoy no he tenido noticias.	Otnážii mus eai leat leamaš ođđasat.												
@@ -3801,14 +3801,14 @@ ir			3t	V		1			vuolgit		V	IV	s: mannat						¿Vamos al partido esta tarde?	Vuolg
 ir			3t	V		2			mátkkoštit		V	IV	s: johtit						Mañana voy a Oslo.	Ihttin mátkkoštan Osloi.												
 ir			3t	V		5	Boahtteáiggi mearkkašupmi		mannat		V	AuxV, + a + Inf, UseAlso: prnl	s: vuolgit	s: galgat					Mañana voy a pescar.	Ihttin mun manan oaggut.	Me voy a nadar.	Vuolggán vuodjat.										
 ir			3t	V		6	Boahtteáiggi mearkkašupmi		áigut		V	AuxV, + a + Inf, UseAlso: prnl							No voy a leer ese libro.	Mun in áiggo lohkat dán girjji.	No me voy a leer ese libro.	Mun in áiggo lohkat dán girjji.										
-ir			3t	V		7				Jorgaluvvo heivvolaš Sámegiel verbii:		IV, + a + Inf, + a + N							ir a buscar	viežžat	Te voy a buscar a la estación.	Mun vieččan du stášuvnnas.	ir a la escuela	vázzit oahpahaga	ir a pique	vuodjut						
+ir			3t	V		7			Jorgaluvvo heivvolaš Sámegiel verbii	Jorgaluvvo heivvolaš Sámegiel verbii:		IV, + a + Inf, + a + N							ir a buscar	viežžat	Te voy a buscar a la estación.	Mun vieččan du stášuvnnas.	ir a la escuela	vázzit oahpahaga	ir a pique	vuodjut						
 ir			3t	V		9			mannat		V	IV, + de + N, UseAlso: prnl	s: vuolgit						ir de compras	buvddaide mannat	ir de excursión	vuolgit mátkái	ir de tapas	mannat báraide ovdaborramuša nammii	ir de tapas	mannat juhkanbáikkiide						
 ir			3t	V		10			dájuhit		V	IV, + de + A	s: jáhkihit	s: dahkaluddat					ir de tonto	dájuhit dájegin												
 ir			3t	V		11			vuolgit		V	IV, + en, Saam: Com	s: mannat	s: mátkkoštit					ir en avión	vuolgit girdiin	ir en tren	vuolgit togain										
-ir			3t	V		12				Jorgaluvvo heivvolaš Sámegiel verbii:		IV, + en							ir en bicicleta	syhkkelastit												
+ir			3t	V		12			Jorgaluvvo heivvolaš Sámegiel verbii	Jorgaluvvo heivvolaš Sámegiel verbii:		IV, + en							ir en bicicleta	syhkkelastit												
 ir			3t	V		13			leat dehálaš dahje ii leat dehálaš		Pfs	IV, + en, WObjPron							No te va nada en ese negocio.	Dat gávpi ii leat oppa dehálaš dutnje.												
 ir			3t	V		14			leat duohken dahje ii leat duohken		Pfs	IV, + en, WObjPron							en esas notas le va la carrera.	Alla-oahpus lea dáid árvosániid duohken sutnje.												
-ir			3t	V		15				Jorgaluvvo heivvolaš Sámegiel verbii:		IV, + con + N							Por ese camino hay que ir con cuidado.	Dán luoddaráigge ferte vázzit várrugasat.	Con esa enfermedad hay que ir con  paciencia.	Dáinna dávddain ferte leat gierdavaš.										
+ir			3t	V		15			Jorgaluvvo heivvolaš Sámegiel verbii	Jorgaluvvo heivvolaš Sámegiel verbii:		IV, + con + N							Por ese camino hay que ir con cuidado.	Dán luoddaráigge ferte vázzit várrugasat.	Con esa enfermedad hay que ir con  paciencia.	Dáinna dávddain ferte leat gierdavaš.										
 ir			3t	V		16			leat vuostalágaid		VLc	IV, + contra							Ese proyecto va contra nuestros objetivos.	Dat prošeakta lea min ulbimiliid vuostálagaid.												
 ir			3t	V		17			viežžat		V	TV, + (a) por							ir (a) por leña	viežžat muoraid												
 ir			3t	V		18			vuolgit (vuodjit, mátkkoštit) dihto báikki bokte		Pfs	IV, + por							Iré a Londres por Frankfurt.	Mun mátkkoštan Londonii Frakfurtta bokte.												
@@ -3940,9 +3940,9 @@ junto	M,F			A		3			ovttas		Adv		s: searválagaid						Volvieron juntas del coleg
 junto	M,F			A		13	Cealkaga áigi/En expresión temporal		oktanaga		Adv		s: oktana	v: aktanaga	s: aktana				Todas las desgracias vinieron juntas.	Buot bárttit bohte oktanaga.												
 junto a				AdvLc		11	Stáhtalaš/Estático		guoras		Po								Junto a la cama hay una silla.	Seaŋgga guoras lea stuollu.												
 junto a				AdvLc		12	Dynámalaš/Dinámico		gurrii		Po								Pon la silla junto a la cama.	Sirdil stuolu seaŋgga gurrii.												
-junto a				PrLc		10				Loc									Me calenté junto al fuego.	Mun báhkkanin dollagáttis.												
+junto a				PrLc		10			Loc	Loc									Me calenté junto al fuego.	Mun báhkkanin dollagáttis.												
 junto con		s: con		PrLc		6			oktan		Adv		v: aktan						Me llevo la chaqueta junto con la camisa.	Mun oasttán jáhka oktan báiddiin.												
-junto con		s: con		PrLc		7				Com									Me llevo la chaqueta junto con la camisa.	Mun oasttán jáhka báiddiin.												
+junto con		s: con		PrLc		7			Com	Com									Me llevo la chaqueta junto con la camisa.	Mun oasttán jáhka báiddiin.												
 junto con		s: con, y		PrLc		8			sihke… ja…		CC								Me llevo la chaqueta junto con la camisa.	Mun oasttán sihke jáhka ja báiddi.												
 junto con		s: con		PrLc		9	Olbmot		guovttos		N								Pedro pasea junto con Káren.	Pedro guovttos Káreniin váccašeaba.												
 jurar			1a	V		1			vuordnut		V	TV	s: váli dahkat	s: vuordnása dahkat					Júrame que lo harás.	Vuortno ahte don dan dagat.												
@@ -3970,7 +3970,7 @@ justo cuando				CC		2	Áigi/Tiempo		aiddo go		CC								Salieron justo cuando em
 juventud	F			N		1			nuorrageardi		N	Collc	s: nuorat						La juventud ha votado al Partido Laborista.	Nuorrageardi lea jienastan Bargiidbellodaga.												
 juventud	F			N		2	Eallináigodat		nuorravuohta		N								Conserva una eterna juventud.	Son doalaha agálaš nuorravuođa.	la fuente de la juventud	nuorravuođa ája										
 kiosco	M	v: quiosco		N		1			čoska		N		v: kioska																			
-la	F			Art Det		1				Ii jorgaluvvo		Sg							la casa	viessu												
+la	F			Art Det		1			Ii jorgaluvvo	Ii jorgaluvvo		Sg							la casa	viessu												
 la esperanza es lo último que se pierde				Lc		3			cealkka mii heive dillái masa ii gávdno makkárge čoavddus																							
 la hora de la verdad	F			NLc		10			duođalaš áigi		NLc																					
 la ley de la selva	F			NLc		3	Figuratiiva/Figurado		lágahisvuođa dilli		Pfs		s: juŋgelláhka	s: meahcceláhka	s: láhka mas gievrramus ráđđe																	
@@ -3992,7 +3992,7 @@ lado	M			N		2			vielti		N		s: gilga	s: riidi					lado de una montaña	várregilg
 lado	M			N		3			bealli		N		s: oassi	s: guovlu					La ciudad está sitiada por todos los lados.	Gávpot lea birastahttojuvvon buot beliin.	Huyeron al lado republicano.	Sii báhtaredje republikána guvlui.										
 lado	M			N		5			oassi		N		s: báiki						En ese lado de la casa hace frío.	Dán viesso-oasis galmmista.												
 lado	M	s: borde		N		6			ravda		N								El lado del cristal está roto.	Giđđolása ravda lea cuovkanan.												
-las	F			Art Det		2				Ii jorgaluvvo		Pl							las casas	viesut												
+las	F			Art Det		2			Ii jorgaluvvo	Ii jorgaluvvo		Pl							las casas	viesut												
 le				Obj Pron		1			sutnje		Pron, Ill, Sg3								Le conté un cuento.	Mun muitalin máidnasa sutnje.												
 legalizar			1f	V		1			dahkat lágalažžan		VLc	TV	s: legaliseret	s: dohkkehit lágalažžan					legalizar la droga	dahkat narkotihka lobálažžan												
 legalizar			1f	V		2			dahkat dohkálažžan		VLc	TV	s: dohkkehit	s: vuolláičállit					legalizar un documento	dohkálažžan dahkat dokumeantta												
@@ -4030,17 +4030,17 @@ llenarse			1a	V	llenar	4			deavdit		V	Prnl, Use TV							Me he llenado los bolsi
 llenarse			1a	V	llenar	5	Hui johtilit		deavdilit		V	Prnl, Use TV							Los ladrones se llenaron rápidamente los bolsillos de dinero.	Rievvárat deavdiledje iežaset lupmaide ruđa.												
 llenarse			1a	V	llenar	6			devdojuvvot		V	PassV, Imp, 3Per							Las botellas ya se han llenado.	Bohtalat leat juo devdojuvvon.	El depósito no se llenó.	Táŋka ii devdojuvvon.										
 llenarse		s: anegarse, inundarse	1a	V	llenar	7			devdot		V	Prnl, IV							El barco se llenó de agua al entrar en el rápido.	Fanas devdui guikii.												
-llenarse		s: hartarse, inflarse	1a	V	llenar	8				borrat, juhkat, Etc	V	Prnl, Use TV							Se han llenado de pasteles.	Sii leat borran ollu lákcagáhkuid.	Te has llenado de cerveza.	Don leat juhkan ollu vuola.										
+llenarse		s: hartarse, inflarse	1a	V	llenar	8			borrat, juhkat...	borrat, juhkat, Etc	V	Prnl, Use TV							Se han llenado de pasteles.	Sii leat borran ollu lákcagáhkuid.	Te has llenado de cerveza.	Don leat juhkan ollu vuola.										
 llenarse			1a	V	llenar	9	Figuratiiva/Figurado		geasuhit		V	TV							llenarse de amigos	geasuhit maŋga ustiba												
 llevar			1a	V		1			guoddit		V	TV							Ese hombre lleva dos maletas.	Dat olmmoš guoddá guokte koaffara.												
 llevar		s: traer	1a	V		3			buktit		V	TV							Esas nubes llevan lluvia.	Diet balvvat buktet arvvi.												
-llevar		s: tener	1a	V		4				Hab	V	TV							La silla lleva tres ruedas.	Stuolus leat golbma juvlla.												
+llevar		s: tener	1a	V		4			Hab	Hab	V	TV							La silla lleva tres ruedas.	Stuolus leat golbma juvlla.												
 llevar		s: acarrear	1a	V		13	Lossa dávvir		rahčat		V	TV, Saam: + Com							Hay que ser fuerte para llevar leña.	Olbmot fertejit leat gievrrat, go rahčet muoraiguin.												
 llevar		s: transportar	1a	V		14			fievrridit		V	TV							El camión lleva naranjas.	Guorbmebiila fievrrida appelsiinnaid.												
 llevar		s: soportar	1a	V		15			gillát		V	TV							Es duro llevar una vida así.	Lea lossat gillát dákkár eallima.												
 llevar		s: conducir	1a	V		16			vuodjit		V	TV, Saam: + Com							Lleva un coche muy veloz.	Son vuodjá issoras johtilis biillain.												
 llevar			1a	V		19	Cealkaga áigi/En expresión temporal		leat		V	IV							Llevamos aquí dos meses.	Mii leat leamašan dáppe guokte mánu.	Esas casas llevan ahí desde antes de la guerra.	Diet visttit leat doppe ovdal soahte-áiggi.										
-llevar			1a	V		20				leat boarrásat go, leat guhkit go, Etc	VLc	IV, Comp, WObjPron							Pedro me lleva tres años.	Pedro lea golbma jagi boarrásat go mun.	Marina le lleva a Rosa al menos cinco centímetros.	Marina lea unnimustá vihtta seantta guhkit go Rosa.										
+llevar			1a	V		20			leat boarrásat go, leat guhkit go...	leat boarrásat go, leat guhkit go, Etc	VLc	IV, Comp, WObjPron							Pedro me lleva tres años.	Pedro lea golbma jagi boarrásat go mun.	Marina le lleva a Rosa al menos cinco centímetros.	Marina lea unnimustá vihtta seantta guhkit go Rosa.										
 llevar (consigo)			1a	VLc		2			guottašit		V	TV							He cogido el ordenador y lo llevo (conmigo).	Mun lean váldán dihtora ja dán guottašan.												
 llevar (puesto)			1a	VLc		10			gárvodit		V	TV, Saam: + Com							La niña llevaba (puesta) una chaqueta roja.	Nieida gárvodii rukses jáhkain.												
 llevar (puesto)			1a	VLc		11			coggat		V	TV, Saam: + Acc	s: leat... badjelis						La niña llevaba (puesta) una chaqueta roja.	Nieida cokkai rukses jáhka.	Lleva (puesto) el gorro.	Sus lea gahpir badjelis.										
@@ -4067,7 +4067,7 @@ llover a cántaros			2h	VLc		2			šnjoarrat		IV	Imp, 3per
 lluvia ácida	F			NLc		3			nuoskkiduvvon arvi		NLc		s: suvrra arvi	s: sivrra arvi																		
 lo	M,F			Obj Pron		1			dan, dán		Pron, Acc, Sg								—Cuéntame ese cuento. —Te lo cuento.	—Muital munnje dan máidnasa. Dan mun muitalan,												
 lo siento		s: perdón		Lc		4	Buorremenolašvuođa sátni/Uso cortés		ándagassii		Lc																					
-los	M			Art Det		2				Jorgalkeahtes morfema		Pl							los coches	biillat												
+los	M			Art Det		2			Jorgalkeahtes morfema	Jorgalkeahtes morfema		Pl							los coches	biillat												
 los	M,F			Obj Pron		2			daid, dáid		Pron, Acc, Pl								—Coge los libros. —Ya los he cogido.	—Váldde girjjiid. —Lean juo daid váldán.												
 los bajos fondos	M			NLc		9			vuollemáilbmi		N	UseAlw: Pl	s: bahádahkkiid máilbmi																			
 los cinco sentidos	M			NLc		4	Gullu, oaidnu, haksin, máistu, dovdu-áicu		vihtta dáiddu		NLc		s: vihtta dovddu	s: vihtta áiccu																		
@@ -4119,8 +4119,8 @@ matarse		s: suicidarse	1a	VLc	matar	4			iešsorbmet		V	Prnl, ReflV	s: iešsoardi
 matarse a (trabajar)			1a	VLc	matar	5	Figuratiiva/Figurado, Beaivválaš giella/Uso coloquial		bargat hui ollu		Pfs	Prnl, IV	s: rahčat																			
 me				Obj Pron		3			munnje		Pron, Sg1								Cuéntame esa historia.	Muital munnje dán máidnasa.	Me lo dijo ayer.	Son dajai dan munnje ikte.										
 me				Pron		1			iežan		ReflPron, Sg1								Me miro en el espejo.	Mun iežan geahčan speadjalis.												
-me				Pron		2				Sámi vearbbaidde refleksiiva árvvuin									Me lavo.	Mun basadan.												
-me				Pron		4				Prnl vearbbain ii jorgaluvvo									Me lo imagino.	Mun ieš dan miellagovahalan.												
+me				Pron		2			Sámi vearbbaidde refleksiiva árvvuin	Sámi vearbbaidde refleksiiva árvvuin									Me lavo.	Mun basadan.												
+me				Pron		4			Prnl vearbbain ii jorgaluvvo	Prnl vearbbain ii jorgaluvvo									Me lo imagino.	Mun ieš dan miellagovahalan.												
 me trae al fresco				Lc		7			dás in beroš oppanassiige		Pfs																					
 mear			1a	V		1	Beaivválaš giella/Uso coloquial		cirgut		V	IV	s: šnjoarrat																			
 medio ambiente	M			NLc		3			luondu		N		s: biras						El ayuntamiento de Madrid debe proteger más el medio ambiente.	Madrida gielda ferte suodjalit áđabuččat luonddu.												
@@ -4145,7 +4145,7 @@ mezclar			1a	V		1			sehkket		V	TV	s: seaguhit						mezclar los ingredientes	sehk
 mezclarse			1a	V	mezclar	2			seahkanit		V	Prnl, IV, + con, Saam: + Com							Poco a poco, los colonos se mezclaron con los indígenas.	Veahážiid mielde kolonisttat seahkanedje eamiolbmuiguin.												
 mi	M/F			A, Posse, Sg1		1			mu		Pron, Gen, Sg1								Ése es mi libro.	Dát lea mu girji.												
 mi	M/F			A, Posse, Sg1		2			mu iežan		PronLc, Gen, Sg1								Mi coche es barato	Mu iežan biila lea hálbi.												
-mi	M/F			A, Posse, Sg1		3				PxSg1									Mi mano es pequeña.	Giehtan lea unni.	Le doy mi libro.	Mun geigen sutnje girján.										
+mi	M/F			A, Posse, Sg1		3			Oamastangehčosa Sg1	Oamastangehčosa Sg2									Mi mano es pequeña.	Giehtan lea unni.	Le doy mi libro.	Mun geigen sutnje girján.										
 mí				Obj Pron, Sg1		1			munnje		Pron, Ill, Sg1	UseAlw: a +							Cuéntamelo a mí.	Muital dan munnje.												
 mil gracias				Interj		8			duhát giitu		Interj	Pl																				
 mimar			1a	V		1			jiellahastit		V	TV, Saam: + Com	s: lilludit																			
@@ -4162,7 +4162,7 @@ morderse la lengua			2h	VLc	morder	4	Figuratiiva/Figurado		orrut jaska go áigu 
 morir			3k	V		1			jápmit		V	IV, Saam: Ill							Murió de cáncer.	Son jámii borasdávdii.												
 morir			3k	V		2	Figuratiiva/Figurado		luohpat		V	IV							El río muere en el Atlántico.	Johka luohpá Atlántaáhpái.												
 morir			3k	V		5			jápmit... ovddas		VLc	IV, UseAlw: + por							Los soldados murieron por Francia.	Solddáhtat jápme Franskkariikka ovddas.												
-morirse			3k	V	morir	3	Figuratiiva/Figurado			Vearba + jámas	VLc	Prnl, IV, UseAlw: + de							Me muero de risa.	Mun boagustan jámas.	Me muero de cansancio.	Mun váibban jámas.										
+morirse			3k	V	morir	3	Figuratiiva/Figurado		Vearba + jámas	Vearba + jámas	VLc	Prnl, IV, UseAlw: + de							Me muero de risa.	Mun boagustan jámas.	Me muero de cansancio.	Mun váibban jámas.										
 morirse			3k	V	morir	4	Figuratiiva/Figurado		háliidit garrasit		VLc	Prnl, IV, UseAlw: + por							Me muero por aprender Francés.	Mun háliidan garrasit fránskkagiela oahppat.												
 morirse de frío			3k	VLc	morir	8	Figuratiiva/Figurado		galbmot jámas		V	Prnl, IV																				
 morirse de hambre			3k	VLc		5			nealgut jámas		VLc	IV																				
@@ -4243,15 +4243,15 @@ nos				Obj Pron		4			munnuide		Pron, Du1								¿Nos cuentas una historia (a no
 nos				Obj Pron		5			midjiide		Pron, Pl2								Nos lo dijiste ayer.	Don dadjet dan midjiide ikte.												
 nos				Pron		1			iežame		ReflPron, Du1								Nos miramos en el espejo (nosotros dos).	Moai gehčče speadjalis iežame.												
 nos				Pron		2			iežamet		ReflPron, Pl1								Nos miramos en el espejo.	Mii iežamet geahččat speadjalis.												
-nos				Pron		3				Sámi vearbbaidde refleksiiva árvvuin									Nos lavamos.	Mii basadit.	Nos lavamos.	Mii basadat.										
-nos				Pron		6				Prnl vearbbain ii jorgaluvvo									Nos lo imaginamos.	Mii dan miellagovahallat.												
-nos				Pron		7				Resiprohka árvvuin									Nos gritamos.	Moai čurvo goabbát guoibmáseame.	Nos gritamos.	Moai čurvvodetne.										
+nos				Pron		3			Sámi vearbbaidde refleksiiva árvvuin	Sámi vearbbaidde refleksiiva árvvuin									Nos lavamos.	Mii basadit.	Nos lavamos.	Mii basadat.										
+nos				Pron		6			Prnl vearbbain ii jorgaluvvo	Prnl vearbbain ii jorgaluvvo									Nos lo imaginamos.	Mii dan miellagovahallat.												
+nos				Pron		7			Resiprohka árvvuin	Resiprohka árvvuin									Nos gritamos.	Moai čurvo goabbát guoibmáseame.	Nos gritamos.	Moai čurvvodetne.										
 nosotros	M,F			Pron, Pl1		2			mii		Pron, Nom, Pl1																					
 nosotros (dos)	M,F			Pron, Pl1		1			moai		Pron, Nom, Du1																					
 nuestro	M,F			A, Posse, Pl1		3			iežame		A, Gen, Du1								Reparamos nuestro coche (de nosotros dos).	Moai divvo iežame biila.												
 nuestro	M,F			A, Posse, Pl1		4			iežamet		A, Gen, Pl1								Reparamos nuestro coche (de más de dos).	Mii divvut iežamet biila.												
-nuestro	M,F			A, Posse, Pl1		5				PxDu1									Reparamos nuestro coche (de nosotros dos).	Moai divvo biilame.												
-nuestro	M,F			A, Posse, Pl1		6				PxPl1									Reparamos nuestro coche (de más de dos).	Mii divvut biilamet.												
+nuestro	M,F			A, Posse, Pl1		5			Oamastangehčosa Du1	Oamastangehčosa Du2									Reparamos nuestro coche (de nosotros dos).	Moai divvo biilame.												
+nuestro	M,F			A, Posse, Pl1		6			Oamastangehčosa Pl1	Oamastangehčosa Pl2									Reparamos nuestro coche (de más de dos).	Mii divvut biilamet.												
 nuestro	M,F			A, Pron, Posse, Pl1		1			munno		Pron, A, Gen, Du1								Ese libro es nuestro (de nosotros dos).	Dát girji lea munno.	nuestro libro (de nosotros dos)	munno girji										
 nuestro	M,F			A, Pron, Posse, Pl1		2			min		Pron, A, Gen, Pl1								Ése libro es nuestro (de más de dos).	Dát girji lea min.	nuestro libro (de más de dos)	min girji										
 número irracional	M			NLc		2	Matematihkka/Matemáticas		irrationála lohku		NLc																					
@@ -4306,9 +4306,9 @@ os				Obj Pron		4			dudnuide		Pron, Du2								¿Os cuento una historia (a vosot
 os				Obj Pron		5			didjiide		Pron, Pl2								Os lo dijimos ayer.	Mii dajaimet dan didjiide ikte.												
 os				Pron		1			iežade		ReflPron, Du2								Os miráis en el espejo (vosotros dos).	Doai geahččabeahtti iežade speadjalis.												
 os				Pron		2			iežadet		ReflPron, Pl2								Os miráis en el espejo.	Dii geahččabehtet iežadet speadjalis.												
-os				Pron		3				Sámi vearbbaidde refleksiiva árvvuin									Os laváis.	Doai basadeahppi.												
-os				Pron		6				Prnl vearbbain ii jorgaluvvo									Os lo imagináis.	Dii dan miellagovahallabehtet.												
-os				Pron		7				Resiprohka árvvuin									Os gritáis.	Doai čuorvubeahtti goabbát guoibmáseatte.												
+os				Pron		3			Sámi vearbbaidde refleksiiva árvvuin	Sámi vearbbaidde refleksiiva árvvuin									Os laváis.	Doai basadeahppi.												
+os				Pron		6			Prnl vearbbain ii jorgaluvvo	Prnl vearbbain ii jorgaluvvo									Os lo imagináis.	Dii dan miellagovahallabehtet.												
+os				Pron		7			Resiprohka árvvuin	Resiprohka árvvuin									Os gritáis.	Doai čuorvubeahtti goabbát guoibmáseatte.												
 paciencia	F			N		1			gierdevašvuohta		N		s: gierddahallan	s: mášolašvuohta	s: gillilvuohta				Tengo mucha paciencia con mis hijos.	Mus lea stuorra gierdevašvuohta iežan mánáide.	Se me acaba la paciencia.	Mu gierdevašvuohta nohká.										
 paciente	M/F			A		1			gierdevaš		A		s: mášolaš	s: guhkesmielalaš																		
 paciente	M/F			N		1			buohcci		N								paciente ambulatorio	johtti buohcci	paciente ambulatorio	sirddašeaddji buohcci										
@@ -4348,8 +4348,8 @@ papel protagonista	M			NLc		6			váldorolla		N
 papel secundario	M			NLc		7			nubbi rolla		NLc																					
 paquete	M			N		1			páhkka		N																					
 para				Pr		1			vai		CC								Me tengo que quitar las gafas para leer.	Mun ferten rádjat iežan čalbmelásaid, vai beasan lohkat.	Te he visitado para que no me olvides	Mun lean du galledan, vai it mu vajálduhte.										
-para				Pr		3				Ill									Tengo un regalo para ti.	Mus lea attáldat dutnje.	El avión para Oslo sale a las tres.	Girdi Osloi vuolgá golmmaáigge.										
-para				Pr		4				Com									¿Para qué has dicho eso?	Makkár ulbmiliin leat don dán dadjan?												
+para				Pr		3			Ill	Ill									Tengo un regalo para ti.	Mus lea attáldat dutnje.	El avión para Oslo sale a las tres.	Girdi Osloi vuolgá golmmaáigge.										
+para				Pr		4			Com	Com									¿Para qué has dicho eso?	Makkár ulbmiliin leat don dán dadjan?												
 para (que) no				PrLc		2			aman, amat, amas, amame, amade, amaska, amamet, amadet, amaset		V	Saam: Sup							Te he visitado para que no me olvides.	Mun lean du galledan amat mu vajálduhttit.												
 para hoy				AdvLc		10			otnážii		Adv								Esa tarea es para hoy.	Dát bargu lea otnážii.												
 para siempre				AdvLc		5			agálaččat		Adv		s: agálašvuhtii																			
@@ -4497,7 +4497,7 @@ permitirse			3a	V	permitir	3	Ruđa ektui		leat ráđđi		V	Prnl, UseTV, Hab					
 permitirse			3a	V	permitir	4	Buorremenolašvuođa sátni/Uso cortés		duostat		V	Prnl, UseTV							Me permito recordarte que la situación es grave.	Mun duosttan muittuhit dutnje, ahte dilli lea duođalaš.												
 pero				CC		1			muhto		CC								Querría ir pero no tengo tiempo.	Mun háliidivččen vuolgit, muhto mus ii leat dilli.												
 pero				Interj		2	Cuigehus dahje heammástus cealkka		vuoi!		Interj								Pero ¿dónde vas con esos zapatos?	Vuoi! gosa ipmašii vuolggát dieiguin gápmagiiguin?												
-pero				Interj		3	Deaddocealkagiin, Beaivválaš giella/Uso coloquial			ná + leat	Interj								¡Pero qué bonita es mi niña!	Ná čáppat lea mu nieida!												
+pero				Interj		3	Deaddocealkagiin, Beaivválaš giella/Uso coloquial		ná + leat	ná + leat	Interj								¡Pero qué bonita es mi niña!	Ná čáppat lea mu nieida!												
 pero que				AdvLc		4	Deaddocealkagiin, Beaivválaš giella/Uso coloquial		hirbmat		Adv								Ellos son muy pero que muy arrogantes.	Sii leat hirbmat čeavlát.												
 perra	F			N		1			ciiku		N																					
 perro	M			N		1			beana		N		s: rávjá	s: rávjábeana																		
@@ -4647,7 +4647,7 @@ ponerse			2r	V	poner	5	Bivttas		coggat		V	Prnl, ReflV, UseTV							ponerse los z
 ponerse			2r	V	poner	6			gárvodit		V	Prnl, IV, + de							Me he puesto de luto.	Lean gárvodan morrašii.												
 ponerse			2r	V	poner	7			čiŋadit		V	Prnl, IV, + de							Me he puesto de fiesta.	Lean čiŋadan ripmui.												
 ponerse			2r	V	poner	8	Báiki		čohkánit		V	Prnl, IV							Me pongo ahí.	Mun čohkánan dasa.												
-ponerse			2r	V	poner	11				Adjektiiva mearkkaša proseassa	V	Prnl, IV, + A							La señora se puso furiosa	Nissonolmmoš suhtai.	Me puse pálido.	Mun šovkkodin.										
+ponerse			2r	V	poner	11			Adjektiiva mearkkaša proseassa	Adjektiiva mearkkaša proseassa	V	Prnl, IV, + A							La señora se puso furiosa	Nissonolmmoš suhtai.	Me puse pálido.	Mun šovkkodin.										
 ponerse			2r	V	poner	14			Infinitiiva mearkkaša inkoatiiva		Pfs	Prnl, IV							Se puso a tocar un tango.	Dat čuojahišgođii tango.												
 ponerse			2r	V	poner	15			boahtit		V	Prnl, IV	s: olahit						Me puse en Oslo en dos horas viaje.	Mun bohten Osloi guovtti diimmas.												
 ponerse al día		s: actualizarse	2r	VLc	poner	5			bajidit		V	Prnl, ReflV	s: loktet gelbbolašvuođa dálá áigái						Estoy poniéndome al día en química.	Mun lean loktemin iežan kemihkalaš gelbbolašvuođa dálá áigái.												
@@ -4815,7 +4815,7 @@ pronto		s: temprano (por la mañana)		Adv		2			iđđedis		Adv		s: hui árrat				
 pronto				Adv		3	Fleksibel		árrat		Adv								Me levanto pronto, a las diez.	Mun lihkan árrat, diibmu logi.												
 pronto				Adv		4			áramusat		Adv								Llego pronto, a las doce.	Mun ollen áramusat, guoktenuppelot áigge.												
 propietario	M,F			N		1			eaiggát		N		s: oamasteaddji																			
-propio	M,F			A		1				ieš	ReflPron								Una autonomía es, en España, una región que tiene su propio parlamento.	"Autonomia" lea Spanias dakkár guovlu, mas lea iežas parlameanta.	Juan y Elena tienen su propio coche.	Juanas ja Elenas lea iežaska biila.	Tenemos nuestra propia casa en Kárášjohka.	Mis lea iežamet dállu Kárášjogas.								
+propio	M,F			A		1			Pron ieš	Pron ieš	ReflPron								Una autonomía es, en España, una región que tiene su propio parlamento.	"Autonomia" lea Spanias dakkár guovlu, mas lea iežas parlameanta.	Juan y Elena tienen su propio coche.	Juanas ja Elenas lea iežaska biila.	Tenemos nuestra propia casa en Kárášjohka.	Mis lea iežamet dállu Kárášjogas.								
 propio	M,F	s: típico		A		2			mihtilmas		A		s: gullevaš						La paella es propia de Valencia.	Paella lea Valencia mihtilmas skálžo-riisaborramuš ruotnasiin.												
 propio	M,F	s: adecuado		A		3			vuogas		A		s: heivvolaš						Tu comportamiento no es propio de esta situación.	Du láhttenvuohki ii leat vuogas dán dillái.												
 proponer			2r	V		1			evttohit		V	TV	s: árvalit																			
@@ -4833,7 +4833,7 @@ provenir			3s	V		2			boahtit		V	IV	s: vuolgit						Ahora sabemos de dónde provi
 provisional	M/F			A		1			gaskaboddosaš		A		s: gaska-áigásaš						gobierno provisional	gaskaboddosaš ráđđehus												
 provocar			1g	V		1			bođđet		V	TV	s: háhttet						Le provocó con un insulto.	Son bođđii gudnenjeaidimiin.												
 provocar			1g	V		2			dagahit		V	TV	s: boktit						provocar la risa	boktit reaškasa	provocar lástima	boktit árkkálmastinvuođa										
-provocar			1g	V		3				Kausatiiva vearbba hápmi	V	TV							provocar la risa	reaškkihit	provocar lástima	árkkálmastit										
+provocar			1g	V		3			Kausatiiva vearbba hápmi	Kausatiiva vearbba hápmi	V	TV							provocar la risa	reaškkihit	provocar lástima	árkkálmastit										
 provocarse			1g	V	provocar	4			ieš dagahit juoidá		Pfs	Prnl, ReflV							provocarse la muerte	iešsorbmehit	Un anoréxico se provoca la anemia.	Anoreks olmmoš ieš dagaha anemiija.										
 próxima parada	F			NLc		2			čuovvovaš bisánanbáiki		NLc																					
 próximo	M,F	s: cercano		A		1	Báiki/Lugar		lahka		A								la casa próxima al cementerio	viessu, mii lea hávde-eatnama lahka												
@@ -4855,7 +4855,7 @@ puerto	M			N		1	Mearra		hápman		N		v: hámman						el puerto de Cádiz	Cadiza h
 puerto	M			N		2	Váris		geainnu bajimus báiki		Pfs																					
 pues		s: porque		CC		1			dán dihte go		CC		s: dasgo	s: daningo	s: go				No puedo hacer el trabajo, pues no es mi oficio.	In sáhte čađahit barggu, dan dihte go dát ii leat mu fáddá.												
 pues		s: así pues		CC		2			ja danin		CC		s: ja nu						No he visto nunca fantasmas. Digo, pues, que los fantasmas no existen.	Mun in lean goassege oaidnán gobmiid ja danin dajan ahte gobmit eai gávdno.												
-puesta	F			N		1				Heivehuvvo vuogas sámegielat substantiivii	N, NLc								puesta en marcha	álggaheapmi	puesta de sol	beaiveluoitin	puesta en escena	lávdelágideapmi	puesta (de huevos)	mannen						
+puesta	F			N		1			Heivehuvvo vuogas sámegielat substantiivii	Heivehuvvo vuogas sámegielat substantiivii	N, NLc								puesta en marcha	álggaheapmi	puesta de sol	beaiveluoitin	puesta en escena	lávdelágideapmi	puesta (de huevos)	mannen						
 puesto	M,F			A		1			biddjojuvvon		A								La mesa esta puesta en el salón.	Beavdi lea biddjojuvvon sálii.												
 puesto	M,F	s: fijado		A		2			giddejuvvon		A		s: darvvihuvvon						El cuadro está puesto en la pared.	Málagovva lea giddejuvvon seaidnái.												
 puesto	M,F	s: instalado		A		3			biddjon sadjái		ALc		s: monterejuvvon						El motor está puesto y preparado para funcionar.	Motuvra lea biddjon sadjái ja gárvvis doaibmat.												
@@ -4926,7 +4926,7 @@ quitarse			1a	V	quitar	6			vuolgit		V	Prnl, ReflV, Saam: + Loc							Me quito de
 quitarse			1a	V	quitar	7			čuohppat		V	Prnl, UseTV	s: faskut						Anton se quitó la barba.	Anton faskkui skávžžá.												
 quitarse			1a	V	quitar	8	Bivttas		nuoladit		V	Prnl, UseTV, Saam: IV							Nos quitamos la ropa.	Mii nuoladit.												
 quitarse			1a	V	quitar	9	Bivttas, skuovat, etc.		nuollat		V	Prnl, UseTV, Saam: TV							Nos quitamos los zapatos.	Mii nuollat skuovaid.												
-quitarse			1a	V	quitar	10				Jorgaluvvo sámi heivvolaš verbii	V	Prnl, RecV							Los monos se quitan los piojos los unos a los otros.	Áhpat gavvet dihkiid guhtet guimmiineaset.	Los monos se quitan los piojos los unos a los otros.	Áhpat dihkkedit.										
+quitarse			1a	V	quitar	10			Jorgaluvvo sámi heivvolaš verbii	Jorgaluvvo sámi heivvolaš verbii	V	Prnl, RecV							Los monos se quitan los piojos los unos a los otros.	Áhpat gavvet dihkiid guhtet guimmiineaset.	Los monos se quitan los piojos los unos a los otros.	Áhpat dihkkedit.										
 quizá		v: quizás		Adv		1			ganske		Adv		s: várra						México es quizás la ciudad más grande del mundo.	México ganske leat máilmmi stuorámus gávpot.												
 quizá		v: quizás		Adv		2			soaitit		AuxV	Saam: UseAlw: Sg3							México es quizás la ciudad más grande del mundo.	México soaitá leat máilmmi stuorámus gávpot.												
 quizá		v: quizás		Adv		3			soaitit		AuxV	Saam: + Inf	s: veadjit						Quizás viaje mañana a Oslo.	Soaittán ihttin mátkkošit Osloi.												
@@ -5129,7 +5129,6 @@ responsabilidad				N		1			ovddasvástádus		N
 respuesta	F			N		1			vástádus		N		v: fástádus																			
 restaurante	M			N		1			restoráŋga		N		s: borahat	s: boradanbáiki																		
 resto	M			N		1			bázahas		N		s: liige-	s: lassi-					Se llevó el resto del dinero.	Son válddii liigeruđa.	Encontraron restos prehistóricos.	Sii gávdne dološ bázahasaid.	Se comió los restos.	Son borai borramušbázahasaid.								
-resto	M			N		4			bázahas		N	UseNor: Pl							Encontraron restos prehistóricos.	Sii gávdne dološ bázahasaid.	Se comió los restos.	Son borai borramušbázahusaid.										
 resto	M			N		6	Matematihkka/Matemáticas		geassinboađus		N																					
 restos mortales	M			NLc		5			olmmošbázahusat		N	UseAlw: Pl																				
 resultado	M			N		1			boađus		N																					
@@ -5279,10 +5278,10 @@ sartén	F			N		1			bánno		N		s: báiste	s: bassinbánno	s: steaikkabánno
 se				Pron		1			iežas		ReflPron, Sg3								La niña se mira en el espejo.	Nieida iežas geahččá speadjalis.												
 se				Pron		2			iežaska		ReflPron, Du3								María y Pedro se miran en el espejo.	María ja Pedro iežaska geahččaba speadjalis.												
 se				Pron		3			iežaset		ReflPron, Pl3								Ellos se miran en el espejo.	Sii iežaset gehččet speadjalis.												
-se				Pron		4				Sámi vearbbaidde refleksiiva árvvuin									Ellos se lavan	Sii basadit.												
-se				Pron		5				Resiprohka árvvuin									Pedro y Antonio se gritan.	Pedro ja Antonio čurvvodeaba.												
-se				Pron		6				Passiiva vearbbaid 3. persovdna lea ovttaid- ja máŋggaidlogus									Ese trabajo se hace rápido.	Dát bargu dahkkojuvvo johtilit.	El ordenador se utiliza para escribir.	Dihtor geavahuvvo čállimii.	Ya no se fabrican esas bicicletas.	Dát syhkkelat eai šat ráhkaduvvo.								
-se				Pron		7				Ill									Tú conoces esa historia que Marcos no conoce. ¡Cuéntasela!	Don dieđát dan muitalusa, man Marcos ii dieđe. Geahččal dan muitalit sutnje!	Ellos no saben cuánto he llorado, díselo tú.	Sii eai dieđe man olu lean čirron, muital dan sidjiide.										
+se				Pron		4			Sámi vearbbaidde refleksiiva árvvuin	Sámi vearbbaidde refleksiiva árvvuin									Ellos se lavan	Sii basadit.												
+se				Pron		5			Resiprohka árvvuin	Resiprohka árvvuin									Pedro y Antonio se gritan.	Pedro ja Antonio čurvvodeaba.												
+se				Pron		6			Passiiva vearbbaid 3. persovdna lea ovttaid- ja máŋggaidlogus	Passiiva vearbbaid 3. persovdna lea ovttaid- ja máŋggaidlogus									Ese trabajo se hace rápido.	Dát bargu dahkkojuvvo johtilit.	El ordenador se utiliza para escribir.	Dihtor geavahuvvo čállimii.	Ya no se fabrican esas bicicletas.	Dát syhkkelat eai šat ráhkaduvvo.								
+se				Pron		7			Ill	Ill									Tú conoces esa historia que Marcos no conoce. ¡Cuéntasela!	Don dieđát dan muitalusa, man Marcos ii dieđe. Geahččal dan muitalit sutnje!	Ellos no saben cuánto he llorado, díselo tú.	Sii eai dieđe man olu lean čirron, muital dan sidjiide.										
 se alquila			1a	VLc		4	Galba		láiguhuvvot		V	Imp, 3per																				
 se da el caso de que...			1r	VLc		4			ášši lea nu, ahte...		NLc		s: dilli lea nu, ahte…																			
 se espera			1a	VLc		5			vurdojuvvo		VLc	Imp, 3per	s: doivojuvvo						Se espera un verano muy seco.	Vurdojuvvo ahte boahtte geassi šaddá hui goikkis.												
@@ -5311,7 +5310,7 @@ seguir			3l, 3d	V		5			bissut		V	IV							El problema sigue sin resolver.	Vátti
 seguir la(s) huella(s)			3l, 3d	VLc		13			luottaid guorrat		VLc	TV							Biera siguió las huellas de su padre.	Biera guorai áhčis luottaid.												
 seguir los pasos		s: seguir las huellas	3l, 3d	VLc		2			guorrat luottaid		VLc	TV	s: šokčat luottaid																			
 según				Pr		1			mielde		Po	Saam: Gen +							según su opinión	su oainnu mielde												
-según				Pr		2				Com									según su opinión	su oainnuin												
+según				Pr		2			Com	Com									según su opinión	su oainnuin												
 según				Pr		3			aistton		Adv		s: aisttan						según Máhte Mihkkal	aistton dan Máhte Mihkkala												
 segundo				A		1			nubbi		Num, Ord																					
 segundo	M			N		1	Áigi/Tiempo		sekunda		N																					
@@ -5347,7 +5346,7 @@ sentido	M			N		1			áicu		N		s: dáidu
 sentido	M			N		2			áddejupmi		N		s: ipmárdus																			
 sentido común	M			NLc		5			luonddu jierbmi		NLc		s: geavatlaš jierbmi																			
 sentir			3i	V		1			dovdat		V	TV							sentir hambre	dovdat nealggi												
-sentir			3i	V		2				Sámi heivvolaš vearbbaide	V	TV							sentir hambre	nealgut	sentir sed	goikat	sentir frío	galbmot								
+sentir			3i	V		2			Sámi heivvolaš vearbbaide	Sámi heivvolaš vearbbaide	V	TV							sentir hambre	nealgut	sentir sed	goikat	sentir frío	galbmot								
 sentir			3i	V		3	Negatiivvalaš mearkkašumiin/Con significado negativo		váidalit		V	TV							A pesar de mis explicaciones, siento no haberles convencido.	Vaikko mun lean ákkastallan bures, de mun váidalan go dii ehpet vuhtiiváldán mu oainnu.												
 sentirse			3i	V	sentir	5			dovdat ieš		VLc	Prnl, ReflV							Se siente solo.	Son dovdá iežas okto.												
 sequía	F			N		1			goikkádat		N		s: jaŋádat																			
@@ -5414,11 +5413,11 @@ su	M/F			A, Posse, 3		1			su		Pron, Gen, Sg3								Ése es su libro.	Dát lea s
 su	M/F			A, Posse, 3		2			iežas		Pron, Gen, Sg3								Conduce su coche.	Son vuodjá iežas biillain.												
 su	M/F			A, Posse, 3		4			sudno		Pron, Gen, Du3								Ése es su libro (de ellos dos).	Dát lea sudno girji.												
 su	M/F			A, Posse, 3		5			iežaska		Pron, Gen, Du3								Conducen su propio coche.	Soai vuodjiba iežaska biillain.												
-su	M/F			A, Posse, 3		6				PxDu2									Conducen su propio coche.	Soai vuodjiba biillaineaskka.												
+su	M/F			A, Posse, 3		6			Oamastangehčosa Du2	Oamastangehčosa Du3									Conducen su propio coche.	Soai vuodjiba biillaineaskka.												
 su	M/F			A, Posse, 3		7			sin		Pron, Gen, Pl3								Ése es su libro (de más de dos).	Dát lea sin girji.												
 su	M/F			A, Posse, 3		8			iežaset		Pron, Gen, Pl3								Han vendido su casa.	Sii leat vuovdán iežaset viesu.												
-su	M/F			A, Posse, 3		9				PxPl3									Han vendido su casa.	Sii leat vuovdán viesuset.												
-su	M/F			A, Posse, 4		3				PxSg3									Conduce su coche.	Son vuodjá biillainis.												
+su	M/F			A, Posse, 3		9			Oamastangehčosa Pl3	Oamastangehčosa Pl4									Han vendido su casa.	Sii leat vuovdán viesuset.												
+su	M/F			A, Posse, 4		3			Oamastangehčosa Sg3	Oamastangehčosa Sg4									Conduce su coche.	Son vuodjá biillainis.												
 suave	M/F			A		1	Go njávká		linis		A																					
 suave	M/F			A		2	Karaktera		njuoras		A		s: láđis						Tiene un carácter suave.	Sus lea njuoras iešvuohta.												
 suave	M/F			A		3	Juhkamuš, duhpát		láivi		A								tabaco suave	láivves duhpát												
@@ -5474,20 +5473,20 @@ taparse			1a	V	tapar	3			gárvodit		V	Prnl, ReflV	s: bivttastit						¡Tápate b
 taparse			1a	V	tapar	4			čiehkat		V	Prnl, ReflV, UseTV	s: beaitit						Se tapa los ojos para no ver.	Son čiehká čalmmiid vai ii oainne.	Se tapa los ojos para no ver.	Son čiehká čalmmiid amas oaidnit.										
 te				Obj Pron		3			dutnje		Pron, Sg2								Te cuento una historia	Mun muitalan dutnje máidnasa.	Te lo dije ayer.	Mun dadjen dan dutnje ikte.										
 te				Pron		1			iežat		ReflPron, Sg2								Te miras en el espejo.	Don iežat geahčat speadjalis.												
-te				Pron		2				Sámi vearbbaidde refleksiiva árvvuin									Te lavas.	Don basadat.	Te miras en el espejo.	Don speadjalastat.										
-te				Pron		4				UseTV-Prnl vearbbain ii jorgaluvvo									Te lo imaginas.	Don dan miellagovahalat.												
+te				Pron		2			Sámi vearbbaidde refleksiiva árvvuin	Sámi vearbbaidde refleksiiva árvvuin									Te lavas.	Don basadat.	Te miras en el espejo.	Don speadjalastat.										
+te				Pron		4			UseTV-Prnl vearbbain ii jorgaluvvo	UseTV-Prnl vearbbain ii jorgaluvvo									Te lo imaginas.	Don dan miellagovahalat.												
 telescopio	M			N		1			teleskohpa		N																					
 tender			2g	V		1			geiget		V	TV	s: geaigguhit						Tender la mano al oponente.	Geiget gieđa vuostálastái.												
 tender			2g	V		2			heŋget		V	TV	s: gozastit						Tender la ropa mojada.	Heŋget njuoska biktasa.												
 tender			2g	V		3			sulastahttit		V	IV, UseAlw: + a	s: muittuhit						Ese color tiende al rojo.	Dát ivdni sulastahttá ruoksadasa.												
 tender			2g	V		4			orrut		V	IV, UseAlw: + a, Saam: + ActEss							El desempleo tiende a disminuir.	Bargguhisvuohta orru njiedjamin.												
 tenderse			2g	V	tender	5			velledit		V	Prnl, ReflV							El paciente se tiende en la camilla.	Buohcci velleda sáhpeliidda.												
-tener			2l	V		1	Oppalaš/General			Hab		TV							Tengo perro.	Mus lea beana.	No tienes dinero.	Dus ii leat ruhta.	No tienen tiempo.	Sis ii leat dilli.	El pescado tiene vitaminas.	Guolis leat vitamiinnat.						
+tener			2l	V		1	Oppalaš/General		Hab	Hab		TV							Tengo perro.	Mus lea beana.	No tienes dinero.	Dus ii leat ruhta.	No tienen tiempo.	Sis ii leat dilli.	El pescado tiene vitaminas.	Guolis leat vitamiinnat.						
 tener			2l	V		2	Oamasteapmi		oamastit		V	TV	s: eaiggáduššat						Tengo una casa en la playa.	Mun oamastan vistti mearragáttis.												
 tener			2l	V		3			doallat		V	TV							Ten la sartén mientras enciendo el fuego.	Doala báisttes, dan botta go mun cahkkehan dola.	Mañana tenemos la reunión.	Ihttin doallat mii čoahkkima.										
 tener			2l	V		4			sisttisdoallat		V	TV							El caldo tiene vitaminas.	Biđus sisttisdoallá vitamiinnaid.												
 tener			2l	V		5			luohttit		V	WObjPron, + por	s: oskkildit						Te tengo por un hombre inteligente.	Mun luohtán dutnje ahte don leat vitmes olmmoš.												
-tener			2l	V		8				Heivehuvvo sámegielat verbii	V	TV	+ N						tener vergüenza	heahpanit	tener frío	galbmot	tener calor	báhkkanit	tener miedo	ballat						
+tener			2l	V		8			Heivehuvvo sámegielat verbii	Heivehuvvo sámegielat verbii	V	TV	+ N						tener vergüenza	heahpanit	tener frío	galbmot	tener calor	báhkkanit	tener miedo	ballat						
 tener			2l	V		9	Áigi, ahki		leat… boaris		VLc	IV	s: leat... jahkásaš						Las flores sólo tienen dos días.	Rásit leat dušše guokte beaivvi boarrásat.	Tengo 53 años.	Mun lean 53 jagi boaris.	Mun lean 53 jahkásaš.									
 tener (mucha) cara			2l	VLc		4	Beaivválaš giella/Uso coloquial		láhttet gutneheamet, leat gutneheapmin		Pfs	IV																				
 tener (mucha) sed			2l	VLc		3			goikat		V	IV							En verano, cuando calienta el sol, tengo mucha sed.	Geaseáiggis ja beaivvadahkan mun goikkan.												
@@ -5498,7 +5497,7 @@ tener bajo control		s: controlar	2l	VLc		5			leat hálddus		VLc	TV							Tengo l
 tener buen aspecto			2l	VLc		4			orrut leat dearvvas		VLc	IV	s: orrut leat virkui	s: orrut leat buriin álššain																		
 tener calor			2l	VLc		2			báhkkanit		V	TV	s: liegganit																			
 tener cancha			2l	VLc		2	Argentina		leat hárjánan dihto áššái		Pfs	IV																				
-tener conocimiento		s: conocer	2l	VLc		6				Hab		+ de							El juez no tiene conocimiento de los hechos.	Duopmáris ii leat daguid diehtu.												
+tener conocimiento		s: conocer	2l	VLc		6			Hab	Hab		+ de							El juez no tiene conocimiento de los hechos.	Duopmáris ii leat daguid diehtu.												
 tener consecuencias		s: traer consecuencias	2l	VLc		2			dagahit bohtosiid		VLc	IV																				
 tener derecho			2l	VLc		3			das leat riekti		VLc	Saam: Hab							No tienes derecho a hablarme así.	Dus ii leat riekti nie hállat munnje.												
 tener en común			2l	VLc		4			sulastahttit		V	TV							Jaime y Pedro tienen muchas cosas en común.	Jaime ja Pedro sulastahttiba goabbát guoimmiska.												
@@ -5520,7 +5519,7 @@ tener un poco de hambre			2l	VLc		3			nealggildit		V	TV
 tener una pesadilla	F		2l	VLc		2			deddot		V	IV	s: deddohallat						Iba a matar gente, y tuvo pesadillas durante mucho tiempo debido a los terribles eventos de guerra.	Son gárttai soađis báhčit olbmuid ja son deddui guhká dáid ilgadis soahtedáhpáhusaid maŋŋá												
 tenerle a uno frito			3m	VLc		3	Figuratiiva/Figurado		ahkáduššat		V	IV	s: suivvastuvvat						Me tienes frito con tus gritos.	Mun ahkádušan du čuorvasiiguin.												
 tenerse			2l	V	tener	6			jáhkkit		V	Prnl, ReflV, + por	s: gáddit						Me tengo por celoso.	Mun jáhkán, ahte (mun) lean balahahkes.												
-tenerse			2l	V	tener	7				Hab		Prnl, ReflV, + en, + mucho, poco, gran...							Me tengo en poca estima.	Mus lea unnán iešluohttámuš.												
+tenerse			2l	V	tener	7			Hab	Hab		Prnl, ReflV, + en, + mucho, poco, gran...							Me tengo en poca estima.	Mus lea unnán iešluohttámuš.												
 tenérsela jurada (a alguien)			2l	VLc		4			hálidit mávssahit (muhtun olbmo)		Pfs	IV																				
 ti				Obj Pron, Sg2		1			dutnje		Pron, Ill, Sg2								Te lo digo a ti.	Mun dajan dan dutnje.	Confío en ti.	Mun luohtán dutnje.										
 ti				Obj Pron, Sg2		2			du		Pron, Acc, Sg2								Te miro a ti.	Mun geahčan du.												
@@ -5557,7 +5556,7 @@ tomar			1a	V		4			juhkat		V	TV							tomar agua	juhkat čázi	tomar una copa	juh
 tomar			1a	V		5	Amerihkká/América, alkohola		juhkat		V	IV							Los de ese pueblo toman.	Dán gili olbmot juhket.												
 tomar			1a	V		6	Amerihkká/América, ollu alkohola		šlaggat		V	IV							Los de ese pueblo toman mucho.	Dán gili olbmot šlagget.												
 tomar			1a	V		15	Militeara/Militar		váldit háldosis		VLc	TV							Las tropas tomaron Berlín.	Soahteveahka válddii Berlinna háldosis.												
-tomar			1a	V		17				Jorgaluvvo heivvolaš sámegielat verbii	V	TV, + N, Saam: Der/Goahtit							tomar la aguja	goarrugoahtit	tomar el piano	čuojahišgoahtit piano	tomar la pluma	čálligoahtit								
+tomar			1a	V		17			Jorgaluvvo heivvolaš sámegielat verbii	Jorgaluvvo heivvolaš sámegielat verbii	V	TV, + N, Saam: Der/Goahtit							tomar la aguja	goarrugoahtit	tomar el piano	čuojahišgoahtit piano	tomar la pluma	čálligoahtit								
 tomar			1a	V		18			vázzit		V	IV, UseNor: + por	s: vuodjit						tomar (por) la primera calle a la derecha	vázzit vuosttaš gáhta olgešguvlui												
 tomar			1a	V		19			doaivut		V	TV, WObjPron, + por	s: gáddit						Me tomas por tonto.	Don doaivvut mu colpin.												
 tomar a broma		s: tomar en broma	1a	VLc		14	Áddejupmi, ipmárdus		váldit leaikan		VLc	TV																				
@@ -5596,18 +5595,18 @@ trasportar		v: transportar	1a	V	transportar	3	Figuratiiva/Figurado		gártat lihk
 trocha	F	s: paso		N		1	Meahcis		bálggis		N		s: geinnodat																			
 tu	M/F			A, Posse, Sg2		1			du		Pron, Gen, Sg2								Ése es tu libro.	Dát lea du girji.												
 tu	M/F			A, Posse, Sg2		2			iežat		Pron, Gen, Sg2								Tu coche es barato	Don vuoját iežat biillain.												
-tu	M/F			A, Posse, Sg2		3				PxSg2									Conduces tu coche.	Don vuoját biillainat.												
+tu	M/F			A, Posse, Sg2		3			Oamastangehčosa Sg2	Oamastangehčosa Sg3									Conduces tu coche.	Don vuoját biillainat.												
 tú	M/F			Pron, Sg2		1			don		Pron, Nom, Sg2																					
 tuerca	F			N		1	Teknologiija/Tecnología		njiŋŋelasskruva		N																					
 tuyo	M,F			Pron, Posse, Sg2		1			du		Pron, Gen, Sg2								Ese libro es tuyo.	Dát girji lea du.												
-un	M,F			Art Indef		1				Ii jorgaluvvo									un coche	biila	unos coches	biillat	una casa	viessu	unas casas	viesut						
+un	M,F			Art Indef		1			Ii jorgaluvvo	Ii jorgaluvvo									un coche	biila	unos coches	biillat	una casa	viessu	unas casas	viesut						
 un buen rato				AdvLc		3			boddu mii bistá guhká		Pfs								Hace un buen rato que llamó.	Lea guhkes boddu, dassá go son ringii.												
 un día sí y uno no		s: en días alternos		AdvLc		10			juohke nuppi beaivvi		AdvLc																					
 un huevo		s: mucho, muy		AdvLc		11	Beaivválaš giella/Uso coloquial		arvat		Adv		s: eatnat	s: sakka	s: hui				Ese coche cuesta un huevo.	Dat biila lea hui divrras.												
 un poco	M,F			PronLc, Indef		1			veahá		Pron								Ya he comido un poco.	Mun lean juo borran veahá.												
-un poco	M,F			PronLc, Indef		2				Sámi momentána vearbbaide	V								comer un poco	borastit	beber un poco	jugistit	morder un poco	gáskkestit	saltar un poco	njuikestit						
+un poco	M,F			PronLc, Indef		2			Sámi momentána vearbbaide	Sámi momentána vearbbaide	V								comer un poco	borastit	beber un poco	jugistit	morder un poco	gáskkestit	saltar un poco	njuikestit						
 un poco de	M			ALc		16			veaháš		A								un poco de agua	veaháš čáhci												
-un poco de	M			ALc		17				Der/Dimin	N								un poco de agua	čázáš												
+un poco de	M			ALc		17			Der/Dimin	Der/Dimin	N								un poco de agua	čázáš												
 uno	M,F			Num		1			okta		Num																					
 urraca	F	s: picaza		N		1		pica pica	skire		N																					
 útero	M	s: matriz		N		1	Olmmoš		goaŧŧu		N																					
@@ -5659,8 +5658,8 @@ vosotros	M,F			Pron, Pl2		2			dii		Pron, Nom, Pl2
 vosotros (dos)	M,F			Pron, Pl2		1			doai		Pron, Nom, Du2																					
 vuestro	M,F			A, Posse, Pl2		3			iežade		A, Gen, Du2								Reparáis vuestro coche (de vosotros dos).	Doai divvubeahtti iežade biilla.												
 vuestro	M,F			A, Posse, Pl2		4			iežadet		A, Gen, Pl2								Reparáis vuestro coche (de más de dos).	Dii divvubehtet iežadet biilla.												
-vuestro	M,F			A, Posse, Pl2		5				PxDu2									Reparáis vuestro coche (de vosotros dos).	Doai divvubeahtti biilade.												
-vuestro	M,F			A, Posse, Pl2		6				PxPl2									Reparáis vuestro coche (de más de dos).	Dii divvubehtet biiladet.												
+vuestro	M,F			A, Posse, Pl2		5			Oamastangehčosa Du2	Oamastangehčosa Du2									Reparáis vuestro coche (de vosotros dos).	Doai divvubeahtti biilade.												
+vuestro	M,F			A, Posse, Pl2		6			Oamastangehčosa Pl2	Oamastangehčosa Pl2									Reparáis vuestro coche (de más de dos).	Dii divvubehtet biiladet.												
 vuestro	M,F			A, Pron, Posse, Pl2		1			dudno		Pron, A, Gen, Du2								Ese libro es vuestro (de vosotros dos).	Dát girji lea dudno.	vuestro libro (de vosotros dos)	dudno girji										
 vuestro	M,F			A, Pron, Posse, Pl2		2			din		Pron, A, Gen, Pl2								Ése libro es vuestro (de más de dos).	Dát girji lea din.	vuestro libro (de más de dos)	din girji										
 y				CC		1			ja		CC								hijos y padres	mánát ja váhnemat												
@@ -5670,3 +5669,4 @@ ya veremos				Lc		9			mii oaidnit mo geavvá		Lc								Todavía no hemos tomado
 yo	M/F			Pron, Sg1		1			mun		Pron, Nom, Sg1																					
 zapato	M			N		1			skuovva		N		s: gáma	s: juolgesuodji																		
 zumo	M			N		1			sáhppi		N		s: jugus																			
+mirar			1a	V		1			geahččat		V	TV																				
