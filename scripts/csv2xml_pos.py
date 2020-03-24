@@ -56,7 +56,7 @@ class Entry:
 #def check_and_insert(value, parent, tag_name, t_element=None):
 def check_and_insert(value, parent, tag_name, ppar=None, ppar_tag_name=None, t_element=None):
     if value:
-        if ppar and ppar_tag_name:
+        if ppar is not None and ppar_tag_name is not None:
             parent = SubElement(ppar, ppar_tag_name)
         element = SubElement(parent, tag_name)
         element.text = value
