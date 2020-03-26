@@ -55,15 +55,19 @@ class Entry:
 # Check if value exists, if yes create element (optional t_element to add saami_ex together with spa_ex)
 #def check_and_insert(value, parent, tag_name, t_element=None):
 def check_and_insert(value, parent, tag_name, ppar=None, ppar_tag_name=None, t_element=None):
-    if value:
+    if value and t_element:
+        if t_element[0]:
+            if ppar is not None and ppar_tag_name is not None:
+                parent = SubElement(ppar, ppar_tag_name)
+            element = SubElement(parent, tag_name)
+            element.text = value
+            element = SubElement(parent, t_element[1])
+            element.text = t_element[0]
+    elif value:
         if ppar is not None and ppar_tag_name is not None:
             parent = SubElement(ppar, ppar_tag_name)
         element = SubElement(parent, tag_name)
         element.text = value
-        if t_element:
-            if t_element[0]:
-                element = SubElement(parent, t_element[1])
-                element.text = t_element[0]
     return
 
 # Read the csv file
