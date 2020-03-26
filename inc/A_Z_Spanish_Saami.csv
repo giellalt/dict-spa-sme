@@ -1069,13 +1069,13 @@ cantidad	F			N		1			mearri		N	UseAlso: + de	s: hivvodat						cantidad de aceite	
 cantidad	F			N		2	Nummar		lohku		N																					
 cantidad	F			N		3	Dimenšuvdna		munni		N																					
 cantidad	F			N		4	Árvodássi		muddu		N																					
-canto	M			N		1	Musihka-skuvlla fálaldat		juoiganfáddá		N								Estudia canto en el conservatorio.	Son lohká musihkka-oahpahaga juoiganfáttá.												
-canto	M			N		1	Oppalaš/General		ravda		N																					
-canto	M			N		1			geađgi		N																					
-canto	M			N		2			lávlla		N																					
-canto	M			N		2	Vuovdi		orda		N																					
+canto	M			N		2	Musihka-skuvlla fálaldat		juoiganfáddá		N								Estudia canto en el conservatorio.	Son lohká musihkka-oahpahaga juoiganfáttá.												
+canto	M			N		4	Oppalaš/General		ravda		N																					
+canto	M			N		5			geađgi		N																					
+canto	M			N		1			lávlla		N																					
+canto	M			N		6	Vuovdi		orda		N																					
 canto	M			N		3	Árbevirolaš		luohti		N																					
-canto	M			N		3	Guovlu		rádji		N																					
+canto	M			N		7	Guovlu		rádji		N																					
 cantor	M,F			N, A		1	Oppalaš/General		lávlu		N																					
 cantor	M,F			N, A		2	Luohti		juoigi		N																					
 cantor	M,F			N, A		3	Loddi		vizardeaddji		N								pájaro cantor	vizardeaddji												
@@ -3287,7 +3287,7 @@ hablar			1a	V		1			hállat		V	IV	s: hupmat
 hablar			1a	V		2			máhttit		V	TV	s: hállat	s: hupmat					¿Hablas sami?	Máhtát go (don) sámegiela?	¿Hablas sami?	hálat go sámegiela?										
 hablar por los codos			1a	VLc		2			loavkkistit		V	IV	s: juorrudit	s: šláttardit	s: šluppardit																	
 hablar por los codos			1a	VLc		3			leat hállái		VLc	IV	s: leat hubmái																			
-hablarse			1a	V	hablar	4			gáimmadit		V	Prnl, RecV							Antonio y María no se hablan.	Antonio ja María eaba gáimmat.												
+hablarse			1a	V	hablar	4			gulahallat		V	Prnl, RecV							Antonio y María no se hablan.	Antonio ja María eaba gáimmat.												
 hace poco				AdvLc		30			veaháš áigge		AdvLc																					
 hacendero	M			N		1			eana(n)hearrá		N																					
 hacendero	M,F			N		2			stuorra eana(n)eaiggát		Pfs																					
