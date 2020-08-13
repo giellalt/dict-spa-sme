@@ -2,7 +2,8 @@ This folder contains:
 
 Files:
 ------
-columns_A-Z.csv        = overview of the columns in A_Z_Spanish_Saami.csv
+README (this file)
+worklog.txt (a file keeping track of the work)
 
 
 Folders:
