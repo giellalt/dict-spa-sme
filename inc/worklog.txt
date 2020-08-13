@@ -1,4 +1,179 @@
-
 Worklog
 =======
 
+This file is for keeping track of the workflow.
+
+
+
+13.8. 2020
+==========
+Trond, Chiara discussion. Sent comments to Madrid.
+File forthcoming.
+
+
+
+
+
+
+
+========================
+
+Dear Angel!
+
+Sorry you have had to wait. It turned out what we waited for was me (for my comments to the instructions). In the future, all three of us should include the other two in the TO: field.
+
+Chiara and I have now gone through the Instructions.pdf file from may. Here are our comments (minutes from our meeting, now-and-then hard to read).
+
+The short version:
+
+You may continue working with the last Excel file you had. This time, we have not done changes to the Excel file, so we "return the master file unaltered", i.e., we invite you to send us an updated version of it. We do have things we want to improve in it, but we will rather wait until the next round.
+
+At the same time (today or tomorrow), Chiara will install the file you sent us in May online. A little less then half of your wishes are fulfilled (see below). For the rest, we will partly have to look more at it, partly we suggest that we wait until the Spanish paradigm generator has been implemented, and partly we are sceptical. For the details, see below.
+
+The most important thing is that you continue wit the content work in excel, and that you may now do.
+
+IT IS THUS NOW YOUR TURN TO WORK WITH THE MASTER EXCEL FILE.
+
+
+Here are the detailed comments from our side:
+
+- Tromsø reads and evt. implements 
+files_under_scrutiny/Instructions_may20.pdf
+
+1 Publish, then return
+TODO: run script + publish online.
+
+2. Espánnjagiella-Davvisámegiella -> Spánskagiella-Davvisámegiella,
+TODO: Endre (Chiara)
+
+3 Splitting column J in four:
+
+The content of J columen should be displayed in italics, when the content begins with:
+2.1. Usar:
+2.2. Geahča
+2.3. No se traduce
+
+Comment:
+We have not implemented this yet. What we probably want is to have these in a separate column. We will return to this.
+TODO: Wait with this
+
+
+3b. To make possible for the user searching the word both if he/she pushes small and capital first letter.
+
+We will have to consider this, it has drawbacks as well. An laternative could be to just have a flag warning against it. We will not look into it now.
+TODO: Wait with this
+
+4 Make possible searching in a multiword mode. This will probably hurt more than it does well. One possible alternative is to minimise the multiword lemmas. 
+TODO: Wait with this
+
+5. Split the info on the Spanish lemma between primary and secondary page.
+Comment: Let us first implement the Spanish lemma generation as it is for the other language pairs, and then consider.
+
+What we want for H and I:
+H = usage: as for other dictionaries' re node today
+I = scientific name: 44italics placed before the translation (as first translation), 
+
+TODO: Update script with H, wait with I until next round.
+
+Column M, Explanation.
+We will wait with this, and would like to see examples.
+TODO: Next round.
+
+Paradigms. This is forthcoming, and requires paradigm specification. We return to this.
+TODO: Next round.
+
+
+
+6 The -se verbs. This is an issue for the Spanish FST. 
+TODO: We will return to this
+
+
+
+7 A final quest on column M: Add "Span:"
+We can add "Span:", no problem, but we do not understand why. At present the content is e.g.
+
+
++ Inf
+AuxV, + Inf, Saam: + PrfPrc
+IV
+IV, PassV
+IV, UseAlso: se +
+Prnl, AuxV, + de + Inf, Saam: + PrfPrc
+Prnl, IV
+Prnl, ReflV
+TV
+Use: Pl
+UseTV, + con
+
+... and we do not quite see what is spanish about it.
+
+
+Here is your ist of Parts of Speech. This is an issue we would have to return to (they must be matched with the POS of the spanish analyser):
+
+
+3476 N
+3194 V
+1002 A
+ 802 VLc
+ 571 NLc
+ 372 AdvLc
+ 326 Adv
+  96 Pr
+  86 Lc
+  66 CC
+  58 Pron
+  48 ALc
+  42 N, A
+  30 Interj
+  25 PrLc
+  16 Interr
+  15 Pron, Indef
+  14 A, Indef
+  13 A, N
+  12 A, Pron, Indef
+  11 Obj Pron
+   9 Pron, Rel
+   9 Num
+   9 A, Posse, 3
+   8 Pfs
+   8 InterrLc
+   5 Interj, VLc
+   4 Sátnevájas
+   4 PronLc, Indef
+   4 Pron, Interr
+   4 N, ALc
+   4 Adv, Indef
+   4 ALc, NLc
+   4 A, Posse, Pl2
+   4 A, Posse, Pl1
+   4 A, Posse
+   4 A, Interr
+   3 Pron, Posse, 3
+   3 Pron, Indef, Sg
+   3 Pron, A
+   3 Obj Pron, Sg2
+   3 CtArt
+   3 Art Indef
+   3 Art Det
+   3 A, Posse, Sg2
+   3 
+   2 PronLc
+   2 Pron, Sg3
+   2 Pron, Pl3
+   2 InterjLc
+   2 ALc, Indef
+   2 A, Pron, Posse, Pl2
+   2 A, Pron, Posse
+   2 A, Indef, Sg
+   1 WORD CLASS
+   1 PronLc, Posse, Det
+   1 Pron, Sg2 
+   1 Pron, Sg2
+   1 Pron, Sg1
+   1 Pron, Posse, Sg2
+   1 Pron, Pl2 
+   1 Pron, Pl2
+   1 Pron, Indef, Pl
+   1 Pron, A, Indef
+   1 Pron Indef
+   1 Num, Ord
