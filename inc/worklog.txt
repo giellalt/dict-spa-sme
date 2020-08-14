@@ -4,17 +4,20 @@ Worklog
 This file is for keeping track of the workflow.
 
 
+14.8.2020
+==========
+5. Done the part with H, displayed as in the other dictionaries
+
+
+13.8.2020
+==========
+1. Done
+2. Done
 
 13.8. 2020
 ==========
 Trond, Chiara discussion. Sent comments to Madrid.
 File forthcoming.
-
-
-
-
-
-
 
 ========================
 
@@ -37,16 +40,16 @@ IT IS THUS NOW YOUR TURN TO WORK WITH THE MASTER EXCEL FILE.
 
 Here are the detailed comments from our side:
 
-- Tromsø reads and evt. implements 
+- Tromsø reads and evt. implements
 files_under_scrutiny/Instructions_may20.pdf
 
-1 Publish, then return
+1. Publish, then return
 TODO: run script + publish online.
 
 2. Espánnjagiella-Davvisámegiella -> Spánskagiella-Davvisámegiella,
 TODO: Endre (Chiara)
 
-3 Splitting column J in four:
+3. Splitting column J in four:
 
 The content of J columen should be displayed in italics, when the content begins with:
 2.1. Usar:
@@ -63,7 +66,7 @@ TODO: Wait with this
 We will have to consider this, it has drawbacks as well. An laternative could be to just have a flag warning against it. We will not look into it now.
 TODO: Wait with this
 
-4 Make possible searching in a multiword mode. This will probably hurt more than it does well. One possible alternative is to minimise the multiword lemmas. 
+4. Make possible searching in a multiword mode. This will probably hurt more than it does well. One possible alternative is to minimise the multiword lemmas.
 TODO: Wait with this
 
 5. Split the info on the Spanish lemma between primary and secondary page.
@@ -71,7 +74,7 @@ Comment: Let us first implement the Spanish lemma generation as it is for the ot
 
 What we want for H and I:
 H = usage: as for other dictionaries' re node today
-I = scientific name: 44italics placed before the translation (as first translation), 
+I = scientific name: italics placed before the translation (as first translation),
 
 TODO: Update script with H, wait with I until next round.
 
@@ -84,12 +87,12 @@ TODO: Next round.
 
 
 
-6 The -se verbs. This is an issue for the Spanish FST. 
+6. The -se verbs. This is an issue for the Spanish FST.
 TODO: We will return to this
 
 
 
-7 A final quest on column M: Add "Span:"
+7. A final quest on column M: Add "Span:"
 We can add "Span:", no problem, but we do not understand why. At present the content is e.g.
 
 
@@ -156,7 +159,7 @@ Here is your ist of Parts of Speech. This is an issue we would have to return to
    3 Art Indef
    3 Art Det
    3 A, Posse, Sg2
-   3 
+   3
    2 PronLc
    2 Pron, Sg3
    2 Pron, Pl3
@@ -167,11 +170,11 @@ Here is your ist of Parts of Speech. This is an issue we would have to return to
    2 A, Indef, Sg
    1 WORD CLASS
    1 PronLc, Posse, Det
-   1 Pron, Sg2 
+   1 Pron, Sg2
    1 Pron, Sg2
    1 Pron, Sg1
    1 Pron, Posse, Sg2
-   1 Pron, Pl2 
+   1 Pron, Pl2
    1 Pron, Pl2
    1 Pron, Indef, Pl
    1 Pron, A, Indef
