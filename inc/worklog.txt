@@ -3,6 +3,2518 @@ Worklog
 
 This file is for keeping track of the workflow.
 
+7.10.2020
+==========
+The september version of the file is installed (with updated user_friendly_tags).
+Here follows copy of Trond email
+========================
+
+
+Some notes, I go through the columns one by one. Rather than changing the file and sending it back to you I just point out possible things to fix. The file is now mostly so good that it is not evident to me what should be the correct solution.
+
+We will have to return to the POS issue when the spanish FST is up and running, for now it suffers from our recent reorganisation of our code. Come to think of it, harmonising Saami POS to the analyser should  be looked into as well, I will not do it now.
+
+I thus handle the issue back to you , for Your Turn. Thus, you now work on the Excel file again. It might be that we will now abandon the turn system, leaving all editing to you. But the POS revision may perhaps be done easier in our end, so let us continue as agreed for now. (with your turn now).
+
+You will not get a file back, but rather comments. When receiving a copy of this letter, Chiara will uplode the september version   (the one underlying my comments).
+
+
+Trond
+
+
+
+
+
+Here are the comments, colum by column (the one I omit are either empty or I save them for later):
+
+
+column 2:
+
+Here is the gender column 2:
+
+5493
+2238 M
+2221 F
+1082 M,F
+ 564 M/F
+   2 2p
+   1 GENDER
+
+The two 2p entries are "extraer", they should prpbably not have 2p in the second column. You also have 6 "M, F", should be changed to "M,F". I see that M/F means "identical forms in M and F, whereas M,F means "different forms in M and F".
+
+Column 3:
+
+7377
+1992 1a
+ 209 3a
+ 188 1g
+ 132 2a
+ 117 1f
+ 115 1r
+ 110 2s
+  96 1k
+  90 2r
+  87 2l
+  81 3t
+  77 1h
+  75 1b
+  74 2d
+  72 1m
+  70 2g
+  66 1p
+  63 3i
+  47 2c
+  46 3g
+  45 3l
+  29 2h
+  21 3s
+  19 1f, 1k
+  16 3l, 3d
+  16 2o
+  16 1c
+  15 3c
+  15 1o
+  14 2w
+  14 2b
+  14 1q
+  13 1e
+  12 3o
+  12 3m
+  12 2p
+  11 3k
+  11 2q
+  10 2i
+   9 2n
+   9 1v
+   8 3r
+   8 2e
+   7 3p
+   6 2v
+   5 3q
+   5 3e
+   5 3d
+   5 2u
+   5 2t
+   5 2k
+   5 1h, 1k
+   4 3h, 3l
+   4 3c, 3l
+   3 2b, 2h
+   3 1h, 1m
+   2 4a
+   2 2m
+   1 INFLECTION
+   1 1f, 1m
+
+This seems ok. Given that we are going to make paradigm generation ourselves I am not sure whether the info is needed, but it sure may be added to the display (at the moment it is not).
+
+
+Column 5, the POS field:
+
+
+4133 N
+3378 V
+1118 A
+ 842 VLc
+ 577 NLc
+ 387 AdvLc
+ 355 Adv
+ 117 Pr
+  81 CC
+  77 Lc
+  65 Pron
+  59 Interj
+  48 Num
+  46 ALc
+  44 N, A
+  24 PrLc
+  18 A, N
+  17 Interr
+  15 Pron, Indef
+  14 Obj Pron
+  14 A, Indef
+  13 Num, Ord
+  12 Pron, Rel
+  12 A, Pron, Indef
+   9 A, Posse, 3
+   8 Pfs
+   8 InterrLc
+   6 AdvLc, CC
+   6 A, Posse
+   4 Sátnevájas
+   4 PronLc, Indef
+   4 Pron, Interr
+   4 Adv, Indef
+   4 ALc, NLc
+   4 A, Posse, Pl2
+   4 A, Posse
+   4 A, Interr
+   3 Pron, Posse, 3
+   3 Pron, Indef, Sg
+   3 Obj Pron, Sg2
+   3 CtArt
+   3 Art Indef
+   3 Art Det
+   3 A, Posse, Sg2
+   3
+   2 PronLc
+   2 Pron, Sg3
+   2 Pron, Posse, Pl2
+   2 Pron, Posse
+   2 Pron, Pl3
+   2 Pron, Dem
+   2 NLc, ALc
+   2 InterjLc
+   2 Adv, CC
+   2 Adv, A
+   2 ALc, Indef
+   2 A, Superl
+   2 A, Indef, Sg
+   2 A, Dem
+   1 WORD CLASS
+   1 PronLc, Posse, Det
+   1 Pron, Sg2
+   1 Pron, Sg2
+   1 Pron, Sg1
+   1 Pron, Posse, Sg2
+   1 Pron, Pl2
+   1 Pron, Pl2
+   1 Pron, Indef, Pl
+   1 Pron, A, Indef
+   1 Pron Indef
+   1 Lc, Interj
+   1 A, Comp. Pred
+   1 A, Comp
+
+
+This is a bit chaotic, but at the moment it does not matter that much.
+
+When we turn to paradigm generation we will have to see to it that the POS in the dictionary and the POS in the generator match, but that will be for a later day.
+
+TODO for Angel: If you see POS markup that you don't like in the list above, fix it (e.g. "." instead of "," or inconsistent order or marking.
+
+
+Column 7 gives the translation number, this looks good:
+
+4050 1
+2583 2
+1645 3
+1028 4
+ 679 5
+ 459 6
+ 302 7
+ 228 8
+ 160 9
+ 118 10
+  82 11
+  61 12
+  42 13
+  33 14
+  25 15
+  21 16
+  17 17
+  16 18
+  13 19
+   8 21
+   8 20
+   5 24
+   5 23
+   5 22
+   3 25
+   2 26
+   1 TRANSLATION NUMBER
+   1 28
+   1 27
+
+
+
+Column 8 is the restriction field. You use both "," and "/". This is in itself ok (the former perhaps meaning AND and the latter OR). You should perhaps look a bit at the possibility of standardising, and use only Spanish. Here is the list, ordered, as always, according to frequency:
+
+
+7819
+ 240 Figuratiiva
+  51 Dinámico
+  48 La persona
+  42 Estático
+  36 Tiempo / Áigi
+  34 Beaivválaš giella
+  25 Jurídico
+  24 Pejoratiiva
+  23 En la escuela
+  15 Lugar
+  14 Matemáticas
+  13 Olmmoš, Pejoratiiva
+  13 Geografía
+  12 El lugar
+  12 Con palabras
+  11 Comercial
+  11 Amerihká
+  10 Economía
+  10 Deporte
+  10 Carácter
+   9 Sami oriental
+   9 Religión
+   9 Política
+   9 Lugar / Báíki
+   9 Discutir
+   9 Comercio
+   8 Significado general
+   8 Sami occidental
+   8 Persona valiosa
+   8 La actividad
+   8 Imprenta, tecnología
+   8 Fuego
+   8 El carácter
+   8 Dinero
+   8 Consejo
+   8 Asignar
+   8 Adecuado
+   7 Varón
+   7 Tiempo
+   7 Ruta
+   7 Los alimentos
+   7 La ropa
+   7 La comida
+   7 Hora
+   7 Gramática
+   7 Gramática
+   7 El objeto
+   7 Anatomía
+   6 Tecnología
+   6 Sacramento
+   6 Relato
+   6 Politihkka
+   6 Olmmoš / La persona
+   6 Negatiivvalaš mearkkašumiin
+   6 Mostrar
+   6 Moral
+   6 Militar
+   6 Loco
+   6 Jurídico
+   6 Escaso
+   6 Competencia personal
+   6 Buorremenolašvuođa sátni
+   6 Al impedir
+   5 Áigi / Tiempo
+   5 Social
+   5 Proteger
+   5 Origen
+   5 Música
+   5 Musical
+   5 Mujer
+   5 La facultad
+   5 Herramienta
+   5 Estatus
+   5 Esquivar, eludir
+   5 Enfermar de resfriado
+   5 El asunto
+   5 Deterioro
+   5 Del cuerpo
+   5 De mala calidad
+   5 De la persona
+   5 De animales
+   5 Cuerpo a cuerpo
+   5 Competencia, facultad
+   4 Vuohki / Modo
+   4 Varones y mujeres
+   4 Uniforme, equilibrado
+   4 Trozo
+   4 Terminar
+   4 Suposición
+   4 Skuvla / Escuela
+   4 Situación
+   4 Sinvergüenza
+   4 Ser suficiente
+   4 Rápidamente
+   4 Rezo
+   4 Reputación
+   4 Regalo
+   4 Quitarse
+   4 Que dura un tiempo limitado
+   4 Propietario
+   4 Por escrito
+   4 Por ejemplo, de una cuesta
+   4 Poner en duda
+   4 Personas
+   4 Periódico
+   4 Parte, zona
+   4 Parientes
+   4 Para la piel, dientes, etc.
+   4 Obtener
+   4 Objetivo
+   4 Mejoramiento
+   4 Meahcis
+   4 Macho de entre 2,5 y 3 años
+   4 Líder, La persona
+   4 Los animales
+   4 Levantarse
+   4 La carne, el pescado, etc.
+   4 Institución
+   4 Huelga
+   4 Golpear
+   4 Gobierno, control
+   4 Geavahuvvo go čuovvovaš sátni álgá fonehtálaš vokálain "o"
+   4 Fotografía
+   4 Figuratiiva, instituciones
+   4 Figuratiiva, Tiempo / Áigi
+   4 Figuratiiva, La persona
+   4 Fantasma
+   4 Esposa
+   4 Escolar
+   4 Enviar
+   4 En una tarea
+   4 En la tundra
+   4 En la correspondencia / Reivves
+   4 En el laboratorio
+   4 En el crecimiento o desarrollo
+   4 En calma, tranquilo
+   4 Empujón
+   4 El árbol
+   4 El pez
+   4 El líquido
+   4 El lugar
+   4 El instrumento
+   4 El barco
+   4 Diibmu
+   4 Después de dormir
+   4 De golpe
+   4 De buen sabor
+   4 Consejo
+   4 Consecuencia
+   4 Con precisión, con desarrollo
+   4 Con la mano
+   4 Con detenimiento
+   4 Coger, tomar
+   4 Cealkaga áigi/En expresión temporal
+   4 Bálvalus / En cualquier servicio
+   4 Boahtteáiggi mearkkašupmi
+   4 Biegga
+   4 Beaivválaš giella, alcoholain / con alcohol
+   4 Aumento, incremento
+   4 Amante
+   4 Aconsejar, explicar
+   3 Zoología
+   3 Vías, instalación
+   3 Vomitar
+   3 Vivienda
+   3 Viaje
+   3 Un trabajo, una tarea
+   3 Traer hacia sí
+   3 Tomar un camino, etc., hacia arriba
+   3 Tener en cuenta
+   3 Sucesos, situaciones, leyes, etc.
+   3 Suave
+   3 Sorprendentemente bueno
+   3 Soportar
+   3 Simple
+   3 Signo de la escritura
+   3 Significar
+   3 Significado general, Música
+   3 Señal, síntoma
+   3 Servir
+   3 Ser probable o posible
+   3 Sensorial
+   3 Seguir, vigilar
+   3 Seducir
+   3 Saborear
+   3 Ruido
+   3 Ruhta / Dinero
+   3 Restoráŋggas / En el restaurante
+   3 Reparar
+   3 Religión, Jurídico
+   3 Recibir
+   3 Rasgo, propiedad
+   3 Que tiene riquezas o dinero
+   3 Propia y política
+   3 Prenda de ropa
+   3 Precisa, desarrollada
+   3 Precaución
+   3 Porción / Oassi
+   3 Por teléfono
+   3 Por prioridad
+   3 Plan
+   3 Perezoso, vago
+   3 Pequeño
+   3 Pequeña
+   3 Peleando
+   3 Pedir
+   3 Pasear
+   3 Paseando
+   3 Pasatiempo
+   3 Parte, aspecto
+   3 Parte exterior
+   3 Parecido
+   3 Paliza
+   3 Ordenar, limpiar
+   3 Ordenar
+   3 Olmmoš
+   3 Olbmuid, Olbmoattáldagaid
+   3 Objetivo, propósito
+   3 Nisson
+   3 Médica
+   3 Muy fuerte
+   3 Movimiento
+   3 Monja
+   3 Moneda
+   3 Militar, de exploración, etc.
+   3 Meteorología
+   3 Marina
+   3 Mantener
+   3 Mala
+   3 Macho de entre 3,5 y 4 años
+   3 Lugar, punto panorámico
+   3 Lugar / Báíki, Tiempo / Áigi
+   3 Llamar por teléfono
+   3 Lindar
+   3 Limpio, puro
+   3 La tierra
+   3 La recepción
+   3 La piedra
+   3 La máquina
+   3 La mujer
+   3 La madera
+   3 La luz
+   3 La idea
+   3 La acción, el gesto
+   3 Konditionála cealkagat / Expresiones condicionales
+   3 Jurídico, Administrativo
+   3 Investigación
+   3 Interrumpir
+   3 Internet
+   3 Información
+   3 Incluir, tener
+   3 Importante, influyente
+   3 Idea, imagen, sentimiento
+   3 Idea
+   3 Hoy en día
+   3 Hearvarásit
+   3 Grande
+   3 Gobernar, controlar
+   3 Giella-oahppa / Gramática
+   3 Físico
+   3 Fuerte, intenso
+   3 Figuratiiva, enfadarse mucho
+   3 Figuratiiva, enfadarse
+   3 Figuratiiva, el ánimo
+   3 Figuratiiva, Pejoratiiva
+   3 Figuratiiva, Oahpaheaddji / El maestro
+   3 Figuratiiva, Narkotihkka / Drogas
+   3 Extraño
+   3 Experimentar
+   3 Estropear
+   3 Estar apoyado
+   3 Estable
+   3 Escuela
+   3 Escasez
+   3 Errores
+   3 Error
+   3 Equivocarse, cometer un error
+   3 Entretener
+   3 Enseñanza
+   3 En una estación de tren, etc.
+   3 En la planta o el árbol
+   3 En la nieve
+   3 En la dedicación
+   3 En la cocina
+   3 En la caza, la presa
+   3 En el interior de la casa
+   3 En el comportamiento, en la actitud
+   3 En el barco
+   3 En Suecia
+   3 Empeorar
+   3 El viento
+   3 El tiempo
+   3 El pájaro
+   3 El proceso
+   3 El nivel de agua, el río, etc.
+   3 El motivo, el argumento
+   3 El medicamento
+   3 El frío
+   3 El color
+   3 El aire
+   3 Duradero, crónico
+   3 Disminuir, decrecer
+   3 Dibujando, la imagen
+   3 Dibujada, escrita, etc.
+   3 Despidiéndose de una persona
+   3 Despidiéndose de más de una personas
+   3 Deportivo
+   3 Delitos
+   3 Del mismo modo
+   3 Del empleo
+   3 Dedicatoria
+   3 De árboles, talar
+   3 De un peligro
+   3 De un asunto
+   3 De pesca
+   3 De nieve
+   3 De las personas
+   3 De la montaña
+   3 De cultivo
+   3 De cocina
+   3 De cine
+   3 De batalla
+   3 De barcos
+   3 De aire
+   3 Corporal, física
+   3 Construir
+   3 Consejo, asesoramiento
+   3 Conocimientos
+   3 Conflicto
+   3 Confirmar, demostrar
+   3 Conduciendo
+   3 Con significado positivo
+   3 Con significado neutral
+   3 Con entusiasmo
+   3 Con el látigo
+   3 Con arma de fuego
+   3 Común
+   3 Competitivo
+   3 Competencia administrativa
+   3 Cometer un error
+   3 Citas
+   3 Cesar
+   3 Cealkaga áigi / En expresión temporal
+   3 Catástrofe
+   3 Casi
+   3 Carne
+   3 Calle
+   3 Caber
+   3 Biología
+   3 Beaivválaš giella / Coloquial
+   3 Bandeja
+   3 Autodeterminación
+   3 Atacando a la persona
+   3 Ascender
+   3 Arrojar
+   3 Ante la policía
+   3 Amerihká, Cuba
+   3 Algunos
+   3 Alcanzar
+   3 Afectivamente
+   3 Además
+   3 A menudo
+   2 Šaddu, biergu, dáigi
+   2 Šaddu / De la fruta
+   2 Época, temporada
+   2 Y cambiar de sitio
+   2 Vínculo, relación
+   2 Vistazo
+   2 Virginidad
+   2 Viidna
+   2 Vigilante
+   2 Vigilancia, control, cuidado
+   2 Viaje
+   2 Veakta / Balanza
+   2 Varones
+   2 Valáštallan
+   2 Valor
+   2 Valioso
+   2 Vagón, en el tren
+   2 Vaciar
+   2 Utilizar, obtener beneficio
+   2 Uso
+   2 Uno
+   2 Unas cosas con otras
+   2 Una reunión
+   2 Una misa, un servicio religioso
+   2 Una enfermedad
+   2 Un discurso, una conferencia, etc.
+   2 Un asunto, negativamente
+   2 Típico
+   2 Turístico, la persona
+   2 Trofeo
+   2 Tradicional
+   2 Trabajo
+   2 Tono musical
+   2 Tomar la Confirmación
+   2 Tirar a
+   2 Tirada
+   2 Tique
+   2 Tiempo / Áigi, Distancia / Gaska
+   2 Terrorífico
+   2 Ternera de menos de seis meses
+   2 Tener un orgasmo
+   2 Temprano, por la mañana
+   2 Telefuvdna
+   2 Teatro, cine
+   2 Teatro
+   2 Teatral
+   2 Taxi
+   2 Tatuar, Goruhii
+   2 Tarjeta
+   2 También
+   2 Suicidarse
+   2 Suceder, ocurrir
+   2 Subirse
+   2 Stohpogálvvuin
+   2 Speadjalis / En el espejo
+   2 Solucionar
+   2 Sisdoallu / Contenido
+   2 Sin precisión
+   2 Sin orden / Čorgekeahttá
+   2 Sin fuerzas
+   2 Signo matemático
+   2 Señal
+   2 Ser útil
+   2 Ser hablador
+   2 Sentar
+   2 Sensaciones, sentimientos, memorias
+   2 Sencillo, fácil
+   2 Sector laboral
+   2 Satisfecho
+   2 Rápidamente y de una vez
+   2 Ropa
+   2 Romper, estropear
+   2 Romper
+   2 Rezar
+   2 Retraso
+   2 Restoráŋŋas
+   2 Restaurar
+   2 Resiprohka / Recíproco
+   2 Residir
+   2 Religión, oskomieđuš / procesional
+   2 Religión, la divina
+   2 Relatar
+   2 Reglamentar
+   2 Reforma, restauración
+   2 Referido a la realeza
+   2 Reducir, cortar
+   2 Recoger
+   2 Rebelarse
+   2 Realizado
+   2 Rasisttalaš / Racista
+   2 Radio, televisión, etc.
+   2 Quitarse el sombrero o el gorro
+   2 Punto de vista
+   2 Publicar
+   2 Prueba, experimento
+   2 Proyecto, plan
+   2 Proteger
+   2 Profundamente, en detalle
+   2 Producido por música o voz
+   2 Prestar servicio
+   2 Presentar
+   2 Presentación
+   2 Preocuparse
+   2 Pregunta
+   2 Por errores o malas acciones
+   2 Por error
+   2 Por encima de otra cosa, cubriéndola
+   2 Por el sol
+   2 Por deseo
+   2 Poner precio
+   2 Político
+   2 Poder
+   2 Piropo
+   2 Pintura
+   2 Piedra preciosa
+   2 Personas, de mucha edad
+   2 Personas y animales, debilucho
+   2 Personajes
+   2 Permitir
+   2 Pequeños animales
+   2 Pequeño, de animales
+   2 Pensar, suponer
+   2 Pelea verbal
+   2 Pejoratiiva, eaddun
+   2 Pasto
+   2 Parte
+   2 Parado
+   2 Para pesar
+   2 Para hacer ejercicio
+   2 Para el mar
+   2 Ordenar, guardar
+   2 Olbmot, gárvvut
+   2 Objeto valioso
+   2 Negativa
+   2 Naipe
+   2 Médica, exploración
+   2 Mális, liepma
+   2 Muy feo
+   2 Muhtun sivas
+   2 Mucho
+   2 Muchas veces
+   2 Motivo
+   2 Morir
+   2 Moral
+   2 Montaña
+   2 Modo / Vuohki
+   2 Militára málliin
+   2 Militeara / Militar
+   2 Militeara
+   2 Militar, Estático
+   2 Mezclar
+   2 Medios de transporte
+   2 Medidas, acontecimientos
+   2 Medicamento, droga
+   2 Mašiinnat
+   2 Material
+   2 Matemáticas, la operación
+   2 Matemáticas, en la Bolsa
+   2 Matemáticas, el resultado
+   2 Matemáticas, Lógica
+   2 Manillar
+   2 Mandar, administrar
+   2 Macho que ha nacido en el año
+   2 Macho de entre 4,5 y 5 años
+   2 Macho
+   2 Límite, frontera
+   2 Lugar del fuego doméstico
+   2 Los dados
+   2 Longitud
+   2 Lluvia
+   2 Llevarse bien
+   2 Libro
+   2 Liberarse, etc.
+   2 Lentamente
+   2 Las personas, los animales
+   2 La vinculación
+   2 La tierra, el campo
+   2 La situación
+   2 La ropa, los zapatos, etc.
+   2 La ropa, etc.
+   2 La ropa, el calzado
+   2 La red
+   2 La policía
+   2 La piel de los animales
+   2 La piel
+   2 La persona, valiente
+   2 La persona / Olmmoš, Figuratiiva
+   2 La noticia, el texto, la película, etc.
+   2 La nariz, Sami oriental
+   2 La nariz, Sami occidental
+   2 La máquina, parar
+   2 La medicina
+   2 La luz, el color
+   2 La luz los ojos, deslumbrar
+   2 La institución
+   2 La imagen, la visión
+   2 La forma
+   2 La flecha, etc.
+   2 La corriente de aire, el viento
+   2 La acción
+   2 La acción
+   2 Kemiija / Química
+   2 Juridihkka / Jurídico
+   2 Juridihkka
+   2 Ir, encaminarse hacia arriba
+   2 Ir de un sitio a otro
+   2 Ir
+   2 Intento, prueba
+   2 Inteligibilidad
+   2 Instrumento musical / Čuojanas
+   2 Instalado
+   2 Información
+   2 Indicar
+   2 Imaginado
+   2 Imagen
+   2 Idioma
+   2 Hembra que ha nacido en el año
+   2 Hembra de entre 1,5 y 2 años
+   2 Hablar lenguas
+   2 Gávpoga bassi suodjaleaddji ektui
+   2 Guolli / De pescado
+   2 Grupo
+   2 Gradación
+   2 Govdat
+   2 Govas / En la imagen
+   2 Go dát mii lea gullon ii leat almmolaš
+   2 Girjjiin, teavsttain
+   2 Geavahuvvo formálalaččat
+   2 Garantizar
+   2 Física
+   2 Fáhkka
+   2 Fáddá
+   2 Formal o profesionalmente
+   2 Finanzas
+   2 Filbma
+   2 Fijado
+   2 Figuratiiva: iđista, boahtá fáhkka eahpádus, dovdu, buohcu, jápmu
+   2 Figuratiiva, árboles
+   2 Figuratiiva, una empresa, una institución
+   2 Figuratiiva, la persona
+   2 Figuratiiva, la luz, el sol
+   2 Figuratiiva, el río, el manantial, etc.
+   2 Figuratiiva, edad
+   2 Figuratiiva, beaivvi, lieggasa
+   2 Figuratiiva, aburrido
+   2 Figuratiiva, Feasta
+   2 Feasta
+   2 Familia
+   2 Facultad, competencia
+   2 Facultad
+   2 Explicar
+   2 Experiencia
+   2 Exactitud
+   2 Exabrupto, blasfemia
+   2 Estático, lugares de la naturaleza: montañas, ríos, etc.
+   2 Estático, frente a
+   2 Estático, cuando el objeto es señalado con precisión
+   2 Estropearse
+   2 Estar fuera de control
+   2 Estado corporal, anímico
+   2 Esquema
+   2 Especialmente, el producto comercial
+   2 Escrito, texto
+   2 Escrito, artículo
+   2 Escalera
+   2 Eonómico, financiero
+   2 Entrometerse
+   2 Entretenerse
+   2 Entrenamiento, formación, aprendizaje
+   2 Enriquecerse
+   2 Encontrar la solución, el resultado, etc.
+   2 Encarecerse
+   2 Enandieđa
+   2 En una institución religiosa
+   2 En una competición, tanto
+   2 En una caja o contenedor cerrado
+   2 En un empleo
+   2 En un concurso
+   2 En propiedad
+   2 En profundidad, detalladamente
+   2 En pequeños trozos
+   2 En matemáticas
+   2 En los animales
+   2 En la recepción
+   2 En la práctica
+   2 En la misma casa
+   2 En la memoria
+   2 En la guerra
+   2 En la escuela, el aula
+   2 En la duración
+   2 En la comida
+   2 En el mar / Mearra
+   2 En el gorro
+   2 En el agua
+   2 En Finlandia, Saam: Algo peyorativo
+   2 Empresa
+   2 Empobrecerse
+   2 Empezar a funcionar
+   2 Empezar a caminar
+   2 Embarcación
+   2 Elaborar
+   2 Elaboración
+   2 El tábano, el piojo, la pulga, el abejorro
+   2 El tiempo meteorológico
+   2 El tiempo / Áigi
+   2 El tabaco, el vino, la comida
+   2 El suceso, la acción, el hecho, la situación
+   2 El sentimiento
+   2 El sentimiento
+   2 El sentido
+   2 El río, etc.
+   2 El río, el nivel del agua
+   2 El reloj
+   2 El producto
+   2 El proceso
+   2 El plazo
+   2 El pescado, la carne
+   2 El pescado
+   2 El pelo
+   2 El objeto antiguo
+   2 El idioma hablado
+   2 El idioma
+   2 El hecho
+   2 El cuerpo, los animales
+   2 El cuerpo
+   2 El corazón
+   2 El comportamiento, la cosa
+   2 El comerciante
+   2 El clima, el tiempo, lluvioso
+   2 El clima, el tiempo
+   2 El calzado
+   2 El café
+   2 El animal y la persona
+   2 Ejercitar partes del cuerpo
+   2 Edad
+   2 Echarse o tenderse en cualquier superficie
+   2 Eaktu / Condición
+   2 Dálkkas / La medicina
+   2 Duradera, crónica
+   2 Dovdomearka, gálga / Rasgo, cualidad
+   2 Dos
+   2 Distancia
+   2 Disparar
+   2 Dirigir
+   2 Dinámico, frente a
+   2 Dinámico, cuando la referencia es una persona o un animal
+   2 Dinero suelto
+   2 Dilli / Situación, Eaktu / Condición
+   2 Diibmu / De reloj
+   2 Diferencia
+   2 Destruir
+   2 Despiste
+   2 Despidíéndose de una persona que se va
+   2 Despidíéndose de una persona que se queda
+   2 Despidiéndose de una persona, normalmente por teléfono u otros medios a distancia
+   2 Despidiéndose de más de una personas, normalmente por teléfono u otros medios a distancia
+   2 Despidiéndose de más de dos personas que se van
+   2 Despidiéndose de más de dos personas que se quedan
+   2 Despidiéndose de dos personas que se van
+   2 Despidiéndose de dos personas que se quedan
+   2 Descarga eléctrica
+   2 Desapego, desinterés
+   2 Desagradable, mal olor
+   2 Demoler
+   2 Del árbol
+   2 Del pie
+   2 Del gobierno
+   2 Del edificio
+   2 Del carácter
+   2 Debate
+   2 Dearvvašvuohta
+   2 Deaddocealkagiin, Beaivválaš giella
+   2 De árboles
+   2 De árbol
+   2 De una construcción
+   2 De un lugar o un tiempo
+   2 De un libro, etc.
+   2 De un edificio
+   2 De un disparo
+   2 De un crimen
+   2 De todas formas
+   2 De tiro animal
+   2 De pescar
+   2 De perro
+   2 De oficina
+   2 De montar
+   2 De mar
+   2 De las cosas
+   2 De la luna
+   2 De la leche
+   2 De la casa
+   2 De entre 1 y 3 kilos, aproximadamente
+   2 De dinero o propiedades
+   2 De competición
+   2 De arriba abajo, de adelante atrás
+   2 Cuba, República Dominicana
+   2 Cuarto de baño
+   2 Cuando el objeto es una persona
+   2 Cría del ave
+   2 Cruzarse
+   2 Crianza
+   2 Crema
+   2 Creer
+   2 Crecer
+   2 Cortar, el pelo, la barba, etc.
+   2 Cortar
+   2 Corriente
+   2 Correspondencia
+   2 Controlar
+   2 Control
+   2 Continuar
+   2 Continuamente, constantemente
+   2 Contener
+   2 Contaminar
+   2 Construir de nuevo
+   2 Considerar
+   2 Consejo, orientación
+   2 Confuso
+   2 Confortable
+   2 Condicional
+   2 Concreto
+   2 Concordia
+   2 Con una provocación
+   2 Con una causa
+   2 Con los dedos
+   2 Con instrumentos de medida
+   2 Con el puño
+   2 Con dibujo
+   2 Con cuchara
+   2 Con armas
+   2 Con ahínco
+   2 Comprensión
+   2 Completar
+   2 Completa
+   2 Competición / Gilvu
+   2 Competición
+   2 Comisión
+   2 Comienzo
+   2 Comida, las personas
+   2 Comida, etc.
+   2 Comentario, apunte
+   2 Colección, ajuar, conjunto
+   2 Cine, teatro
+   2 Cine, libros, etc.
+   2 Cine, Teatro
+   2 Cine
+   2 Cerrar
+   2 Caudaloso, grande
+   2 Camino o trocha de paso, en el campo
+   2 Cabaña
+   2 Buena
+   2 Breve
+   2 Borde
+   2 Boares geavaheapmi
+   2 Bibliográfica
+   2 Beca
+   2 Beavdegirjjis / En acta
+   2 Baski
+   2 Bancario
+   2 Añadir
+   2 Audaz, desenvuelto
+   2 Atribución, suposición
+   2 Atravesar
+   2 Atentamente
+   2 Ataque personal
+   2 Asunto
+   2 Asiento
+   2 Argentiinná
+   2 Argentiinná
+   2 Apoyar
+   2 Apetencia
+   2 Apestar
+   2 Apagar
+   2 Antiguo
+   2 Alimentos, bebidas
+   2 Al tacto
+   2 Agradable
+   2 Afectar
+   2 Administrativo
+   2 Administrativa, en Suecia y Finlandia
+   2 Adecuado, aceptable, de buen ver
+   2 Adecuadamente, correctamente
+   2 Acudir
+   2 Acabarse, terminarse
+   2 A otras personas
+   2 A las personas
+   1 Šáhkkaspealus / Ajedrez
+   1 Čáhceloddi / De pajaritos
+   1 Čuoččastit muhtun báikkis, go beaivi ihtá
+   1 Čiegusvuođa dovdduid
+   1 Ávvudeamis / Celebración
+   1 Áigemearri
+   1 Áicu
+   1 niño y niña
+   1 hartarse
+   1 doavttirdieđa
+   1 Zona sin pelo
+   1 Zona
+   1 Y tirar
+   1 Voz, Música
+   1 Vitsa, filbma, jna. / El chiste, la película, etc.
+   1 Vital
+   1 Video
+   1 Viajando
+   1 Vestíbulo
+   1 Verse obligado
+   1 Verdadero
+   1 Verbal
+   1 Varón, Beaivválaš giella / Coloquial
+   1 Varón
+   1 Varra / Por un golpe
+   1 Vaikko man ávnasis / De cualquier material
+   1 Vaciarse
+   1 Uso, obtención de beneficio
+   1 Urbanidad
+   1 Una vez
+   1 Una pareja, a través del matrimonio
+   1 Una pareja
+   1 Una foto
+   1 Una edad, una fase de la vida
+   1 Una edad
+   1 Un vehículo
+   1 Un tiempo prolongado
+   1 Un puesto de trabajo, una plaza
+   1 Un diente
+   1 Un cheque
+   1 Un argumento, una teoría, etc.
+   1 Un accidente
+   1 Tutorización
+   1 Tren
+   1 Tratamiento médico
+   1 Tras la muerte
+   1 Trabajo, dedicación, fuerza
+   1 Todopoderoso
+   1 Tocón
+   1 Tiempo / Áigi, Después de
+   1 Textil
+   1 Ternero macho o hembra de menos de seis meses
+   1 Ternero macho o hembra de entre seis meses y un año
+   1 Ternero macho de menos de seis meses
+   1 Tener oportunidad
+   1 Tener fe o confianza
+   1 Tener dinero
+   1 Tener diarrea
+   1 Tener competencia
+   1 Tendencia
+   1 Temporal
+   1 Teknologiija
+   1 Teatro, música, etc.
+   1 Tañido
+   1 Tatuarse, Goruhii
+   1 Tan frecuentemente
+   1 Tachar
+   1 Sustancia
+   1 Suficiente
+   1 Suelo
+   1 Suceso
+   1 Sublevar
+   1 Speallu / El juego
+   1 Span: Antes del entierro / hávdádeami ovdal, Saam: Después del entierro / hávdádeami maŋŋel
+   1 Souvenir
+   1 Sostener, celebrar
+   1 Sorpresa
+   1 Solución
+   1 Sobre la luz
+   1 Sivva / Causa
+   1 Sin querer
+   1 Sin que el objeto llegue a caer, Sami oriental
+   1 Sin que el objeto llegue a caer, Sami occidental
+   1 Sin pensar
+   1 Sin mezcla
+   1 Sin hacer parada
+   1 Sin cuernos
+   1 Siguiente, Áigi
+   1 Siguiente, Teavsttas / En un texto, etc.
+   1 Siguiente, Báiki
+   1 Significado general, relativo al habla
+   1 Significado general, el paso
+   1 Sexual / Seksuála
+   1 Ser, ente
+   1 Ser humano, persona
+   1 Sentimientos, estados de ánimo
+   1 Sentimental
+   1 Sensación
+   1 Sección, parte, por ejemplo de una ciencia
+   1 Se aplica a una persona con vestimenta sami de la cabeza a los pies
+   1 Sano, bien nutrido
+   1 Salvaje, sin domesticar
+   1 Ruovttoluotta bántan
+   1 Ropas
+   1 Ronda
+   1 Robar
+   1 Riqueza
+   1 Riegádanbeaivvis, etc.
+   1 Riegádan báíki, gullevašvuohta
+   1 Revisar
+   1 Reverente
+   1 Resultado
+   1 Restricción, limitación
+   1 Restaurar
+   1 Restaurantes
+   1 Responsabilizar
+   1 Resistente
+   1 Reparar
+   1 Religión, pecado
+   1 Religión, moral
+   1 Reivves / Correspondencia
+   1 Reivves / Correo
+   1 Regularmente
+   1 Regreso
+   1 Reforma, modernización
+   1 Referido a movimiento
+   1 Recurso
+   1 Recostarse, el perro, el zorro, el lobo
+   1 Recostarse, el caballo, la vaca, el reno
+   1 Recorte
+   1 Realizar
+   1 Raíz
+   1 Rasgo
+   1 RESTRICTION
+   1 Quirúrgica
+   1 Quiosco
+   1 Quedar suelto, liberarse
+   1 Quebradizo
+   1 Pájaro
+   1 Puro
+   1 Puesto laboral
+   1 Prójimo
+   1 Proyecto, plan, deseo
+   1 Proposición, oración
+   1 Propiedad patrimonial
+   1 Propiedad ganadera
+   1 Propiedad agrícola
+   1 Prontitud
+   1 Profundo y muy estrecho, garganta
+   1 Profesión, disciplina
+   1 Presteza, diligencia
+   1 Prestar servicio, varones
+   1 Prestar servicio, mujeres
+   1 Prestar atención
+   1 Predecir
+   1 Preciso
+   1 Posición
+   1 Portarse, comportarse
+   1 Por perforación
+   1 Por parte de padre o de madre
+   1 Por la parte interior
+   1 Por la mañana
+   1 Por escrito, por ejemplo en la agenda
+   1 Por encima de otra cosa
+   1 Por ejemplo, militar
+   1 Por ejemplo, hacia una cumbre o a un árbol
+   1 Por ejemplo, en la escuela
+   1 Poner en alquiler
+   1 Política, parte territorial de un estado
+   1 Política, dentro de un estado federal
+   1 Política, Dentro del partido
+   1 Política, Como asimilación
+   1 Policial
+   1 Pieza de carne
+   1 Piedra
+   1 Peyorativo
+   1 Pescado
+   1 Pertenencia
+   1 Perteneciente al tiempo
+   1 Pensamiento, el proceso
+   1 Patata
+   1 Partición, reparto
+   1 Parientes políticos y personas afines
+   1 Parecer
+   1 Para medir
+   1 Para lazar al animal
+   1 Para la ropa
+   1 Para la nariz
+   1 Para la cabeza
+   1 Para iluminar
+   1 Para hilado y para la red de pesca
+   1 Para hacer ruido
+   1 Para escribir
+   1 Para el caballo
+   1 Para cocinar, etc., fuera de la casa
+   1 Para cocinar, etc.,  fuera de la casa
+   1 Para cocinar
+   1 Palabra o código
+   1 Ođđasat / Informativo
+   1 Oyentes
+   1 Ortografía y geometría
+   1 Ortografía / Riektačállin
+   1 Ornamental
+   1 Origen
+   1 Orden militar
+   1 Ojear
+   1 Océano
+   1 Objetos hechos de madera
+   1 Objetos de madera
+   1 Números
+   1 Número
+   1 Nueva construcción
+   1 Norma escrita
+   1 Norma
+   1 Nombrar
+   1 Nissonolmmoš ja eallit, Saam: Mujeres
+   1 Nissoniidda, Pejoratiiva
+   1 Ni bueno ni malo, aceptable
+   1 Necesitar
+   1 Necesidad
+   1 Natural
+   1 Más flexible
+   1 Muy bien, de memoria, de corrido
+   1 Musihka-skuvlla fálaldat
+   1 Musical, melódico
+   1 Mujeres y hembras de animales
+   1 Mujeres
+   1 Mujer, Beaivválaš giella / Coloquial
+   1 Mujer
+   1 Muchos
+   1 Movimiento corporal
+   1 Morálalaš
+   1 Moral, político, etc.
+   1 Montar
+   1 Momentáneamente
+   1 Mirar
+   1 Ministerial
+   1 Minera y por perforación
+   1 Militar, al moverse, Dinámico
+   1 Militar
+   1 Mii lea ovdal namuhuvvon
+   1 Mihtádus
+   1 Mezclarse
+   1 Meteorológico
+   1 Mercado
+   1 Menguante
+   1 Memorial
+   1 Mejorar
+   1 Mejorar
+   1 Medio, recurso
+   1 Medidas
+   1 Medicina
+   1 Medicamento
+   1 Mearri
+   1 Matemáticas, la potencia
+   1 Matemáticas, etc.
+   1 Matemáticas
+   1 Matemática
+   1 Marca de animales
+   1 Manteniendo la presión
+   1 Mantenerse a flote
+   1 Malgastar
+   1 Mala conciencia
+   1 Mal
+   1 Machos de animales
+   1 Macho y hembra, de un año
+   1 Macho o hembra
+   1 Macho de entre 6,5 y 7 años
+   1 Macho de entre 5,5 y 6 años
+   1 Macho de entre 1,5 y 2 años
+   1 Lotteriija
+   1 Lotteri
+   1 Los líquidos
+   1 Los brazos, las piernas
+   1 Los brazos
+   1 Los animales, sin castrar
+   1 Los animales
+   1 Llena
+   1 Llamar
+   1 Liquidez
+   1 Limpio
+   1 Limpieza
+   1 Leyes, textos, etc.
+   1 Leaktu
+   1 Las piernas
+   1 Las personas
+   1 Las personas
+   1 Las cosas
+   1 Laboral
+   1 La ropa de piel
+   1 La ropa
+   1 La res, en el matadero
+   1 La radio, la televisión, etc.
+   1 La planta
+   1 La piel, etc.
+   1 La persona, la acción
+   1 La persona, enfadado
+   1 La persona, de carácter
+   1 La persona / Olmmoš gii bargá čorgenbálvalusas
+   1 La pelota
+   1 La noticia, el texto, etc., engañoso
+   1 La niebla
+   1 La nariz
+   1 La mitad
+   1 La mano
+   1 La lluvia
+   1 La leche
+   1 La hora
+   1 La gente
+   1 La función
+   1 La forma de pensar
+   1 La estación del año
+   1 La enseñanza, la carrera
+   1 La enseñanza
+   1 La enfermedad, el olor, la sustancia, la gente, etc.
+   1 La droga / Narkotihkka
+   1 La constelación
+   1 La carrera
+   1 La cabeza
+   1 La bebida, la comida
+   1 La bebida, el tabaco
+   1 La acción de vengarse
+   1 Kvalitehta
+   1 Katolihkálaš girkus
+   1 Jápmin, riegadeapme, heajat, Etc
+   1 Jurídico, administrativo
+   1 Jurídico, administrativo
+   1 Johtu
+   1 Jinete
+   1 Jiena
+   1 Iđitborramuša ja beaivemállása gaskkas
+   1 Ir hacia arriba, conduciendo
+   1 Ir hacia arriba, caminando
+   1 Ir conduciendo
+   1 Ir caminando
+   1 Investigar
+   1 Inundarse
+   1 Interrumpir, parar
+   1 Interpretar
+   1 Interpretación
+   1 Intenso y frío
+   1 Intenso
+   1 Intensamente
+   1 Inteligencia, juicio
+   1 Instrumento para la marca de animales
+   1 Iniciar un poblamiento
+   1 Iniciar
+   1 Ingenuidad
+   1 Infringir
+   1 Informática, un programa
+   1 Indómito, audaz
+   1 Incluir
+   1 Incendio
+   1 Imaginario
+   1 Imagen sagrada
+   1 Igual o por debajo de -40º
+   1 Humana, de bulto redondo
+   1 Humana
+   1 Honor, honra
+   1 Hojas de té o té picado, Sami oriental
+   1 Hojas de té o té picado, Sami occidental
+   1 Hoja, por ejemplo de la espada
+   1 Hogar
+   1 Historia
+   1 Hembra que nunca ha parido
+   1 Hembra de entre 2,5 y 6,5 años
+   1 Hembra
+   1 Hecho en casa
+   1 Haciendo caer
+   1 Hacia el campo
+   1 Hachís
+   1 Hacer rayas, por ejemplo dibujando
+   1 Hacer
+   1 Gussa- ja eará šibitdoaluin  / Añadir ganado
+   1 Guolli / El pez
+   1 Gullu, oaidnu, haksin, máistu, dovduáicu
+   1 Gramática / Gielladieđa
+   1 Grabando, audio, vídeo
+   1 Grabación, toma
+   1 Govat / La imagen
+   1 Gorutlahttu
+   1 Go ášši ii leat almmolaš, Beaivválaš giella
+   1 Go resurssat leat vátnát
+   1 Go lea subtantiivvain: + de
+   1 Go dát mii lea gehččon ii leat almmolaš
+   1 Giro, rotación
+   1 Gieđain
+   1 Giella-oahppa / Gramática: cealkaga oassi, mii čujuha man viiddisin sáhttá dulkut substantiivva mearkkašumi
+   1 Geometría, el cuerpo
+   1 Geometría
+   1 Gente
+   1 Generoso
+   1 Generosidad
+   1 Geavahuvvo go čuovvovaš sátni álgá fonehtálaš vokálain "i"
+   1 Geavaha go predikáhta meinnestuvvo subjeavtta dili ja eavttuid duohken
+   1 Geainnut
+   1 Ganado
+   1 Galba
+   1 Fútbol
+   1 Física
+   1 Fácil
+   1 Fácil
+   1 Fundamentar
+   1 Funciones, en trabajos
+   1 Fuerte, de tormenta
+   1 Fuerte
+   1 Fresco
+   1 Frecuentemente, Regularmente
+   1 Frecuentemente
+   1 Fotográfica
+   1 Fino, para costura
+   1 Fila
+   1 Figuratiiva, triste, aburrido
+   1 Figuratiiva, texto, vídeo, etc.
+   1 Figuratiiva, salir
+   1 Figuratiiva, politijii / Confesar
+   1 Figuratiiva, gastar
+   1 Figuratiiva, el sol
+   1 Figuratiiva, al hablar o al escribir
+   1 Figuratiiva, Servodat / Sociedad
+   1 Figuratiiva, Pertenencia común
+   1 Figuratiiva, Negatiivvalaš mearkkašumiin
+   1 Figuratiiva, Inaugurar
+   1 Figuratiiva, Con palabras
+   1 Falso, inexistente
+   1 Facilidad
+   1 Extraer
+   1 Extractora de humos
+   1 Exposición oral
+   1 Explosiva
+   1 Explicación, aclaración
+   1 Explicación
+   1 Experto
+   1 Exigir
+   1 Exacto
+   1 Evaluar
+   1 Estático, en una habitación o en un lugar cerrado
+   1 Estático, cuando la referencia es una persona o un animal
+   1 Estático
+   1 Estrecho
+   1 Estrafalario
+   1 Estar de moda
+   1 Espánnjas
+   1 Espectadores
+   1 Especialmente, el político
+   1 Especialmente, cuando tiene un lago
+   1 Especialmente la ropa
+   1 Escritor de libros
+   1 Escritor
+   1 Escrito, artículo literario
+   1 Escrito, artículo científico
+   1 Escrita
+   1 Escribir
+   1 Errores, erratas, etc.
+   1 Equipaje
+   1 Entretenimiento, hobby
+   1 Entrenimiento
+   1 Entre dos cosas
+   1 Entre dos
+   1 Entrar en confusión
+   1 Enseñanza, conocimiento
+   1 Enfermedad
+   1 Enfermar
+   1 Energía, de las baterías, etc.
+   1 Encargar
+   1 En verano
+   1 En verano
+   1 En una enfermedad
+   1 En un viaje
+   1 En un texto
+   1 En un texto
+   1 En un lugar
+   1 En un juicio
+   1 En un grupo o asociación
+   1 En tal cantidad, tan intensamente
+   1 En tal cantidad
+   1 En situación más ceremonial
+   1 En sentido funcional, por ejemplo en la administración
+   1 En relación con el trabajo y la resistencia
+   1 En presencia de
+   1 En pedazos
+   1 En los juegos de naipes
+   1 En los animales, el período
+   1 En las personas
+   1 En la tundra, acción y efecto de orientarse
+   1 En la tierra
+   1 En la tienda (el goahti)
+   1 En la organización
+   1 En la oreja del ganado
+   1 En la nieve, de los esquíes
+   1 En la mujer
+   1 En la matanza, o la carne fresca
+   1 En la hembra del animal
+   1 En la ejecución musical
+   1 En la cárcel, preso
+   1 En la cárcel
+   1 En la construcción
+   1 En la casa
+   1 En la cabeza
+   1 En la Iglesia Católica / Katolihkálaš girkus
+   1 En expresión habitiva
+   1 En el vehículo
+   1 En el trabajo, En la escuela
+   1 En el terreno, por ejemplo, sin vegetación
+   1 En el teatro, etc., pie de texto
+   1 En el primer encuentro
+   1 En el interior. Por ejemplo, en una piscina cubierta
+   1 En el exterior. Por ejemplo, en un río
+   1 En el exterior de la casa
+   1 En el desarrollo, en la escuela, etc.
+   1 En el comercio, el objeto antiguo
+   1 En el coche
+   1 En el campo
+   1 En el arte, la obra, el trabajo
+   1 En el aire, por ejemplo de un globo
+   1 En dos partes
+   1 En cualquier situación / Vaikko makkár dilis
+   1 En cualquier institución
+   1 En abundancia
+   1 En Suecia, vías, instalación
+   1 Empresa, organización
+   1 Eléctrica
+   1 El órgano
+   1 El órgano
+   1 El árbol completo
+   1 El viento, el clima
+   1 El viento
+   1 El tábano, la pulga, la avispa
+   1 El tiempo, la casa
+   1 El teléfono, estar ocupado
+   1 El suelo, el pavimento, etc., igualado
+   1 El soporte
+   1 El sonido, el tono / Jietna, nuohtta
+   1 El sol
+   1 El signo de sumar
+   1 El signo de restar
+   1 El saber, la disciplina
+   1 El saber, la ciencia
+   1 El rey / Gonagas
+   1 El resultado
+   1 El reno
+   1 El recuerdo
+   1 El rastro, la pista
+   1 El punto cardinal
+   1 El proceso, especialmente sobre los animales en propiedad
+   1 El precio / Haddi
+   1 El precio
+   1 El porte, la disposición corporal
+   1 El planeta, la bola del mundo
+   1 El período histórico
+   1 El período de la vida
+   1 El período
+   1 El perro, el gato
+   1 El pan
+   1 El olor
+   1 El lugar, Mearrasámegielas / En el Sami de la costa
+   1 El lazo
+   1 El lado, la parte
+   1 El idioma
+   1 El fruto
+   1 El fabricante
+   1 El estilo
+   1 El entorno, la zona
+   1 El ejército
+   1 El día con su noche
+   1 El contenido de la acción
+   1 El conocimiento
+   1 El color / Ivdni
+   1 El chiste, la película…
+   1 El carácter, las cosas compactas
+   1 El calor
+   1 El café, las bebidas, el tabaco
+   1 El cabello
+   1 El caballo
+   1 El animal, manso, dócil
+   1 El aire, el clima, las cosas
+   1 El agua
+   1 Einnosteapmi dahjege iskkadancealkagat / Expresiones de predicción o hipótesis
+   1 Edificio
+   1 Económico
+   1 Echarse a dormir
+   1 Echar aire, en señal de descanso
+   1 Echar
+   1 Dárbbašlaš eaktu / Condición necesaria
+   1 Durante tanto tiempo
+   1 Dovdu, peršovnnalaš dilli, dearvvašvuohta
+   1 Dos, Buorremenolašvuođa sátni
+   1 Dorskevuojas ráhkaduvvo
+   1 Doavttirdieđa
+   1 Diálogo
+   1 Divisas
+   1 Disciplina
+   1 Dirección
+   1 Dinámico
+   1 Dinero, Beaivválaš giella
+   1 Dinerario
+   1 Dicho
+   1 Desvestirse
+   1 Desvestir
+   1 Destaparse
+   1 Destapar
+   1 Desempleo
+   1 Desde el exterior del país, internacional
+   1 Desatadura
+   1 Desarrollarse
+   1 Desacuerdo
+   1 Deporte, la persona
+   1 Deporte, el grupo
+   1 Del árbol vivo
+   1 Del árbol caído o cortado, trozo talado
+   1 Del río
+   1 Del reloj
+   1 Del pájaro
+   1 Del pino / Beazis
+   1 Del guiso
+   1 Del coche
+   1 Del barco
+   1 Del animal
+   1 Dejar suelto, liberar
+   1 Dejar plantado, Beaivválaš giella
+   1 Dejar
+   1 Deducirse
+   1 Decisivo
+   1 Decir
+   1 Decidirse
+   1 De una medida
+   1 De una enfermedad, situación, etc.
+   1 De una culpa o delito
+   1 De una cosa en otra
+   1 De una buena situación a una peor, y viceversa
+   1 De un objeto, en el aire
+   1 De un error, falta o delito
+   1 De un dato
+   1 De tráfico
+   1 De teatro
+   1 De tabaco
+   1 De servicio
+   1 De remo
+   1 De pájaros, pequeña
+   1 De pájaros, grande
+   1 De planchar
+   1 De pintura
+   1 De piernas
+   1 De piedras
+   1 De pesca, para peces pequeños
+   1 De personas
+   1 De peces
+   1 De parentesco
+   1 De otras partes del cuerpo, en la persona; del animal
+   1 De otras partes del cuerpo en la persona; del animal.Un pelo
+   1 De nieve
+   1 De multiplicar
+   1 De montaña
+   1 De madera
+   1 De luohti (Canción tradicional)
+   1 De lugar
+   1 De lo que es sin mezcla
+   1 De lo esquíes
+   1 De las hembras de animal / Eallit
+   1 De la ventana, de la puerta
+   1 De la máquina o el dispositivo
+   1 De la mujer
+   1 De la manada, al moverse, Dinámico
+   1 De la manada, Estático
+   1 De la liebre
+   1 De la imagen, por ejemplo en el espejo
+   1 De la hembra del animal
+   1 De la fruta
+   1 De la caja de cambios
+   1 De la cabeza, en la persona. Un pelo
+   1 De la cabeza, en la persona
+   1 De internet
+   1 De fruta
+   1 De errores, erratas, etc., el resultado
+   1 De errores, erratas, etc., el proceso
+   1 De coser
+   1 De comida
+   1 De cerveza / Espánnjas
+   1 De cartas
+   1 De canción tradicional
+   1 De brazos, de piernas
+   1 De brazos
+   1 De atracciones
+   1 De animal, de bulto redondo
+   1 De animal
+   1 De agua, etc.
+   1 De agua
+   1 De afeitar, del cuchillo, etc.
+   1 De 1 kilo, aproximadamente
+   1 Dar la Confirmación
+   1 Cuigehus dahje heammástus cealkka
+   1 Cuidar
+   1 Cuidado
+   1 Cuando la persona es el objeto
+   1 Cuando el objeto es simétrico por los dos lados
+   1 Cronológico
+   1 Creciente
+   1 Crecida de las aguas
+   1 Crecer
+   1 Crear un equívoco
+   1 Crear confusión
+   1 Costumbre
+   1 Cortesía
+   1 Corrigiendo
+   1 Corrección
+   1 Corporal
+   1 Cooperación
+   1 Convocar
+   1 Contra
+   1 Contar
+   1 Congeniar, llevarse bien
+   1 Con zagual
+   1 Con un martillo o herramienta
+   1 Con un justificante
+   1 Con su noche, jornada
+   1 Con significado negativo
+   1 Con sensación de incomodidad o molestia
+   1 Con palabras o gestos
+   1 Con la vara
+   1 Con la correa
+   1 Con firmeza, con fuerza
+   1 Con el gesto facial
+   1 Con el cuerpo
+   1 Con el comportamiento
+   1 Comunidad
+   1 Comunicarse
+   1 Comprar
+   1 Comportarse
+   1 Comportamiento / Láhttenvuohki
+   1 Comida, etc., a la mesa
+   1 Comercio, consumo
+   1 Colgar
+   1 Coger frío
+   1 Claro
+   1 Cirugía
+   1 Cigarrillo
+   1 Científica
+   1 Cercano, Báiki
+   1 Central
+   1 Causa / Sivva
+   1 Catedrático
+   1 Caso, asunto
+   1 Canción tradicional
+   1 Canción
+   1 Campo donde ya no hay casas
+   1 Camino, ruta, etc.
+   1 Camino
+   1 Calificación escolar
+   1 Caballos
+   1 Bálvalus
+   1 Buorremenolašvuođa sátni / Palabra de cortesía
+   1 Borde del bosque
+   1 Borde de un área o zona
+   1 Boca arriba
+   1 Boca abajo
+   1 Boađáldagas
+   1 Biológica
+   1 Bebida, Sami oriental
+   1 Bebida, Sami occidental
+   1 Beaivválaš giella, testículos
+   1 Beaivválaš giella, suciedad
+   1 Beaivválaš giella, excremento
+   1 Beaivválaš giella, Sami oriental
+   1 Beaivválaš giella, Sami occidental
+   1 Beaivválaš giella, Figuratiiva
+   1 Beaivvi vuosttamuš borramuš
+   1 Bancarrota, ruina vital
+   1 Bajil máhttit, bures máhttit
+   1 Años
+   1 Ayudar, prestar servicio
+   1 Ayudar
+   1 Aviisas / En el periódico
+   1 Auxilio
+   1 Autor de libros
+   1 Aterrizar
+   1 Aspecto
+   1 Asistir, la mujer y el varón
+   1 Asistir, la mujer
+   1 Asistir, el varón
+   1 Artista
+   1 Artesanalmente, con materiales naturales
+   1 Arrendador
+   1 Arquitectura
+   1 Argumentar
+   1 Argentina, sexual / Argentiinná, seksuála
+   1 Apoyar
+   1 Apertura
+   1 Animales
+   1 Anatomía
+   1 Ampliarse, expandirse
+   1 Ampliar, aumentar
+   1 Amistad
+   1 Amerihká, Colombia, Venezuela
+   1 Amerihkká, ollu alkohola
+   1 Amerihkká, conducir
+   1 Amerihkká, automóvil
+   1 Amerihkká, alkohola
+   1 Amerihkká, Alcohola
+   1 Amerihkká
+   1 Amarse
+   1 Amar
+   1 Amamantar, dar el pecho
+   1 Altura del agua
+   1 Alegre
+   1 Al perro
+   1 Al marcar un tanto en competición
+   1 Al entregar algo
+   1 Al conducir
+   1 Al caminar
+   1 Al amasar, al untar
+   1 Al aire
+   1 Al acariciarlo
+   1 Ajustar, poner en orden
+   1 Ahki
+   1 Agradable, buen olor
+   1 Adulto, varón
+   1 Administrativa, en Noruega
+   1 Administrativa
+   1 Administrador
+   1 Administración
+   1 Adinerado
+   1 Acuerdo, pacto, asociación
+   1 Actividad, industria
+   1 Actividad artística
+   1 Aclarar, investigar
+   1 Acertado
+   1 Acarrear, llevar encima
+   1 Acarrear, cargar
+   1 Abundante
+   1 A pie
+   1 A pie
+   1 A dormir
+
+
+
+Column 9 is scientific names, it looks ok (only latin) except these entries,
+
+footing M N 2 joggen N Voz inglesa / Eaŋgalas sátni
+footing M N 1 viegadeapmi N Voz inglesa / Eaŋgalas sátni
+
+where "joggen" and "viegadeapmi" seem misplaced.
+
+
+
+
+Column 10, the translation, both contains translations and 146 entries beginning with
+ Usar:
+
+It might be Chiara would like the Usar things in a different column.
+
+
+
+
+Column 12 is the Saami POS, here it is, for reference:
+
+4314 N
+3438 V
+ 991 A
+ 669 VLc
+ 555 Adv
+ 271 Pfs
+ 264 NLc
+ 162
+ 125 AdvLc
+ 102 Po
+  87 CC
+  68 Attr
+  60 Interj
+  52 Num
+  49 Lc
+  46 A, N
+  44 N, A
+  26 ALc
+  24 Pron, A
+  24 Interr
+  22 Adv, Po
+  21 Pron
+  16 PronLc
+  13 Num, Ord
+  10 Pron, Rel
+   8 Pron, Indef
+   7 A, Pron
+   6 InterrLc
+   6 AuxV
+   6 A, Indef
+   4 Dem
+   3 TV
+   3 Pron, Interr
+   3 Pron, Gen, Sg2
+   3 A, Pron, Indef
+   2 Vlc
+   2 TV, IV
+   2 PronLc, Rel
+   2 Pron, Sg2
+   2 Pron, Pl2
+   2 Pron, Nom, Sg3
+   2 Pron, Ill, Sg1
+   2 Pron, Gen, Sg3
+   2 Pron, Gen, Pl3
+   2 Pron, Gen, Du3
+   2 Pron, Du2
+   2 Pron, Dem
+   2 Pron, Com
+   2 Pron, Acc, Sg
+   2 Pron, Acc, Pl
+   2 Pron, A, Gen, Sg1
+   2 NLc, ALc
+   2 IV
+   2 ALc, NLc
+   2 A, Superl
+   2 A, Gen, Pl1
+   2 A, Gen, Du1
+   2 A, Dem
+   1 WORD CLASS
+   1 VLc, Pfs
+   1 V, Adv
+   1 UseAlso: hacia +
+   1 ReflPron, Sg3
+   1 ReflPron, Sg2
+   1 ReflPron, Sg1
+   1 ReflPron, Pl3
+   1 ReflPron, Pl2
+   1 ReflPron, Pl1
+   1 ReflPron, Du3
+   1 ReflPron, Du2
+   1 ReflPron, Du1
+   1 PronLc, Gen, Sg1
+   1 Pron, Pl1
+   1 Pron, Nom, Sg2
+   1 Pron, Nom, Sg1
+   1 Pron, Nom, Pl3
+   1 Pron, Nom, Pl2
+   1 Pron, Nom, Pl1
+   1 Pron, Nom, Du3
+   1 Pron, Nom, Du2
+   1 Pron, Nom, Du1
+   1 Pron, Loc, Sg2
+   1 Pron, Ill, Sg3
+   1 Pron, Ill, Sg2
+   1 Pron, Ill, Pl3
+   1 Pron, Ill, Du3
+   1 Pron, Gen, Sg1
+   1 Pron, Gen, Pl1
+   1 Pron, Gen, Du1
+   1 Pron, Du1
+   1 Pron, Acc, Sg2
+   1 Pron, A, Indef
+   1 Pron, A, Gen, Sg3
+   1 Pron, A, Gen, Pl3
+   1 Pron, A, Gen, Pl2
+   1 Pron, A, Gen, Du3
+   1 Pron, A, Gen, Du2
+   1 Pron Indef
+   1 Pr, CC
+   1 Pr
+   1 Nujm, Ord
+   1 N, NLc
+   1 M
+   1 Lc, Interj
+   1 F
+   1 EncPcle
+   1 A, Gen, Pl2
+   1 A, Gen, Du2
+   1 A, Comp, Pred
+   1 A, Comp
+   1 A, Adv
+
+
+Note that 162 are without POS. One is "EncPcle", which means you probably are not consistent.
+
+
+
+Field 13 is the explanation field, I like it. It looks as follows:
+
+6840
+1969 TV
+ 698 IV
+ 319 Prnl, IV
+ 156 Prnl, ReflV
+  97 Prnl, UseTV
+  64 Pl
+  54 Collc
+  42 Saam: Cmpnd
+  41 TV, IV
+  41 IV, Imp, 3per
+  39 IV, TV
+  38 TV, WObjPron
+  38 Prnl, RecV
+  32 TV, + a
+  30 Imp, 3per
+  28 UseNor: Pl
+  27 Collc, Saam: Pl
+  26 Sg: el +
+  24 Prnl, ReflV, UseTV
+  21 PassV, Imp, 3per
+  18 IV, + de
+  17 Prnl, UseTV, + de
+  17 IV, WObjPron
+  16 Pl1
+  14 Prnl, IV, Saam: + Ill
+  13 Saam: Pl
+  13 Prnl, UseTV, + a
+  12 Sg1
+  12 Der/Dimin
+  12 Dem, Sg
+  12 Dem, Pl
+  11 Saam: Cmpnd
+  11 Prnl, IV, + de
+  11 IV, + con
+  11 Comp
+  10 UseTV, + con
+  10 TV, + de
+   9 TV, UseNor: WObjPron
+   9 PassV, 3per
+   9 + de
+   8 Prnl, TV
+   8 Prnl, IV
+   8 Pl
+   8 IV, UseNor: WObjPron
+   7 UseTV, WObjPron
+   7 TV, UseNor: + de
+   7 TV, Imp, 3per
+   7 TV, + a
+   7 Prnl, IV, + a
+   7 Pl2
+   7 IV, + en
+   6 WObjPron
+   6 Voz inglesa / Eaŋgalas sátni
+   6 UseNor: Pl
+   6 UseAlso: Figuratiiva
+   6 TV, UseAlso: Figuratiiva
+   6 TV, Saam: + Com
+   6 TV, Mom
+   6 Prnl, Imp, 3per
+   6 Prnl, IV, + en
+   6 IV, UseAlso: se +
+   6 IV, UseAlso: Prnl
+   6 IV, PassV
+   6 IV, + en, a, por
+   5 UseAlw: Sg
+   5 UseAlw: Pl
+   5 TV, UseAlso: Figuratiiva
+   5 TV, Saam: + ActLoc
+   5 Sg2
+   5 Sg, Pl
+   5 Prnl, ReflV, + a
+   5 Prnl, IV, + a, con
+   5 PassV
+   5 IV, Saam: + Ill
+   5 IV, + con, contra
+   5 + a
+   4 UseTV, + de
+   4 UseNor: M
+   4 Use: Pl
+   4 TV, Saam: + Loc
+   4 TV, Freq
+   4 TV, + en
+   4 Sg, lo +
+   4 Saam: + Inf
+   4 Rel
+   4 PassV, Imp, 3per
+   4 Imp, 3Per, WObjPron
+   4 IV, Saam: + Loc
+   4 IV, 3per
+   4 IV, + en
+   4 IV, + a
+   4 Collc, Saam: Pl
+   4 AuxV, + Inf, UseAlso: prnl
+   4 + Inf
+   3 WObjPron, UseTV
+   3 UseTV, UseNor: WObjPron
+   3 UseNor: el +, la +
+   3 TV, Saam: Freq
+   3 TV, Saam: + Ill
+   3 TV, + por
+   3 TV, + le
+   3 TV, + de que
+   3 Saam: UseAlw: Gen
+   3 Saam: Pl
+   3 Prnl. ReflV, + de
+   3 Prnl, UseTV, + con + N
+   3 Prnl, Use TV
+   3 Prnl, ReflV
+   3 Prnl, RecV
+   3 Prnl, IV,+ con
+   3 Prnl, IV, UseAlso: TV
+   3 Prnl, IV, + de, con
+   3 Prnl, IV, + contra
+   3 Imp, 3per
+   3 IV, UseNor: WObjPron, Saam: coavji +
+   3 IV, Mom
+   3 IV, Imp, 3per, + que
+   3 IV, + por, a través de
+   3 IV, + con
+   3 IV, + Ger, Saam: + VGen
+   3 IV, + A
+   3 IV,  Saam: Com
+   3 Det +
+   3 Comp, + como
+   3 Collc, + de, Saam: Cmpnd
+   3 AuxV, + Inf
+   3 + de + Obj
+   3 + V
+   3 + Inf, Saam: + ActLoc
+   3 + 3pV
+   2 el +, la +
+   2 el +, la +
+   2 con +
+   2 UseTV, WObjPron, Saam: PassV
+   2 UseTV, + por, en
+   2 UseTV,  + Art, + de
+   2 UseTV
+   2 UseNor: ALc, de +
+   2 UseAlw: Pl
+   2 UseAlso: Sg, Saam: Pl
+   2 UseAlso: Figuratiiva, Geahča: Morder el anzuelo
+   2 TV, WObjPron, Saam: Imp, 3per, + Acc
+   2 TV, WObjPron, + por
+   2 TV, UseNor: WObjPron, Saam: PassExp
+   2 TV, UseNor: + con
+   2 TV, UseAlso: + para
+   2 TV, UseAlso: + a
+   2 TV, Saam: IV, + Loc
+   2 TV, Saam: +Ill
+   2 TV, Saam: + Ess
+   2 TV, Imp, 3per, Sg
+   2 TV, Caus
+   2 TV, + con
+   2 Span, Saam: UseNor: Pl
+   2 Sg, Pred
+   2 Saam: UseNor: Pl
+   2 Saam: UseAlw: Sg3
+   2 Saam: Ill
+   2 Saam: Cmpnd, Pred
+   2 Pron, Mom, UseTV
+   2 Prnl. ReflV, UseTV
+   2 Prnl, UseTV, UseAlso: + de
+   2 Prnl, UseTV, + en
+   2 Prnl, TV, + de
+   2 Prnl, ReflV, Saam: + Loc
+   2 Prnl, RecV, UseNor: + Adv
+   2 Prnl, IV, UseNor: Imp
+   2 Prnl, IV, RecV
+   2 Prnl, IV, + con
+   2 Prnl, IV, + a, hacia
+   2 Prnl, IV, + a, Saam: + Ill
+   2 Prnl, + con, RecV
+   2 Pred, estar +
+   2 Pred
+   2 Pl, Saam: Collc
+   2 Pl, Boares geavaheapmi
+   2 PassV, 3Per
+   2 Konditionála cealkagiin boahtá boađusin (konsekveansan)
+   2 Imp, WObjPron, UseTV
+   2 Imp, 3per, Sg
+   2 Imp, 3per, PassV
+   2 Imp, 3per, + a
+   2 Imp, 3per (haber), Saam: Per, + Loc
+   2 Imp, 3per (haber)
+   2 Imp, 3p
+   2 IV, UseNor: + por
+   2 IV, UseAlso: Figuratiiva
+   2 IV, UseAlso: "ser la mano derecha"
+   2 IV, TV, Freq
+   2 IV, TV, + a + Inf
+   2 IV, Saam: PassV, 3p
+   2 IV, Saam: Loc
+   2 IV, ReflV
+   2 IV, Imp, 3per, WObjPron
+   2 IV, Geahča: estar
+   2 IV, + sobre, en
+   2 IV, + por
+   2 IV, + de, como, Saam: + Ess
+   2 IV, + con, Saam: + Com
+   2 IV, + a, hacia
+   2 IV, + N, UseAlso: Prnl
+   2 IV, + Inf
+   2 IV, + Adv
+   2 Comp, Saam: Cmpnd
+   2 Comp, + que, de, Saam: + go
+   2 Boares geavaheapmi
+   2 AuxV, + Inf, Saam: + PrfPrc
+   2 + ser, estar
+   2 + A
+   1 lo +
+   1 la +
+   1 WObjPron, TV
+   1 WObjPron, Saam: + Ess
+   1 UseTV, WObjPron, UseAlw: Pot
+   1 UseTV, Imp, 3per, + Inf
+   1 UseNor: Pl, Saam: Sg
+   1 UseNor: Det +
+   1 UseNor: Det +
+   1 UseNor: Collc
+   1 UseNor: + que
+   1 UseAlw: la +
+   1 UseAlso: por +
+   1 UseAlso: hacia +
+   1 UseAlso: Sg: "un saludo", Saam: Pl
+   1 UseAlso: Sg: "un cordial saludo", Saam: Pl
+   1 UseAlso "Para que no" + Suju, Saam: Sup, Sg3
+   1 UseAlso "Para que no" + Suju, Saam: Sup, Sg2
+   1 UseAlso "Para que no" + Suju, Saam: Sup, Sg1
+   1 UseAlso "Para que no" + Suju, Saam: Sup, Pl3
+   1 UseAlso "Para que no" + Suju, Saam: Sup, Pl2
+   1 UseAlso "Para que no" + Suju, Saam: Sup, Pl1
+   1 UseAlso "Para que no" + Suju, Saam: Sup, Du3
+   1 UseAlso "Para que no" + Suju, Saam: Sup, Du2
+   1 UseAlso "Para que no" + Suju, Saam: Sup, Du1
+   1 TV, UseNor: WObjPron
+   1 TV, UseAlso: WObjPron
+   1 TV, UseAlso: Sg: "seguir la huella"
+   1 TV, Saam: Nom
+   1 TV, Saam: Loc
+   1 TV, Saam: IV, + Ill
+   1 TV, Saam: + PassV
+   1 TV, Saam: + Acc
+   1 TV, RecV
+   1 TV, IV, Saam: Mom
+   1 TV, Comp
+   1 TV, Caus, WObjPron
+   1 TV, Caus, + que + V
+   1 TV, Caus, + Inf
+   1 TV, +a
+   1 TV, + por, + en, + a
+   1 TV, + N, Saam: Der/Goahtit
+   1 TV, + N
+   1 Superl, UseAlw: Det +
+   1 Superl, Det +
+   1 Superl
+   1 Span, Saam: Sg
+   1 Sg: UseNor: el +
+   1 Sg3
+   1 Sg1, Pred
+   1 Sg, Per
+   1 Sg
+   1 Saam: UseAlso: Ill
+   1 Saam: Sg, Pl
+   1 Saam: Nom
+   1 Saam: Loc
+   1 Saam: Hab
+   1 Saam: Gen +
+   1 Saam: Com
+   1 Saam: Boares geavaheapmi
+   1 Saam: AuxV, Imprt, ConNeg: Sg3
+   1 Saam: AuxV, Imprt, ConNeg: Sg2
+   1 Saam: AuxV, Imprt, ConNeg: Sg1
+   1 Saam: AuxV, Imprt, ConNeg: Pl3
+   1 Saam: AuxV, Imprt, ConNeg: Pl2
+   1 Saam: AuxV, Imprt, ConNeg: Pl1
+   1 Saam: AuxV, Imprt, ConNeg: Du3
+   1 Saam: AuxV, Imprt, ConNeg: Du2
+   1 Saam: AuxV, Imprt, ConNeg: Du1
+   1 Saam: AuxV, ConNeg: Sg3
+   1 Saam: AuxV, ConNeg: Sg2
+   1 Saam: AuxV, ConNeg: Sg1
+   1 Saam: AuxV, ConNeg: Pl3
+   1 Saam: AuxV, ConNeg: Pl2
+   1 Saam: AuxV, ConNeg: Pl1
+   1 Saam: AuxV, ConNeg: Du3
+   1 Saam: AuxV, ConNeg: Du2
+   1 Saam: AuxV, ConNeg: Du1
+   1 Saam: Acc
+   1 Saam: + Loc
+   1 Saam: + Loc
+   1 Saam: + Ill
+   1 Saam: + Gen, Sg
+   1 Saam: + Gen, Pl
+   1 ReflV, UseTV
+   1 ReflPron, Sg2
+   1 ReflPron, Com, Sg1
+   1 RecV, UseTV
+   1 RecV
+   1 Prnl. ReflV
+   1 Prnl, UseTV, Saam: TV
+   1 Prnl, UseTV, Saam: IV
+   1 Prnl, UseTV, Saam: + ActEss
+   1 Prnl, UseTV, Hab
+   1 Prnl, UseTV, + por
+   1 Prnl, UseTV, + con
+   1 Prnl, UseTV
+   1 Prnl, ReflV, UseTV, + de
+   1 Prnl, ReflV, + de, + con
+   1 Prnl, RecV, + con
+   1 Prnl, PassV
+   1 Prnl, IV, WObjPron
+   1 Prnl, IV, Saam: Ill
+   1 Prnl, IV, Saam: + Com
+   1 Prnl, IV, Saam: + Acc
+   1 Prnl, IV, Imprt, Sg2
+   1 Prnl, IV, Imprt, Pl2
+   1 Prnl, IV, + en, contra
+   1 Prnl, IV, + en, con
+   1 Prnl, IV, + con, Saam: + Com
+   1 Prnl, IV, + ante
+   1 Prnl, IV, + Inf + a
+   1 Prnl, IV, + Ger, Saam: + PrfPrc
+   1 Prnl, IV, + Ger, Saam: + Ger
+   1 Prnl, IV, + A, + N
+   1 Prnl, IV, + A
+   1 Prnl, AuxV, + de + Inf, Saam: + PrfPrc
+   1 Prnl, + de, UseTV
+   1 Prnl, + a
+   1 Pl3
+   1 Pl, los +, las +
+   1 Pl, Saam: Sg
+   1 Pl, Per
+   1 Pl,  los +, Saam: Collc
+   1 PassV, Sg3
+   1 PassV, Saam: 3per, Sg
+   1 PassV, Imp, 3per, WObjPron
+   1 PassV, Imp, 3Per
+   1 PassV, + por, a
+   1 N +
+   1 Imp, 3per, WObjPron
+   1 IV,+ N
+   1 IV, WObjPron, 3per
+   1 IV, UseNor: Pl
+   1 IV, UseAlw: 3per
+   1 IV, Saam: Ill
+   1 IV, Saam: Cmpnd
+   1 IV, RecV, + por
+   1 IV, Prnl
+   1 IV, PassV
+   1 IV, Imp, 3per, Sg
+   1 IV, Imp, 3Per
+   1 IV, Geahča: ser
+   1 IV, Comp, WObjPron
+   1 IV, + sobre
+   1 IV, + por + Inf
+   1 IV, + para, hacia, Saam: + Ill
+   1 IV, + en + N
+   1 IV, + de, Saam: Ess
+   1 IV, + de, Saam: + Loc
+   1 IV, + con, Saam: + Ill
+   1 IV, + a, Saam: + ActEss
+   1 IV, + a, + hasta
+   1 IV, + a + báiki
+   1 IV, + a + Inf
+   1 IV, + Inf, + N
+   1 IV,  WObjPron
+   1 IV,
+   1 IV
+   1 Geahča: y
+   1 Geahča: e
+   1 Geahča/Ver: almuerzo
+   1 Freq
+   1 Esp: Collc, Saam: Pl
+   1 EXPLANATION
+   1 Du3
+   1 Cealkka mii heive dillái, go buohkat leat dássálagaid; dat guoská čeavlás olbmuide:
+   1 Borramuš mii borrojuvvo beaivemállása ja eahketmállása gaskkas, Geahča/Ver: cena
+   1 AuxV, + Ger, Saam: + ActEss
+   1 AuxV, + Ger
+   1 AuxV
+   1 Attr, + N
+   1 + a + Inf
+
+
+Again, I think you could have a look and give it some standardisation.
+
+
+
+Field 19 are spanish examples, look good to me.
+
+This sentence is misplaced:
+ 1 Loddi girddii mu oaivve badjel.
+
+These are two-in-one:
+    1 Su casa es bastante grande. Su viessu lea viehka stuoris.
+    1 Esto indica mucha maldad. Das mun balan erenoamažit.
+
+Some possible typos:
+ 1 En estas circuntancias es difícil decidir.
+ 1 Los alevines vencieron al equipo júnior
+1 Guardáos de ir allí.
+ 1 chupar el cigarillo chupar el biberón chupar un caramelo Esa esponja chupa mucha agua.  > cigarrillo
+.
+
+Field 20 are Saami ones. There are some words there not recognised by our speller, no doubt for most of them the speller is to blame, but some are typos:
+
+
+
+Trond
+
+trond.trosterud@uit.no
+UiT Norgga árktalaš universitehta
++47 77644763 / +47 95070140
+
+
+
+ANGEL DIAZ DE RADA BRUN <adiaz@fsof.uned.es> kirjoitti 7.10.2020 kello 10.13:
+
+Thank you,
+I guess the file is not yet displayed at https://sanit.oahpa.no/spa/sme/
+When I go there now I cannot see the new additions.
+If everything is in order, do not waste time in answering this mail.
+Please, take your time.
+Thanks again,
+
+Prof. Ángel Díaz de Rada
+Departamento de Antropología Social y Cultural
+Facultad de Filosofía
+UNED
+
+
+De: Trond Trosterud <trond.trosterud@uit.no>
+Enviado: miércoles, 7 de octubre de 2020 10:09
+Para: ANGEL DIAZ DE RADA BRUN <adiaz@fsof.uned.es>
+Cc: Chiara Argese <chiara.argese@uit.no>
+Asunto: Re: Ángel Díaz de Rada SPANISH DICTIONARY
+
+I will. Stay tuned.
+
+What I will do is check your file for concistency.
+
+Trond
+
+trond.trosterud@uit.no
+UiT Norgga árktalaš universitehta
++47 77644763 / +47 95070140
+
+
+
+ANGEL DIAZ DE RADA BRUN <adiaz@fsof.uned.es> kirjoitti 7.10.2020 kello 10.08:
+
+Please, Trond, let me know when it is again My Turn.
+
+
+
+AVISO LEGAL. Este mensaje puede contener información reservada y confidencial. Si usted no es el destinatario no está autorizado a copiar, reproducir o distribuir este mensaje ni su contenido. Si ha recibido este mensaje por error, le rogamos que lo notifique al remitente.
+Le informamos de que sus datos personales, que puedan constar en este mensaje, serán tratados en calidad de responsable de tratamiento por la UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA (UNED) c/ Bravo Murillo, 38, 28015-MADRID-, con la finalidad de mantener el contacto con usted. La base jurídica que legitima este tratamiento, será su consentimiento, el interés legítimo o la necesidad para gestionar una relación contractual o similar. En cualquier momento podrá ejercer sus derechos de acceso, rectificación, supresión, oposición, limitación al tratamiento o portabilidad de los datos, ante la UNED, Departamento de Política Jurídica de Seguridad de la Información, o a través de la Sede electrónica de la Universidad.
+Para más información visite nuestra Política de Privacidad.
+
+
 
 14.8.2020
 ==========
