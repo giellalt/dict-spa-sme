@@ -55,6 +55,8 @@ class Entry:
 # Check if value exists, if yes create element (optional t_element to add saami_ex together with spa_ex)
 #def check_and_insert(value, parent, tag_name, t_element=None):
 def check_and_insert(value, parent, tag_name, ppar=None, ppar_tag_name=None, t_element=None):
+    if value.endswith(" "):
+        value = value[:-1]
     if value and t_element:
         if t_element[0]:
             if ppar is not None and ppar_tag_name is not None:
@@ -87,8 +89,6 @@ for i in range(1, len(lines)):
 
 # Create an xml file per pos by reading the dictionary (dict_pos)
 for key, value in pos_dict.items():
-    # sort according translation number
-    value.sort(key=lambda x: x.trans_num)
     out_file = "../src/" + key.replace(" ", "_").replace("/", "#").upper() + "_spasme.xml"
     write_file = open(out_file,"a+")
     out_tree = Element("r")
@@ -163,6 +163,9 @@ for key, value in pos_dict.items():
                     check_and_insert(val.trans_syn_4, "", "syn", mg_elem, "syng")
                     check_and_insert(val.trans_syn_5, "", "syn", mg_elem, "syng")
                     check_and_insert(val.trans_syn_6, "", "syn", mg_elem, "syng")
+
+    # sort according translation number
+    value.sort(key=lambda x: x.trans_num)
 
     ET(out_tree).write(out_file, encoding="UTF-8", pretty_print=True)
     write_file.close()
