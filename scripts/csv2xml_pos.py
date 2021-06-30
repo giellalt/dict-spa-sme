@@ -4,6 +4,9 @@ Script to convert csv into xml.
 Usage:
     python3 csv2xml_pos.py <PATH_CSV_FILE>
 For each pos, an xml file named <POS>_spasme.xml is generated in this folder.
+
+These files still need to be compiled into a single xml file to be used 
+in the dictionary. Read the NDS documentation if you are unsure.
 '''
 
 import sys
@@ -11,6 +14,15 @@ import csv
 import lxml.etree
 from lxml.etree import ElementTree as ET
 from lxml.etree import Element, SubElement, XMLParser
+
+# Initial checks before running.
+if (len(sys.argv) != 2):
+    print("Usage: python3 {} <PATH_CSV_FILE>".format(sys.argv[0]))
+    exit()
+
+if (sys.argv[1] == "--help" or sys.argv[1] == "-h" or sys.argv[1] == "help"):
+    print(__doc__)
+    exit()
 
 read_file = sys.argv[1]
 pos_dict = {}
@@ -56,7 +68,7 @@ class Entry:
 #def check_and_insert(value, parent, tag_name, t_element=None):
 def check_and_insert(value, parent, tag_name, ppar=None, ppar_tag_name=None, t_element=None):
     if value.endswith(" "):
-        value = value[:-1]
+        value = value[:-1] # If an entry erroneously ends with a space, remove it
     if value and t_element:
         if t_element[0]:
             if ppar is not None and ppar_tag_name is not None:
@@ -65,11 +77,13 @@ def check_and_insert(value, parent, tag_name, ppar=None, ppar_tag_name=None, t_e
             element.text = value
             element = SubElement(parent, t_element[1])
             element.text = t_element[0]
+            return element
     elif value:
         if ppar is not None and ppar_tag_name is not None:
             parent = SubElement(ppar, ppar_tag_name)
         element = SubElement(parent, tag_name)
         element.text = value
+        return element
     return
 
 # Read the csv file
@@ -98,16 +112,19 @@ for key, value in pos_dict.items():
         if not val.word in added:
             e_elem = SubElement(out_tree, "e")
             lg_elem = SubElement(e_elem, "lg")
-            l_elem = SubElement(lg_elem, "l")
+            #l_elem = SubElement(lg_elem, "l")
+            l_elem = check_and_insert(val.word, lg_elem, "l") # inserted
             l_elem.set("pos", val.word_cls_5)
             l_elem.set("gen", val.gen)
             l_elem.set("syn", val.lem_syn)
-            l_elem.text = val.word
+            #l_elem.text = val.word
             check_and_insert(val.infl, lg_elem, "lsub")
             mg_elem = SubElement(e_elem, "mg")
+            check_and_insert(val.sci_name, mg_elem, "l_sci")
             tg_elem = SubElement(mg_elem, "tg")
             tg_elem.set('{http://www.w3.org/XML/1998/namespace}lang', "sme")
             check_and_insert(val.restr, tg_elem, "re")
+            check_and_insert(val.expl, tg_elem, "expl")
             t_elem = SubElement(tg_elem, "t")
             t_elem.set("pos", val.word_cls_12)
             t_elem.set("re", val.restr)
@@ -135,7 +152,7 @@ for key, value in pos_dict.items():
         else:
             # select the already existing entry with word = val.word and add mg with different translation
             for l in out_tree.getiterator("l"):
-                if l.text == val.word:
+                if l.text == val.word or (val.word.endswith(" ") and l.text == val.word[:-1]): 
                     mg_elem = SubElement((l.getparent()).getparent(), "mg")
                     tg_elem = SubElement(mg_elem, "tg")
                     tg_elem.set('{http://www.w3.org/XML/1998/namespace}lang', "sme")
@@ -143,6 +160,7 @@ for key, value in pos_dict.items():
                     t_elem = SubElement(tg_elem, "t")
                     t_elem.set("pos", val.word_cls_12)
                     t_elem.set("re", val.restr)
+                    check_and_insert(val.expl, tg_elem, "expl")
                     t_elem.set("sci", val.sci_name)
                     if val.saami:
                         t_elem.text = val.saami
