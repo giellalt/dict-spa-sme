@@ -3,6 +3,15 @@ Worklog
 
 This file is for keeping track of the workflow.
 
+30.6.2021
+=========
+Worked on implementing some of the requested features (Trond Tynnøl).
+- Added scientific name after lemma as a new tag <l_sci>
+- Added conjugation patterns for spanish verbs, nouns and adjectives. At least the verbs still need some thinking.
+- Added a (temporary) link to Wiktionary for the full paradigms. As they are not necessarily there, it would be good to use something else (cgi-bin script/spanish dictionary with conjugation, ?)
+- Added a new tag <expl> under the translation group to show the explanation coloumn of the dictionary.
+
+
 7.10.2020
 ==========
 The september version of the file is installed (with updated user_friendly_tags).
