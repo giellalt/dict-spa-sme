@@ -129,8 +129,10 @@ for key, value in pos_dict.items():
             t_elem.set("pos", val.word_cls_12)
             t_elem.set("re", val.restr)
             t_elem.set("sci", val.sci_name)
-            if val.saami:
+            if val.saami and not val.saami.endswith(" "):
                 t_elem.text = val.saami
+            elif val.saami and val.saami.endswith(" "):
+                t_elem.text = val.saami[:-1]
             else:
                 t_elem.text = val.saami_trans
             #xg_elem = SubElement(tg_elem, "xg")
@@ -162,8 +164,10 @@ for key, value in pos_dict.items():
                     t_elem.set("re", val.restr)
                     check_and_insert(val.expl, tg_elem, "expl")
                     t_elem.set("sci", val.sci_name)
-                    if val.saami:
+                    if val.saami and not val.saami.endswith(" "):
                         t_elem.text = val.saami
+                    elif val.saami and val.saami.endswith(" "):
+                        t_elem.text = val.saami[:-1]
                     else:
                         t_elem.text = val.saami_trans
                     #xg_elem = SubElement(tg_elem, "xg")
