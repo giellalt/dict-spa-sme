@@ -3,6 +3,18 @@ Worklog
 
 This file is for keeping track of the workflow.
 
+2.7.2021
+========
+- Filtered out the smespa dict from the menu by editing templates/left_nav_language_pair_select_list.html (and also templates/left_nav_grouped_language_pair_select_list.html, though probably unnecessary there)
+- NB: Remove this if statement when the actual smespa dictionary is finished and should be added!
+
+1.7.2021
+========
+- Made a dummy smespa dictionary based on the smenob dictionary to be able to show sme paradigms.
+- Added links from the translations to the dummy smespa for the paradigms.
+- Made the conversion script remove an erroneously added space at the end of translations 
+- Improved verb paradigm
+
 30.6.2021
 =========
 Worked on implementing some of the requested features (Trond Tynnøl).
@@ -10,7 +22,7 @@ Worked on implementing some of the requested features (Trond Tynnøl).
 - Added conjugation patterns for spanish verbs, nouns and adjectives. At least the verbs still need some thinking.
 - Added a (temporary) link to Wiktionary for the full paradigms. As they are not necessarily there, it would be good to use something else (cgi-bin script/spanish dictionary with conjugation, ?)
 - Added a new tag <expl> under the translation group to show the explanation coloumn of the dictionary.
-
+- Made the conversion script remove an erroneously added space at the end of lemmas
 
 7.10.2020
 ==========
