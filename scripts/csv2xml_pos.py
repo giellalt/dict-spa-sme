@@ -67,8 +67,7 @@ class Entry:
 # Check if value exists, if yes create element (optional t_element to add saami_ex together with spa_ex)
 #def check_and_insert(value, parent, tag_name, t_element=None):
 def check_and_insert(value, parent, tag_name, ppar=None, ppar_tag_name=None, t_element=None):
-    if value.endswith(" "):
-        value = value[:-1] # If an entry erroneously ends with a space, remove it
+    value = value.strip()
     if value and t_element:
         if t_element[0]:
             if ppar is not None and ppar_tag_name is not None:
@@ -89,7 +88,6 @@ def check_and_insert(value, parent, tag_name, ppar=None, ppar_tag_name=None, t_e
 # Read the csv file
 with open(read_file) as f:
     lines = f.readlines()
-f.close()
 
 # Create a dictionary of entries collected by pos
 for i in range(1, len(lines)):
