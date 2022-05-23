@@ -30,39 +30,39 @@ pos_dict = {}
 # Define an Entry class containing all elements from csv file keeping (almost) same names
 class Entry:
     def __init__(self, word, gen, lem_syn, infl, word_cls_5, basic_form, trans_num, restr, sci_name, saami, saami_trans, word_cls_12, expl, trans_syn_1, trans_syn_2, trans_syn_3, trans_syn_4, trans_syn_5, trans_syn_6, spa_ex_1, saami_ex_1, spa_ex_2, saami_ex_2, spa_ex_3, saami_ex_3, spa_ex_4, saami_ex_4, spa_ex_5, saami_ex_5, spa_ex_6, saami_ex_6, spa_ex_7, saami_ex_7):
-        self.word = word
-        self.gen = gen
-        self.lem_syn = lem_syn
-        self.infl = infl
-        self.word_cls_5 = word_cls_5
-        self.basic_form = basic_form
-        self.trans_num = trans_num
-        self.restr = restr
-        self.sci_name = sci_name
-        self.saami = saami
-        self.saami_trans = saami_trans
-        self.word_cls_12 = word_cls_12
-        self.expl = expl
-        self.trans_syn_1 = trans_syn_1
-        self.trans_syn_2 = trans_syn_2
-        self.trans_syn_3 = trans_syn_3
-        self.trans_syn_4 = trans_syn_4
-        self.trans_syn_5 = trans_syn_5
-        self.trans_syn_6 = trans_syn_6
-        self.spa_ex_1 = spa_ex_1
-        self.saami_ex_1 = saami_ex_1
-        self.spa_ex_2 = spa_ex_2
-        self.saami_ex_2 = saami_ex_2
-        self.spa_ex_3 = spa_ex_3
-        self.saami_ex_3 = saami_ex_3
-        self.spa_ex_4 = spa_ex_4
-        self.saami_ex_4 = saami_ex_4
-        self.spa_ex_5 = spa_ex_5
-        self.saami_ex_5 = saami_ex_5
-        self.spa_ex_6 = spa_ex_6
-        self.saami_ex_6 = saami_ex_6
-        self.spa_ex_7 = spa_ex_7
-        self.saami_ex_7 = saami_ex_7
+        self.word = word.strip()
+        self.gen = gen.strip()
+        self.lem_syn = lem_syn.strip()
+        self.infl = infl.strip()
+        self.word_cls_5 = word_cls_5.strip()
+        self.basic_form = basic_form.strip()
+        self.trans_num = trans_num.strip()
+        self.restr = restr.strip()
+        self.sci_name = sci_name.strip()
+        self.saami = saami.strip()
+        self.saami_trans = saami_trans.strip()
+        self.word_cls_12 = word_cls_12.strip()
+        self.expl = expl.strip()
+        self.trans_syn_1 = trans_syn_1.strip()
+        self.trans_syn_2 = trans_syn_2.strip()
+        self.trans_syn_3 = trans_syn_3.strip()
+        self.trans_syn_4 = trans_syn_4.strip()
+        self.trans_syn_5 = trans_syn_5.strip()
+        self.trans_syn_6 = trans_syn_6.strip()
+        self.spa_ex_1 = spa_ex_1.strip()
+        self.saami_ex_1 = saami_ex_1.strip()
+        self.spa_ex_2 = spa_ex_2.strip()
+        self.saami_ex_2 = saami_ex_2.strip()
+        self.spa_ex_3 = spa_ex_3.strip()
+        self.saami_ex_3 = saami_ex_3.strip()
+        self.spa_ex_4 = spa_ex_4.strip()
+        self.saami_ex_4 = saami_ex_4.strip()
+        self.spa_ex_5 = spa_ex_5.strip()
+        self.saami_ex_5 = saami_ex_5.strip()
+        self.spa_ex_6 = spa_ex_6.strip()
+        self.saami_ex_6 = saami_ex_6.strip()
+        self.spa_ex_7 = spa_ex_7.strip()
+        self.saami_ex_7 = saami_ex_7.strip()
 
 # Check if value exists, if yes create element (optional t_element to add saami_ex together with spa_ex)
 #def check_and_insert(value, parent, tag_name, t_element=None):
@@ -129,10 +129,8 @@ for key, value in pos_dict.items():
             t_elem.set("pos", val.word_cls_12)
             t_elem.set("re", val.restr)
             t_elem.set("sci", val.sci_name)
-            if val.saami and not val.saami.endswith(" "):
+            if val.saami:
                 t_elem.text = val.saami
-            elif val.saami and val.saami.endswith(" "):
-                t_elem.text = val.saami[:-1]
             else:
                 t_elem.text = val.saami_trans
             #xg_elem = SubElement(tg_elem, "xg")
@@ -164,10 +162,8 @@ for key, value in pos_dict.items():
                     t_elem.set("re", val.restr)
                     check_and_insert(val.expl, tg_elem, "expl")
                     t_elem.set("sci", val.sci_name)
-                    if val.saami and not val.saami.endswith(" "):
+                    if val.saami:
                         t_elem.text = val.saami
-                    elif val.saami and val.saami.endswith(" "):
-                        t_elem.text = val.saami[:-1]
                     else:
                         t_elem.text = val.saami_trans
                     #xg_elem = SubElement(tg_elem, "xg")
