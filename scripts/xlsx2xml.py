@@ -18,6 +18,43 @@ except ImportError:
     exit(MISSING_DEP_HELP)
 
 
+#  expected_column_names = (
+#      "WORD",  # lemma, <l.text>
+#      "GENDER",  # attribute on <l>
+#      "LEMMA_SYNONYM",  # l.syn
+#      "INFLECTION",  # mg / <l_sci>
+#      "WORD_CLASS",  # pos, attribute "pos" on <l>
+#      "BASIC_WORD",  # unused
+#      "TRANSLATION_NUMBER",
+#      "RESTRICTION",  # tg -> <re> if not none
+#      "SCIENTIFIC_NAME",  # mg -> <l_sci> if not none
+#      "SAAMI",  # t value  if not none, else:
+#      "SAAMI_TRANSLATION_CASE_OR_FORM",  # .. this is t value
+#      "WORD_CLASS_1",  # t.pos if not none
+#      "EXPLANATION",   # tg -> <expl> if not none
+#      "TRANS_SYNON1",
+#      "TRANS_SYNON2",
+#      "TRANS_SYNON3",
+#      "TRANS_SYNON4",
+#      "TRANS_SYNON5",
+#      "TRANS_SYNON6",
+#      "SPANISH_EX_1",
+#      "SAAMI_EX_1",
+#      "SPANISH_EX_2",
+#      "SAAMI_EX_2",
+#      "SPANISH_EX_3",
+#      "SAAMI_EX_3",
+#      "SPANISH_EX_4",
+#      "SAAMI_EX_4",
+#      "SPANISH_EX_5",
+#      "SAAMI_EX_5",
+#      "SPANISH_EX_6",
+#      "SAAMI_EX_6",
+#      "SPANISH_EX_7",
+#      "SAAMI_EX_7",
+#  )
+
+
 def check_and_insert(
     value,
     parent,
@@ -65,13 +102,22 @@ def t(entry, parent_tg, parent_mg):
 
 def dict2xml_bytestring(d):
     root = Element("r")
-    for (lemma, pos), entries in d.items():
-        print(lemma, pos)
+    for (lemma, pos, gender), entries in d.items():
+        all_synonyms_are_the_same = all(
+            entry.LEMMA_SYNONYM == entries[0].LEMMA_SYNONYM
+            for entry in entries
+        )
+        assert all_synonyms_are_the_same
+
         e = SubElement(root, "e")
         lg = SubElement(e, "lg")
         l = SubElement(lg, "l")
         if pos is not None:
             l.set("pos", pos)
+        if gender is not None:
+            l.set("gen", gender)
+        if entries[0].LEMMA_SYNONYM is not None:
+            l.set("syn", entries[0].LEMMA_SYNONYM)
         l.text = lemma
 
         for entry in entries:
@@ -80,6 +126,7 @@ def dict2xml_bytestring(d):
             tg.set('{http://www.w3.org/XML/1998/namespace}lang', "sme")
             check_and_insert(entry.RESTRICTION, tg, "re")
             check_and_insert(entry.EXPLANATION, tg, "expl")
+            check_and_insert(entry.INFLECTION, lg, "lsub")
             t(entry, tg, mg)
 
     return tostring(root, encoding="utf-8", pretty_print=True)
@@ -125,7 +172,7 @@ def main(args):
     for row in islice(ws.rows, 1, None):
         n_rows += 1
         r = Entry(*(col.value for col in row))
-        lemmas[(r.WORD, r.WORD_CLASS)].append(r)
+        lemmas[(r.WORD, r.WORD_CLASS, r.GENDER)].append(r)
 
     xml_bytestring = dict2xml_bytestring(lemmas)
     args.output.write(xml_bytestring)
