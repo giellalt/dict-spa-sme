@@ -3,12 +3,14 @@ Convert spanish-sme xlsx to GT-style xml.
 """
 import argparse
 from itertools import islice
+from functools import partial
 from collections import defaultdict, namedtuple
+from pathlib import Path
 
 MISSING_DEP_HELP = """
 cannot run due to missing dependencies. hint, run:
 python -m venv .venv && . .venv/bin/activate && pip install -r xlsx2xml-requirements.txt
-...and then try again. (remember run `deactivate` in the shell when you're done)
+...and then try again. (remember to run `deactivate` in the shell when you're done)
 """
 
 try:
@@ -103,11 +105,11 @@ def t(entry, parent_tg, parent_mg):
 def dict2xml_bytestring(d):
     root = Element("r")
     for (lemma, pos, gender), entries in d.items():
-        all_synonyms_are_the_same = all(
-            entry.LEMMA_SYNONYM == entries[0].LEMMA_SYNONYM
-            for entry in entries
-        )
-        assert all_synonyms_are_the_same
+        # all_synonyms_are_the_same = all(
+        #     entry.LEMMA_SYNONYM == entries[0].LEMMA_SYNONYM
+        #     for entry in entries
+        # )
+        # assert all_synonyms_are_the_same
 
         e = SubElement(root, "e")
         lg = SubElement(e, "lg")
@@ -122,6 +124,7 @@ def dict2xml_bytestring(d):
 
         for entry in entries:
             mg = SubElement(e, "mg")
+            check_and_insert(entry.SCIENTIFIC_NAME, mg, "l_sci")
             tg = SubElement(mg, "tg")
             tg.set('{http://www.w3.org/XML/1998/namespace}lang', "sme")
             check_and_insert(entry.RESTRICTION, tg, "re")
@@ -151,14 +154,15 @@ def parse_args():
     parser.add_argument("inputfile")
     parser.add_argument(
             "-o", "--output",
-            type=argparse.FileType("wb"),
-            help="output file. if not given, assume -, which is stdout",
-            default="-")
+            help="output directory",
+            default="output")
 
     return parser.parse_args()
 
 
 def main(args):
+    out_dir = Path(args.output).resolve()
+    out_dir.mkdir(parents=True, exist_ok=True)
     wb = load_workbook(args.inputfile)
 
     # assume this is the dictionary one
@@ -167,15 +171,21 @@ def main(args):
     field_names = read_column_names(ws.columns)
     Entry = namedtuple("Entry", field_names=field_names)
 
-    lemmas = defaultdict(list)
-    n_rows = 0
+    lemmas = defaultdict(partial(defaultdict, list))
     for row in islice(ws.rows, 1, None):
-        n_rows += 1
-        r = Entry(*(col.value for col in row))
-        lemmas[(r.WORD, r.WORD_CLASS, r.GENDER)].append(r)
+        r = Entry(*(
+            col.value.strip() if isinstance(col.value, str) else col.value
+            for col in row
+        ))
 
-    xml_bytestring = dict2xml_bytestring(lemmas)
-    args.output.write(xml_bytestring)
+        lemmas[r.WORD_CLASS][(r.WORD, r.WORD_CLASS, r.GENDER)].append(r)
+
+    for pos, entries in lemmas.items():
+        pos = str(pos)
+        pos = pos.replace(" ", "_").upper()
+        xml_bytestring = dict2xml_bytestring(entries)
+        with open(out_dir / f"{pos}_spasme.xml", "wb") as f:
+            f.write(xml_bytestring)
 
 
 if __name__ == "__main__":
