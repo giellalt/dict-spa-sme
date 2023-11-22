@@ -1,0 +1,12 @@
+template = ""
+rev_id = 3
+template_sha = "50f983ed6da8e78c9c3344a18d6a46e3f843236c"
+
+[replacements]
+__LICENSE__ = "CC-BY-4.0"
+__UND2C_SRC__ = "es"
+__UND2C_TRG__ = "se"
+__UNDEFINED_SOURCE__ = "Spanish"
+__UNDEFINED_TARGET__ = "North Sámi"
+__UND_SRC__ = "spa"
+__UND_TRG__ = "sme"
