@@ -152,17 +152,11 @@ def read_column_names(columns):
 def parse_args():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("inputfile")
-    parser.add_argument(
-            "-o", "--output",
-            help="output directory",
-            default="output")
 
     return parser.parse_args()
 
 
 def main(args):
-    out_dir = Path(args.output).resolve()
-    out_dir.mkdir(parents=True, exist_ok=True)
     wb = load_workbook(args.inputfile)
 
     # assume this is the dictionary one
@@ -171,21 +165,19 @@ def main(args):
     field_names = read_column_names(ws.columns)
     Entry = namedtuple("Entry", field_names=field_names)
 
-    lemmas = defaultdict(partial(defaultdict, list))
+    lemmas = defaultdict(list)
     for row in islice(ws.rows, 1, None):
-        r = Entry(*(
+        e = Entry(*(
             col.value.strip() if isinstance(col.value, str) else col.value
             for col in row
         ))
 
-        lemmas[r.WORD_CLASS][(r.WORD, r.WORD_CLASS, r.GENDER)].append(r)
+        lemmas[(e.WORD, e.WORD_CLASS, e.GENDER)].append(e)
 
-    for pos, entries in lemmas.items():
-        pos = str(pos)
-        pos = pos.replace(" ", "_").upper()
-        xml_bytestring = dict2xml_bytestring(entries)
-        with open(out_dir / f"{pos}_spasme.xml", "wb") as f:
-            f.write(xml_bytestring)
+    
+    xml_bytestring = dict2xml_bytestring(lemmas)
+    with open(f"spa-sme.xml", "wb") as f:
+        f.write(xml_bytestring)
 
 
 if __name__ == "__main__":
