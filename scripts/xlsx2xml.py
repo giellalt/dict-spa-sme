@@ -139,11 +139,11 @@ def read_column_names(columns):
     field_counts = defaultdict(int)
     fields = []
     for col in columns:
-        field = col[0].value.replace(" ", "_")
-        n = field_counts[field]
+        orig_field = field = col[0].value.replace(" ", "_")
+        n = field_counts[orig_field]
         if n > 0:
             field = f"{field}_{n}"
-        field_counts[field] += 1
+        field_counts[orig_field] += 1
         fields.append(field)
 
     return fields
