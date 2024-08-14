@@ -25,14 +25,14 @@ except ImportError:
 #      "GENDER",  # attribute on <l>
 #      "LEMMA_SYNONYM",  # l.syn
 #      "INFLECTION",  # mg / <l_sci>
-#      "WORD_CLASS",  # pos, attribute "pos" on <l>
+#      "WORD_CLASS_SPANISH",  # pos, attribute "pos" on <l>
 #      "BASIC_WORD",  # unused
 #      "TRANSLATION_NUMBER",
 #      "RESTRICTION",  # tg -> <re> if not none
 #      "SCIENTIFIC_NAME",  # mg -> <l_sci> if not none
 #      "SAAMI",  # t value  if not none, else:
 #      "SAAMI_TRANSLATION_CASE_OR_FORM",  # .. this is t value
-#      "WORD_CLASS_1",  # t.pos if not none
+#      "WORD_CLASS_SAAMI",  # t.pos if not none
 #      "EXPLANATION",   # tg -> <expl> if not none
 #      "TRANS_SYNON1",
 #      "TRANS_SYNON2",
@@ -87,8 +87,8 @@ def check_and_insert(
 
 def t(entry, parent_tg, parent_mg):
     el = SubElement(parent_tg, "t")
-    if entry.WORD_CLASS_1:
-        el.set("pos", entry.WORD_CLASS_1)
+    if entry.WORD_CLASS_SAAMI: # Previously WORD_CLASS_1
+        el.set("pos", entry.WORD_CLASS_SAAMI)
     if entry.SCIENTIFIC_NAME:
         el.set("sci", entry.SCIENTIFIC_NAME)
     el.text = entry.SAAMI if entry.SAAMI else entry.SAAMI_TRANS
@@ -172,7 +172,7 @@ def main(args):
             for col in row
         ))
 
-        lemmas[(e.WORD, e.WORD_CLASS, e.GENDER)].append(e)
+        lemmas[(e.WORD, e.WORD_CLASS_SPANISH, e.GENDER)].append(e)
 
     
     xml_bytestring = dict2xml_bytestring(lemmas)
