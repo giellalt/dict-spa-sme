@@ -152,6 +152,7 @@ def read_column_names(columns):
 def parse_args():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("inputfile")
+    parser.add_argument("outputfile", type=Path)
 
     return parser.parse_args()
 
@@ -174,9 +175,9 @@ def main(args):
 
         lemmas[(e.WORD, e.WORD_CLASS_SPANISH, e.GENDER)].append(e)
 
-    
+    args.outputfile.parent.mkdir(exist_ok=True)
     xml_bytestring = dict2xml_bytestring(lemmas)
-    with open(f"spa-sme.xml", "wb") as f:
+    with open(args.outputfile, "wb") as f:
         f.write(xml_bytestring)
 
 
