@@ -3,7 +3,6 @@ Convert spanish-sme xlsx to GT-style xml.
 """
 import argparse
 from itertools import islice
-from functools import partial
 from collections import defaultdict, namedtuple
 from pathlib import Path
 
@@ -18,6 +17,17 @@ try:
     from openpyxl import load_workbook
 except ImportError:
     exit(MISSING_DEP_HELP)
+
+
+# UNUSED: SEE COMMENT in clean_pos()
+
+# In the WORD_CLASS_SAAMI field, there are many poses
+# where the lemma consists of many words, so we just
+# treat them all as the giellatekno-known pos "Phrase"
+PHRASE_POSES = {
+    "Lc", "VLc", "AdvLc", "PronLc", "Pfs", "PrLc", "NLc",
+    "ALc"
+}
 
 
 #  expected_column_names = (
@@ -85,10 +95,39 @@ def check_and_insert(
         return element
 
 
+def slice_until(string, char):
+    """Slice the string from the beginning, up to (but not including) where
+    the first `char` is found, or slice the entire string if char is not found.
+    """
+    i = string.find(char)
+    if i == -1:
+        i = len(string)
+    return string[0:i]
+
+
+def clean_pos(pos):
+    # UNUSED
+    # FOR NOW, THE DTD IS DEFINED TO TAKE POSES AS
+    # A FREE TEXT FIELD (OPTIONAL ON <l>), INSTEAD OF
+    # A GIVEN LIST. SO WE DONT NEED TO DO ANY SPECIAL
+    # HANDLING OF POSES HERE
+
+    # In WORD_CLASS_SAAMI, there are often more tags,
+    # separated by commas, but the first one always
+    # seems to be the actual pos
+    #pos = slice_until(pos, ",")
+
+    #if pos in PHRASE_POSES:
+    #    pos = "Phrase"
+
+    return pos
+
+
 def t(entry, parent_tg, parent_mg):
     el = SubElement(parent_tg, "t")
-    if entry.WORD_CLASS_SAAMI: # Previously WORD_CLASS_1
-        el.set("pos", entry.WORD_CLASS_SAAMI)
+    pos = entry.WORD_CLASS_SAAMI  # Previously WORD_CLASS_1
+    if pos:
+        el.set("pos", clean_pos(pos))
     if entry.SCIENTIFIC_NAME:
         el.set("sci", entry.SCIENTIFIC_NAME)
     el.text = entry.SAAMI if entry.SAAMI else entry.SAAMI_TRANS
@@ -115,7 +154,7 @@ def dict2xml_bytestring(d):
         lg = SubElement(e, "lg")
         l = SubElement(lg, "l")
         if pos is not None:
-            l.set("pos", pos)
+            l.set("pos", clean_pos(pos))
         if gender is not None:
             l.set("gen", gender)
         if entries[0].LEMMA_SYNONYM is not None:
@@ -132,7 +171,11 @@ def dict2xml_bytestring(d):
             check_and_insert(entry.INFLECTION, lg, "lsub")
             t(entry, tg, mg)
 
-    return tostring(root, encoding="utf-8", pretty_print=True)
+    doctype = (
+        '<!DOCTYPE r PUBLIC "-//DivvunGiellatekno//DTD '
+        'Dictionaries//Multilingual" "../dtd/spasme.dtd">'
+    )
+    return tostring(root, encoding="utf-8", pretty_print=True, doctype=doctype)
 
 
 def read_column_names(columns):
