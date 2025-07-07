@@ -56,3 +56,7 @@ m4/lt~obsolete.m4
 
 # bin dir for generated fst's:
 /bin
+
+# xml source files (should be generated)
+*xml
+src/*xml
