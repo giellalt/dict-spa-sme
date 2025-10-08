@@ -162,8 +162,6 @@ def dict2xml_bytestring(d):
         l.text = lemma
 
         for entry in entries:
-            if not hasattr(entry, 'LEMMA'): # Protection against empty lines being parsed
-                continue
             mg = SubElement(e, "mg")
             check_and_insert(entry.SCIENTIFIC_NAME, mg, "l_sci")
             tg = SubElement(mg, "tg")
@@ -171,8 +169,10 @@ def dict2xml_bytestring(d):
             check_and_insert(entry.RESTRICTION, tg, "re")
             check_and_insert(entry.EXPLANATION, tg, "expl")
             check_and_insert(entry.INFLECTION, lg, "lsub")
-            t(entry, tg, mg)
-            previous = entry
+            try:
+                t(entry, tg, mg)
+            except AttributeError:
+                print(f"Warning: Attribute error in lemma '{lemma}'")
 
     doctype = (
         '<!DOCTYPE r PUBLIC "-//DivvunGiellatekno//DTD '
