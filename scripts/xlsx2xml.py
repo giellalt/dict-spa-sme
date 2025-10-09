@@ -218,6 +218,8 @@ def main(args):
             col.value.strip() if isinstance(col.value, str) else col.value
             for col in row
         ))
+        if e.WORD is None: # Skip empty lines
+            continue
 
         lemmas[(e.WORD, e.WORD_CLASS_SPANISH, e.GENDER)].append(e)
 
