@@ -128,6 +128,8 @@ def t(entry, parent_tg, parent_mg):
     pos = entry.WORD_CLASS_SAAMI  # Previously WORD_CLASS_1
     if pos:
         el.set("pos", clean_pos(pos))
+    elif entry.SAAMI.startswith("Usar:"): # If no pos, but starts with "Usar:", it is an expl
+        el.set("t_type", "expl")
     if entry.SCIENTIFIC_NAME:
         el.set("sci", entry.SCIENTIFIC_NAME)
     el.text = entry.SAAMI if entry.SAAMI else entry.SAAMI_TRANS
