@@ -1,12 +1,12 @@
 template = ""
 rev_id = 4
-template_sha = "156a8b834dacf74fc905a1ee460fe5eabb9556c6"
+template_sha = "87be02986858c4b7ae5e8613b6f951c3c209b221"
 
 [replacements]
-__LICENSE__ = "CC-BY-4.0"
+__LICENSE__ = ""
 __UND2C_SRC__ = "es"
 __UND2C_TRG__ = "se"
 __UNDEFINED_SOURCE__ = "Spanish"
-__UNDEFINED_TARGET__ = "North Sámi"
+__UNDEFINED_TARGET__ = "North Saami"
 __UND_SRC__ = "spa"
 __UND_TRG__ = "sme"

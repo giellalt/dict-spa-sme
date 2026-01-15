@@ -1,14 +1,7 @@
-# Documentation for Spanish ⇒ North Sámi
+# Documentation for Spanish ⇒ North Saami
 
-Please see [this page](https://giellalt.github.io/dicts/dicts.html) for more general information on how to work with dictionaries, and the various publishing alternatives.
+Please see [this page](https://giellalt.github.io/dicts/index.html) for more general information on how to work with dictionaries, and the various publishing alternatives.
 
+# Other information
 
-# Presentation
-
-Spanish-North Sámi dictionary by *Kjell Kemi and Angel Diaz de Rada*.
-
-The technical setup is made by Anders Lorentsen,  Trond Tynnøl and Trond Trosterud.
-
-# Documents
-
-- [Plan from september 2018](SpanishNortSaami.md)
+Add text and links as needed.

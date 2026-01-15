@@ -35,8 +35,6 @@ Makefile
 .deps/
 .dirstamp
 
-scripts/venv
-
 # https://www.gnu.org/software/libtool/
 
 /ltmain.sh
@@ -58,7 +56,3 @@ m4/lt~obsolete.m4
 
 # bin dir for generated fst's:
 /bin
-
-# xml source files (should be generated)
-*xml
-src/*xml
