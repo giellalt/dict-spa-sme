@@ -56,3 +56,10 @@ m4/lt~obsolete.m4
 
 # bin dir for generated fst's:
 /bin
+
+# virtual environments
+scripts/venv
+scripts/.venv
+
+# Generated dict files
+*spa-sme.xml
