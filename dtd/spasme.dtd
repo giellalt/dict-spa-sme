@@ -179,7 +179,7 @@
 
 <!ELEMENT mg (semantics?, l_sci?, l_ref?, l_rec?, l_normorg?, l_pref?, dg?, sg?, antg?, tg+, xg* ) >
 <!ATTLIST mg
-      xml:lang ( sme | nob | fin | swe | rus | smn ) #IMPLIED
+      xml:lang ( sme ) #IMPLIED
       rest CDATA #IMPLIED
 >
 <!ATTLIST mg id CDATA #IMPLIED >
@@ -217,12 +217,12 @@
 
 <!ELEMENT tg (semantics?, re?, expl?, ( ((t, stem*, l_ref?, morph_expl?) ))+, xg* ) >
 <!ATTLIST tg
-      xml:lang ( sme | nob | eng | fra ) #REQUIRED
+      xml:lang ( sme ) #REQUIRED
       check CDATA #IMPLIED
 >
 <!ELEMENT re (#PCDATA) > <!-- Domain restriction: bot, phys, ... -->
 <!ATTLIST re
-    xml:lang ( nob | sme | sma | smn | swe | eng | deu | lat) #IMPLIED
+    xml:lang ( sme | spa | eng | lat) #IMPLIED
 >
 <!ATTLIST re x ( fad ) #IMPLIED >
 <!ATTLIST re comment CDATA #IMPLIED >
@@ -251,7 +251,7 @@
 <!ATTLIST t decl ( 1 | 2 | 3 | 4 | 5 | x | irr | i | yyy ) #IMPLIED> <!-- irr irregular -->
 <!ATTLIST t gen ( m | f | n | xxx ) #IMPLIED >
 <!ATTLIST t lang ( swe | nob ) #IMPLIED >
-<!ATTLIST t xml:lang ( nob | sme | sma | swe | eng | deu ) #IMPLIED >
+<!ATTLIST t xml:lang ( sme ) #IMPLIED >
 <!ATTLIST t dialect CDATA #IMPLIED >
 <!ATTLIST t var ( sw | no | fi )  #IMPLIED >
 <!ATTLIST t nob-stat CDATA #IMPLIED >
@@ -313,13 +313,13 @@
 <!ATTLIST tf pos ( phrase  | phrase_n | phrase_a | phrase_v | phrase_adv ) #IMPLIED >
 <!ATTLIST tf gen ( m | f | n ) #IMPLIED >
 <!ATTLIST tf lang ( swe | nob ) #IMPLIED >
-<!ATTLIST tf xml:lang ( nob | sme | sma | swe | eng | deu ) #IMPLIED >
+<!ATTLIST tf xml:lang ( sme ) #IMPLIED >
 <!ATTLIST tf tcomm ( yes | no ) #IMPLIED >
 <!ATTLIST tf stat ( pref ) #IMPLIED >
 
 <!ELEMENT te (#PCDATA) > Translation explanation 
 <!ATTLIST te lang ( swe | nob ) #IMPLIED >
-<!ATTLIST te xml:lang ( nob | sme | sma | swe | eng | deu ) #IMPLIED >
+<!ATTLIST te xml:lang ( sme | spa ) #IMPLIED >
 <!ATTLIST te dict (yes | no ) #IMPLIED >
 <!ATTLIST te oa ( first | yes | no ) #IMPLIED >
 <!ATTLIST te stat ( pref ) #IMPLIED >
